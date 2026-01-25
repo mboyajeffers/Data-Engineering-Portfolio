@@ -1,0 +1,73 @@
+# Financial KPI Definitions
+
+kpis:
+  portfolio_level:
+    - name: portfolio_total_return
+      formula: (cumulative_product(1 + daily_returns) - 1) * 100
+      unit: "%"
+      grain: portfolio
+
+    - name: portfolio_annualized_return
+      formula: ((1 + total_return)^(252/n_days) - 1) * 100
+      unit: "%"
+      grain: portfolio
+
+    - name: portfolio_volatility
+      formula: std(daily_returns) * sqrt(252) * 100
+      unit: "%"
+      grain: portfolio
+
+    - name: portfolio_sharpe_ratio
+      formula: (mean(r - rf) / std(r - rf)) * sqrt(252)
+      unit: ratio
+      parameters:
+        risk_free_rate: 0.05
+        annualization: 252
+      caveats:
+        - Assumes normal returns
+        - Uses arithmetic mean
+        - rf = current T-bill yield
+
+    - name: portfolio_sortino_ratio
+      formula: (mean(r) - rf) * 252 / (downside_std * sqrt(252))
+      unit: ratio
+
+    - name: portfolio_max_drawdown
+      formula: min((cum - cum_max) / cum_max) * 100
+      unit: "%"
+      caveats:
+        - Based on daily closes only
+
+    - name: portfolio_var_95
+      formula: percentile(daily_returns, 5) * 100
+      unit: "%"
+      caveats:
+        - Non-parametric
+        - Window dependent
+
+    - name: avg_pairwise_correlation
+      formula: mean(upper_tri(corr_matrix))
+      unit: ratio
+
+  per_ticker:
+    - name: total_return
+      formula: (close_last / close_first - 1) * 100
+      unit: "%"
+    - name: annualized_volatility
+      formula: std(returns) * sqrt(252) * 100
+      unit: "%"
+    - name: sharpe_ratio
+      formula: ((mean(r) - rf/252) / std(r)) * sqrt(252)
+      unit: ratio
+    - name: max_drawdown
+      formula: min((cum - cum_max) / cum_max) * 100
+      unit: "%"
+    - name: avg_daily_volume
+      formula: mean(volume)
+      unit: shares
+    - name: price_high
+      formula: max(close)
+      unit: USD
+    - name: price_low
+      formula: min(close)
+      unit: USD

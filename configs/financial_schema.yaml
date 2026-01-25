@@ -1,0 +1,64 @@
+# Financial Time Series Schema Contract
+# Defines expected structure for stock/equity OHLCV data
+
+schema:
+  name: financial_time_series
+  version: "1.0"
+  description: Schema for daily stock price data with technical indicators
+
+required_columns:
+  - name: date
+    type: date
+    format: "%Y-%m-%d"
+    description: Trading day date
+  - name: ticker
+    type: string
+    description: Stock ticker symbol
+  - name: open
+    type: float
+    min: 0
+    description: Opening price
+  - name: high
+    type: float
+    min: 0
+    description: Daily high price
+  - name: low
+    type: float
+    min: 0
+    description: Daily low price
+  - name: close
+    type: float
+    min: 0
+    description: Closing price (adjusted)
+  - name: volume
+    type: integer
+    min: 0
+    description: Trading volume (shares)
+
+derived_columns:
+  - name: daily_return
+    type: float
+    formula: (close - prev_close) / prev_close
+  - name: volatility_20d
+    type: float
+    formula: std(daily_return, window=20)
+  - name: sma_20
+    type: float
+    formula: mean(close, window=20)
+  - name: sma_50
+    type: float
+    formula: mean(close, window=50)
+
+constraints:
+  - high >= open
+  - high >= close
+  - high >= low
+  - low <= open
+  - low <= close
+  - volume >= 0
+
+quality_gates:
+  max_null_pct: 0.02
+  max_duplicate_dates: 0
+  min_trading_days: 20
+  max_gap_days: 5

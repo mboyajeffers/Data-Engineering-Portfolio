@@ -1,0 +1,167 @@
+# KPI Definitions
+# ===============
+# Defines business KPIs computed by the analytics pipeline.
+# Synthetic demo output for portfolio purposes.
+
+version: "1.0"
+description: "KPI definitions for e-commerce analytics"
+
+# Revenue & Order KPIs
+revenue_kpis:
+  - id: KPI-001
+    name: Total Revenue
+    description: "Sum of all completed order totals"
+    formula: "SUM(order_total) WHERE order_status = 'Completed'"
+    grain: [daily, weekly, monthly, yearly, total]
+    unit: USD
+    required_fields: [order_total, order_status, order_date]
+
+  - id: KPI-002
+    name: Total Orders
+    description: "Count of distinct completed orders"
+    formula: "COUNT(DISTINCT order_id) WHERE order_status = 'Completed'"
+    grain: [daily, weekly, monthly, yearly, total]
+    unit: count
+    required_fields: [order_id, order_status]
+
+  - id: KPI-003
+    name: Average Order Value
+    description: "Mean revenue per completed order"
+    formula: "SUM(order_total) / COUNT(DISTINCT order_id)"
+    grain: [daily, weekly, monthly, yearly, total]
+    unit: USD
+    required_fields: [order_total, order_id]
+    caveats: "Sensitive to outliers; consider median for luxury goods"
+
+  - id: KPI-004
+    name: Revenue by Category
+    description: "Revenue breakdown by product category"
+    formula: "SUM(order_total) GROUP BY product_category"
+    grain: [category, period]
+    unit: USD
+    required_fields: [order_total, product_category]
+
+  - id: KPI-005
+    name: Revenue by Channel
+    description: "Revenue attributed to each sales channel"
+    formula: "SUM(order_total) GROUP BY sales_channel"
+    grain: [channel, period]
+    unit: USD
+    required_fields: [order_total, sales_channel]
+
+# Customer KPIs
+customer_kpis:
+  - id: KPI-006
+    name: Unique Customers
+    description: "Count of distinct customers with completed orders"
+    formula: "COUNT(DISTINCT customer_id)"
+    grain: [period]
+    unit: count
+    required_fields: [customer_id]
+
+  - id: KPI-007
+    name: Customer Segment Distribution
+    description: "Breakdown of customers and revenue by segment"
+    formula: "COUNT(DISTINCT customer_id) GROUP BY customer_segment"
+    grain: [segment, period]
+    unit: count
+    required_fields: [customer_id, customer_segment]
+
+  - id: KPI-008
+    name: Repeat Purchase Rate
+    description: "Percentage of customers with more than one order"
+    formula: "COUNT(customers with ≥2 orders) / COUNT(DISTINCT customer_id) * 100"
+    grain: [period]
+    unit: "%"
+    required_fields: [customer_id, order_id, order_date]
+    caveats: "Period-sensitive; 12-month window recommended"
+
+  - id: KPI-009
+    name: Customer Lifetime Value (Simplified)
+    description: "Average total revenue per customer"
+    formula: "SUM(order_total) / COUNT(DISTINCT customer_id)"
+    grain: [cohort, total]
+    unit: USD
+    required_fields: [customer_id, order_total]
+    caveats: "Simplified version; production CLV uses predictive models"
+
+  - id: KPI-010
+    name: Customer Acquisition by Channel
+    description: "New customers attributed to each marketing channel"
+    formula: "COUNT(DISTINCT customer_id) WHERE first_order = TRUE GROUP BY marketing_channel"
+    grain: [channel, period]
+    unit: count
+    required_fields: [customer_id, marketing_channel]
+
+# Product KPIs
+product_kpis:
+  - id: KPI-011
+    name: Units Sold
+    description: "Total quantity of items sold"
+    formula: "SUM(quantity)"
+    grain: [period, category, sku]
+    unit: count
+    required_fields: [quantity]
+
+  - id: KPI-012
+    name: Top Products by Revenue
+    description: "Ranked list of products by revenue contribution"
+    formula: "SUM(subtotal) GROUP BY sku ORDER BY revenue DESC"
+    grain: [sku, category]
+    unit: USD
+    required_fields: [sku, subtotal]
+
+  - id: KPI-013
+    name: Category Mix
+    description: "Percentage contribution of each category to total revenue"
+    formula: "SUM(subtotal per category) / SUM(total subtotal) * 100"
+    grain: [category]
+    unit: "%"
+    required_fields: [product_category, subtotal]
+
+  - id: KPI-014
+    name: Return Rate
+    description: "Percentage of orders that were refunded/returned"
+    formula: "COUNT(orders WHERE status='Refunded') / COUNT(all orders) * 100"
+    grain: [period, category]
+    unit: "%"
+    required_fields: [order_id, order_status]
+
+# Operational KPIs
+operational_kpis:
+  - id: KPI-015
+    name: Discount Utilization Rate
+    description: "Percentage of orders using discounts"
+    formula: "COUNT(orders WHERE discount_amount > 0) / COUNT(all orders) * 100"
+    grain: [period]
+    unit: "%"
+    required_fields: [discount_amount]
+
+  - id: KPI-016
+    name: Average Discount Percentage
+    description: "Mean discount as percentage of subtotal"
+    formula: "AVG(discount_percent) WHERE discount_amount > 0"
+    grain: [period, segment]
+    unit: "%"
+    required_fields: [discount_percent]
+    caveats: "Excludes zero-discount orders from average"
+
+  - id: KPI-017
+    name: Gift Order Rate
+    description: "Percentage of orders marked as gifts"
+    formula: "COUNT(orders WHERE is_gift = TRUE) / COUNT(all orders) * 100"
+    grain: [period]
+    unit: "%"
+    required_fields: [is_gift]
+    caveats: "Expect seasonal spikes around holidays"
+
+# Aggregation configurations
+aggregation_periods:
+  daily: "YYYY-MM-DD"
+  weekly: "YYYY-WW"
+  monthly: "YYYY-MM"
+  quarterly: "YYYY-QQ"
+  yearly: "YYYY"
+
+# Status filter (default for revenue KPIs)
+default_status_filter: "Completed"

@@ -1,0 +1,67 @@
+# Financial Data Validation Rules
+
+rules:
+  - name: required_columns_present
+    type: schema
+    severity: blocker
+    columns: [date, ticker, open, high, low, close, volume]
+
+  - name: no_null_prices
+    type: completeness
+    severity: blocker
+    columns: [open, high, low, close]
+    threshold: 0
+
+  - name: no_null_dates
+    type: completeness
+    severity: blocker
+    columns: [date]
+    threshold: 0
+
+  - name: volume_completeness
+    type: completeness
+    severity: warning
+    columns: [volume]
+    max_null_pct: 0.05
+
+  - name: positive_prices
+    type: range
+    severity: blocker
+    columns: [open, high, low, close]
+    min: 0.01
+
+  - name: high_gte_low
+    type: consistency
+    severity: blocker
+    condition: high >= low
+
+  - name: high_gte_open
+    type: consistency
+    severity: warning
+    condition: high >= open
+
+  - name: high_gte_close
+    type: consistency
+    severity: warning
+    condition: high >= close
+
+  - name: no_duplicate_ticker_dates
+    type: uniqueness
+    severity: blocker
+    columns: [ticker, date]
+
+  - name: no_future_dates
+    type: temporal
+    severity: blocker
+    max: today
+
+  - name: return_within_bounds
+    type: statistical
+    severity: warning
+    columns: [daily_return]
+    min: -0.50
+    max: 1.00
+
+quarantine:
+  action: separate
+  retain_valid: true

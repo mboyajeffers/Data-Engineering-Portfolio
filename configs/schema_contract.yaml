@@ -1,0 +1,200 @@
+# Schema Contract
+# ===============
+# Defines the expected structure of input transaction data.
+# Synthetic demo output for portfolio purposes.
+
+entity: transactions
+version: "1.0"
+description: "E-commerce transaction data schema for luxury retail"
+
+# Primary key columns (must be unique, non-null)
+primary_key:
+  - order_id
+
+# Required columns that must be present
+required_columns:
+  - order_id
+  - order_date
+  - customer_id
+  - order_total
+  - order_status
+
+# Full column definitions
+columns:
+  # Identifiers
+  - name: order_id
+    type: string
+    nullable: false
+    unique: true
+    description: "Unique identifier for each order"
+
+  - name: customer_id
+    type: string
+    nullable: false
+    description: "Unique identifier for each customer"
+
+  - name: sku
+    type: string
+    nullable: true
+    description: "Product SKU"
+
+  # Dates and times
+  - name: order_date
+    type: date
+    format: "%Y-%m-%d"
+    nullable: false
+    description: "Date of order placement"
+
+  - name: order_time
+    type: time
+    format: "%H:%M:%S"
+    nullable: true
+    description: "Time of order placement"
+
+  # Monetary values
+  - name: unit_price
+    type: decimal
+    precision: 2
+    nullable: true
+    min_value: 0
+    description: "Price per unit"
+
+  - name: subtotal
+    type: decimal
+    precision: 2
+    nullable: true
+    min_value: 0
+    description: "Subtotal before discounts and taxes"
+
+  - name: discount_amount
+    type: decimal
+    precision: 2
+    nullable: true
+    min_value: 0
+    description: "Discount amount applied"
+
+  - name: discount_percent
+    type: decimal
+    precision: 2
+    nullable: true
+    min_value: 0
+    max_value: 100
+    description: "Discount percentage"
+
+  - name: tax_amount
+    type: decimal
+    precision: 2
+    nullable: true
+    min_value: 0
+    description: "Tax amount"
+
+  - name: tax_rate
+    type: decimal
+    precision: 4
+    nullable: true
+    min_value: 0
+    max_value: 0.25
+    description: "Tax rate (decimal form)"
+
+  - name: shipping_fee
+    type: decimal
+    precision: 2
+    nullable: true
+    min_value: 0
+    description: "Shipping fee"
+
+  - name: order_total
+    type: decimal
+    precision: 2
+    nullable: false
+    min_value: 0
+    description: "Final order total"
+
+  # Quantities
+  - name: quantity
+    type: integer
+    nullable: true
+    min_value: 1
+    description: "Number of units ordered"
+
+  # Categories
+  - name: product_category
+    type: string
+    nullable: true
+    description: "Primary product category"
+
+  - name: product_subcategory
+    type: string
+    nullable: true
+    description: "Product subcategory"
+
+  - name: customer_segment
+    type: string
+    nullable: true
+    allowed_values:
+      - VIP
+      - Premium
+      - Standard
+      - New
+    description: "Customer tier/segment"
+
+  - name: order_status
+    type: string
+    nullable: false
+    allowed_values:
+      - Completed
+      - Pending
+      - Cancelled
+      - Refunded
+    description: "Current order status"
+
+  - name: payment_method
+    type: string
+    nullable: true
+    description: "Payment method used"
+
+  # Channels
+  - name: marketing_channel
+    type: string
+    nullable: true
+    description: "Marketing attribution channel"
+
+  - name: sales_channel
+    type: string
+    nullable: true
+    allowed_values:
+      - Online
+      - In-Store
+      - Phone
+      - Private Client
+    description: "Sales channel"
+
+  # Geography
+  - name: region
+    type: string
+    nullable: true
+    description: "Geographic region"
+
+  - name: state
+    type: string
+    nullable: true
+    description: "State/province"
+
+  # Flags
+  - name: is_gift
+    type: boolean
+    nullable: true
+    description: "Whether order is a gift"
+
+  - name: has_engraving
+    type: boolean
+    nullable: true
+    description: "Whether product has engraving"
+
+  # Scores
+  - name: nps_score
+    type: integer
+    nullable: true
+    min_value: 0
+    max_value: 10
+    description: "Net Promoter Score"

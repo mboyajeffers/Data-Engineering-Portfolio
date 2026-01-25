@@ -1,0 +1,136 @@
+# Validation Rules
+# ================
+# Defines data quality checks and thresholds.
+# Synthetic demo output for portfolio purposes.
+
+version: "1.0"
+description: "Validation rules for e-commerce transaction data"
+
+# Null/Completeness checks
+# - max_null_pct: Maximum allowed null percentage (0 = no nulls allowed)
+# - severity: BLOCKER (halt), WARN (flag and continue)
+null_checks:
+  order_id:
+    max_null_pct: 0
+    severity: BLOCKER
+  order_date:
+    max_null_pct: 0
+    severity: BLOCKER
+  customer_id:
+    max_null_pct: 0
+    severity: BLOCKER
+  order_total:
+    max_null_pct: 0
+    severity: BLOCKER
+  order_status:
+    max_null_pct: 0
+    severity: BLOCKER
+  product_category:
+    max_null_pct: 5
+    severity: WARN
+  customer_segment:
+    max_null_pct: 5
+    severity: WARN
+  marketing_channel:
+    max_null_pct: 20
+    severity: WARN
+  nps_score:
+    max_null_pct: 50
+    severity: INFO
+
+# Range checks for numeric fields
+# - min/max: Inclusive bounds
+# - severity: BLOCKER or WARN
+range_checks:
+  order_total:
+    min: 0
+    severity: BLOCKER
+  unit_price:
+    min: 0
+    severity: BLOCKER
+  subtotal:
+    min: 0
+    severity: WARN
+  quantity:
+    min: 1
+    severity: WARN
+  discount_amount:
+    min: 0
+    severity: WARN
+  discount_percent:
+    min: 0
+    max: 100
+    severity: WARN
+  tax_rate:
+    min: 0
+    max: 0.25
+    severity: WARN
+  nps_score:
+    min: 0
+    max: 10
+    severity: WARN
+
+# Allowed value checks for categorical fields
+allowed_values:
+  customer_segment:
+    values:
+      - VIP
+      - Premium
+      - Standard
+      - New
+    severity: WARN
+  order_status:
+    values:
+      - Completed
+      - Pending
+      - Cancelled
+      - Refunded
+    severity: BLOCKER
+  sales_channel:
+    values:
+      - Online
+      - In-Store
+      - Phone
+      - Private Client
+    severity: WARN
+
+# Business logic checks
+business_rules:
+  # Subtotal should equal unit_price * quantity
+  - name: subtotal_calculation
+    condition: "subtotal == unit_price * quantity"
+    tolerance: 0.01
+    severity: WARN
+
+  # Discount should not exceed subtotal
+  - name: discount_not_exceed_subtotal
+    condition: "discount_amount <= subtotal"
+    severity: WARN
+
+  # Completed orders should have positive totals
+  - name: completed_order_total
+    condition: "order_status != 'Completed' OR order_total > 0"
+    severity: BLOCKER
+
+# Duplicate detection settings
+duplicate_detection:
+  # Primary key uniqueness (always enforced)
+  primary_key_columns:
+    - order_id
+
+  # Near-duplicate detection (optional fuzzy matching)
+  fuzzy_detection:
+    enabled: false
+    threshold: 0.95
+
+# Reconciliation checks
+reconciliation:
+  # Row count must match manifest (if provided)
+  row_count_check:
+    enabled: true
+    tolerance_pct: 0
+
+  # Sum checks for monetary fields
+  sum_checks:
+    - field: order_total
+      tolerance: 0.01
