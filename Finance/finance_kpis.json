@@ -1,190 +1,446 @@
 {
-  "index_performance": {
-    "^GSPC": {
-      "start_price": 1265.02,
-      "end_price": 6969.01,
-      "total_return_pct": 450.9,
-      "cagr": 8.92,
-      "annual_volatility": 19.49,
-      "max_drawdown": -56.78,
-      "name": "S&P 500"
+  "report_title": "Financial Markets Analysis v1.1",
+  "analysis_date": "2026-01-31",
+  "scope": {
+    "period": "6 months",
+    "date_range": {
+      "start": "2025-08-04",
+      "end": "2026-01-31",
+      "trading_days": 125
     },
-    "^DJI": {
-      "start_price": 10798.27,
-      "end_price": 49071.56,
-      "total_return_pct": 354.44,
-      "cagr": 7.87,
-      "annual_volatility": 18.38,
-      "max_drawdown": -53.78,
-      "name": "Dow Jones Industrial"
+    "data_source": "Yahoo Finance via yfinance",
+    "risk_free_rate": "5% annualized",
+    "limitations": [
+      "ETF prices used as proxies (not direct index/commodity prices)",
+      "Crypto data may have gaps on weekends",
+      "Historical VaR assumes past volatility predicts future risk"
+    ]
+  },
+  "macro_indicators": {
+    "indicators": {
+      "SPY": {
+        "name": "S&P 500 ETF",
+        "current": 691.97,
+        "mom_change_pct": 0.72,
+        "qoq_change_pct": 2.09
+      },
+      "QQQ": {
+        "name": "Nasdaq 100 ETF",
+        "current": 621.87,
+        "mom_change_pct": 0.39,
+        "qoq_change_pct": -0.54
+      },
+      "TLT": {
+        "name": "20+ Year Treasury ETF",
+        "current": 87.13,
+        "mom_change_pct": -0.83,
+        "qoq_change_pct": -2.72
+      },
+      "GLD": {
+        "name": "Gold ETF",
+        "current": 444.95,
+        "mom_change_pct": 11.55,
+        "qoq_change_pct": 20.21
+      },
+      "UUP": {
+        "name": "US Dollar Index ETF",
+        "current": 26.85,
+        "mom_change_pct": -0.74,
+        "qoq_change_pct": -1.29
+      },
+      "^TNX": {
+        "name": "10Y Treasury Yield",
+        "current": 4.24,
+        "mom_change_pct": 2.69,
+        "qoq_change_pct": 3.62
+      },
+      "^VIX": {
+        "name": "VIX Volatility Index",
+        "current": 17.44,
+        "mom_change_pct": 21.7,
+        "qoq_change_pct": 3.13
+      }
     },
-    "^IXIC": {
-      "start_price": 2258.8,
-      "end_price": 23685.12,
-      "total_return_pct": 948.57,
-      "cagr": 12.48,
-      "annual_volatility": 22.08,
-      "max_drawdown": -55.63,
-      "name": "NASDAQ Composite"
-    },
-    "^RUT": {
-      "start_price": 727.89,
-      "end_price": 2654.78,
-      "total_return_pct": 264.72,
-      "cagr": 6.69,
-      "annual_volatility": 24.97,
-      "max_drawdown": -59.89,
-      "name": "Russell 2000"
+    "methodology": {
+      "mom_change": "Month-over-month (22 trading days)",
+      "qoq_change": "Quarter-over-quarter (63 trading days)",
+      "treasury_note": "^TNX and ^IRX are yield indices, not ETFs"
     }
   },
-  "treasury_yields": {
-    "^TNX": {
-      "name": "10-Year Treasury Yield",
-      "current_yield": 4.23,
-      "avg_20yr": 2.9,
-      "max_yield": 5.25,
-      "min_yield": 0.5
+  "multi_asset": {
+    "assets": [
+      {
+        "ticker": "SPY",
+        "name": "S&P 500",
+        "asset_class": "Equity",
+        "data_points": 125,
+        "return_pct": 10.26,
+        "volatility_pct": 10.92,
+        "sharpe": 1.415,
+        "max_drawdown_pct": -5.07
+      },
+      {
+        "ticker": "QQQ",
+        "name": "Nasdaq 100",
+        "asset_class": "Equity",
+        "data_points": 125,
+        "return_pct": 10.51,
+        "volatility_pct": 15.12,
+        "sharpe": 1.088,
+        "max_drawdown_pct": -7.88
+      },
+      {
+        "ticker": "BTC-USD",
+        "name": "Bitcoin",
+        "asset_class": "Crypto",
+        "data_points": 179,
+        "return_pct": -26.51,
+        "volatility_pct": 31.39,
+        "sharpe": -1.39,
+        "max_drawdown_pct": -32.22
+      },
+      {
+        "ticker": "ETH-USD",
+        "name": "Ethereum",
+        "asset_class": "Crypto",
+        "data_points": 179,
+        "return_pct": -24.22,
+        "volatility_pct": 56.49,
+        "sharpe": -0.503,
+        "max_drawdown_pct": -42.76
+      },
+      {
+        "ticker": "GLD",
+        "name": "Gold",
+        "asset_class": "Commodity",
+        "data_points": 125,
+        "return_pct": 43.11,
+        "volatility_pct": 26.3,
+        "sharpe": 2.717,
+        "max_drawdown_pct": -10.27
+      },
+      {
+        "ticker": "TLT",
+        "name": "20Y Treasury",
+        "asset_class": "Fixed Income",
+        "data_points": 125,
+        "return_pct": 0.77,
+        "volatility_pct": 8.84,
+        "sharpe": -0.345,
+        "max_drawdown_pct": -4.83
+      },
+      {
+        "ticker": "VNQ",
+        "name": "Real Estate",
+        "asset_class": "REIT",
+        "data_points": 125,
+        "return_pct": 2.98,
+        "volatility_pct": 12.35,
+        "sharpe": 0.139,
+        "max_drawdown_pct": -4.91
+      }
+    ],
+    "correlation_matrix": {
+      "SPY": {
+        "SPY": 1.0,
+        "QQQ": 0.9461222695462977,
+        "BTC-USD": 0.5124805987396983,
+        "ETH-USD": 0.5342687277354795,
+        "GLD": 0.11630575885683472,
+        "TLT": 0.09330758944920071,
+        "VNQ": 0.3355228056655512
+      },
+      "QQQ": {
+        "SPY": 0.9461222695462977,
+        "QQQ": 1.0,
+        "BTC-USD": 0.5144335246325626,
+        "ETH-USD": 0.5270677438091516,
+        "GLD": 0.16780657621354525,
+        "TLT": 0.05997948300968144,
+        "VNQ": 0.1382825185229958
+      },
+      "BTC-USD": {
+        "SPY": 0.5124805987396983,
+        "QQQ": 0.5144335246325626,
+        "BTC-USD": 1.0,
+        "ETH-USD": 0.8645627209751543,
+        "GLD": 0.18538095347169,
+        "TLT": 0.12216729429217633,
+        "VNQ": 0.18058427666511484
+      },
+      "ETH-USD": {
+        "SPY": 0.5342687277354795,
+        "QQQ": 0.5270677438091516,
+        "BTC-USD": 0.8645627209751543,
+        "ETH-USD": 1.0,
+        "GLD": 0.12745711652985695,
+        "TLT": 0.06558867298176761,
+        "VNQ": 0.22867151734936986
+      },
+      "GLD": {
+        "SPY": 0.11630575885683472,
+        "QQQ": 0.16780657621354525,
+        "BTC-USD": 0.18538095347169,
+        "ETH-USD": 0.12745711652985695,
+        "GLD": 1.0,
+        "TLT": 0.028298276237455473,
+        "VNQ": 0.01423200614271446
+      },
+      "TLT": {
+        "SPY": 0.09330758944920071,
+        "QQQ": 0.05997948300968144,
+        "BTC-USD": 0.12216729429217633,
+        "ETH-USD": 0.06558867298176761,
+        "GLD": 0.028298276237455473,
+        "TLT": 1.0,
+        "VNQ": 0.25541722142741663
+      },
+      "VNQ": {
+        "SPY": 0.3355228056655512,
+        "QQQ": 0.1382825185229958,
+        "BTC-USD": 0.18058427666511484,
+        "ETH-USD": 0.22867151734936986,
+        "GLD": 0.01423200614271446,
+        "TLT": 0.25541722142741663,
+        "VNQ": 1.0
+      }
     },
-    "^TYX": {
-      "name": "30-Year Treasury Yield",
-      "current_yield": 4.85,
-      "avg_20yr": 3.5,
-      "max_yield": 5.36,
-      "min_yield": 0.94
-    },
-    "^FVX": {
-      "name": "5-Year Treasury Yield",
-      "current_yield": 3.81,
-      "avg_20yr": 2.35,
-      "max_yield": 5.23,
-      "min_yield": 0.19
+    "correlation_tickers": [
+      "SPY",
+      "QQQ",
+      "BTC-USD",
+      "ETH-USD",
+      "GLD",
+      "TLT",
+      "VNQ"
+    ],
+    "data_quality": {
+      "assets_with_full_data": 7,
+      "assets_with_missing_data": 0,
+      "nan_handling": "Assets with insufficient data marked as N/A (not shown as 'nan')"
     }
   },
-  "sector_analysis": {
-    "XLF": {
-      "start_price": 17.29,
-      "end_price": 53.55,
-      "total_return_pct": 209.64,
-      "cagr": 5.82,
-      "annual_volatility": 29.81,
-      "max_drawdown": -82.69,
-      "name": "Financial"
+  "portfolio_risk": {
+    "holdings": [
+      {
+        "ticker": "NVDA",
+        "weight_pct": 25.0,
+        "return_pct": 6.2,
+        "volatility_pct": 32.14,
+        "sharpe": 0.384,
+        "var_95_pct": -3.57,
+        "beta": 1.83
+      },
+      {
+        "ticker": "AAPL",
+        "weight_pct": 20.0,
+        "return_pct": 27.87,
+        "volatility_pct": 22.14,
+        "sharpe": 2.142,
+        "var_95_pct": -1.63,
+        "beta": 0.98
+      },
+      {
+        "ticker": "MSFT",
+        "weight_pct": 20.0,
+        "return_pct": -19.39,
+        "volatility_pct": 23.21,
+        "sharpe": -1.983,
+        "var_95_pct": -2.38,
+        "beta": 0.8
+      },
+      {
+        "ticker": "GOOGL",
+        "weight_pct": 20.0,
+        "return_pct": 73.57,
+        "volatility_pct": 27.95,
+        "sharpe": 3.975,
+        "var_95_pct": -2.16,
+        "beta": 1.38
+      },
+      {
+        "ticker": "AMZN",
+        "weight_pct": 15.0,
+        "return_pct": 13.06,
+        "volatility_pct": 29.82,
+        "sharpe": 0.816,
+        "var_95_pct": -2.84,
+        "beta": 1.68
+      }
+    ],
+    "portfolio_metrics": {
+      "return_pct": 19.92,
+      "volatility_pct": 17.55,
+      "sharpe": 0.85,
+      "var_95_pct": -1.74
     },
-    "XLK": {
-      "start_price": 8.2,
-      "end_price": 146.87,
-      "total_return_pct": 1691.85,
-      "cagr": 15.54,
-      "annual_volatility": 22.8,
-      "max_drawdown": -53.04,
-      "name": "Technology"
+    "correlation_matrix": {
+      "NVDA": {
+        "NVDA": 1.0,
+        "AAPL": 0.2,
+        "MSFT": 0.31,
+        "GOOGL": 0.29,
+        "AMZN": 0.35
+      },
+      "AAPL": {
+        "NVDA": 0.2,
+        "AAPL": 1.0,
+        "MSFT": 0.09,
+        "GOOGL": 0.39,
+        "AMZN": 0.27
+      },
+      "MSFT": {
+        "NVDA": 0.31,
+        "AAPL": 0.09,
+        "MSFT": 1.0,
+        "GOOGL": 0.07,
+        "AMZN": 0.28
+      },
+      "GOOGL": {
+        "NVDA": 0.29,
+        "AAPL": 0.39,
+        "MSFT": 0.07,
+        "GOOGL": 1.0,
+        "AMZN": 0.27
+      },
+      "AMZN": {
+        "NVDA": 0.35,
+        "AAPL": 0.27,
+        "MSFT": 0.28,
+        "GOOGL": 0.27,
+        "AMZN": 1.0
+      }
     },
-    "XLE": {
-      "start_price": 15.7,
-      "end_price": 50.51,
-      "total_return_pct": 221.82,
-      "cagr": 6.03,
-      "annual_volatility": 30.11,
-      "max_drawdown": -71.26,
-      "name": "Energy"
-    },
-    "XLV": {
-      "start_price": 22.51,
-      "end_price": 153.82,
-      "total_return_pct": 583.24,
-      "cagr": 10.1,
-      "annual_volatility": 16.93,
-      "max_drawdown": -39.17,
-      "name": "Healthcare"
-    },
-    "XLI": {
-      "start_price": 21.46,
-      "end_price": 165.86,
-      "total_return_pct": 672.82,
-      "cagr": 10.78,
-      "annual_volatility": 21.23,
-      "max_drawdown": -62.26,
-      "name": "Industrial"
-    },
-    "XLP": {
-      "start_price": 13.68,
-      "end_price": 82.13,
-      "total_return_pct": 500.45,
-      "cagr": 9.39,
-      "annual_volatility": 14.31,
-      "max_drawdown": -32.39,
-      "name": "Consumer Staples"
-    },
-    "XLY": {
-      "start_price": 12.89,
-      "end_price": 121.19,
-      "total_return_pct": 839.96,
-      "cagr": 11.87,
-      "annual_volatility": 22.36,
-      "max_drawdown": -59.05,
-      "name": "Consumer Discretionary"
-    },
-    "XLU": {
-      "start_price": 7.97,
-      "end_price": 43.33,
-      "total_return_pct": 443.6,
-      "cagr": 8.84,
-      "annual_volatility": 18.87,
-      "max_drawdown": -46.48,
-      "name": "Utilities"
-    },
-    "XLB": {
-      "start_price": 10.21,
-      "end_price": 50.0,
-      "total_return_pct": 389.73,
-      "cagr": 8.28,
-      "annual_volatility": 23.61,
-      "max_drawdown": -59.82,
-      "name": "Materials"
+    "methodology": {
+      "returns": "Daily log returns",
+      "volatility": "Annualized (\u221a252)",
+      "sharpe": "(Return - 5% Rf) / Volatility",
+      "var_95": "Historical 5th percentile of daily returns",
+      "var_interpretation": "Maximum expected daily loss at 95% confidence",
+      "beta": "Covariance with SPY / Variance of SPY"
     }
   },
-  "commodities": {
-    "GC=F": {
-      "start_price": 570.2,
-      "end_price": 5318.4,
-      "total_return_pct": 832.73,
-      "cagr": 11.83,
-      "annual_volatility": 18.08,
-      "max_drawdown": -44.36,
-      "name": "Gold"
-    },
-    "CL=F": {
-      "start_price": 65.11,
-      "end_price": 65.42,
-      "total_return_pct": 0.48,
-      "cagr": 0.02,
-      "annual_volatility": 85.16,
-      "max_drawdown": -125.9,
-      "name": "Crude Oil"
-    },
-    "SI=F": {
-      "start_price": 9.73,
-      "end_price": 114.04,
-      "total_return_pct": 1072.26,
-      "cagr": 13.11,
-      "annual_volatility": 33.76,
-      "max_drawdown": -75.85,
-      "name": "Silver"
-    }
-  },
-  "vix_analysis": {
-    "current": 16.88,
-    "avg_20yr": 19.48,
-    "max": 82.69,
-    "min": 9.14,
-    "pct_above_20": 34.47,
-    "pct_above_30": 8.89
+  "sector_rotation": {
+    "sectors": [
+      {
+        "ticker": "XLE",
+        "sector": "Energy",
+        "data_points": 125,
+        "return_pct": 21.6,
+        "volatility_pct": 18.21,
+        "sharpe": 2.0,
+        "max_drawdown_pct": -7.36
+      },
+      {
+        "ticker": "XLV",
+        "sector": "Healthcare",
+        "data_points": 125,
+        "return_pct": 17.37,
+        "volatility_pct": 14.02,
+        "sharpe": 2.036,
+        "max_drawdown_pct": -5.55
+      },
+      {
+        "ticker": "XLB",
+        "sector": "Materials",
+        "data_points": 125,
+        "return_pct": 13.26,
+        "volatility_pct": 15.17,
+        "sharpe": 1.414,
+        "max_drawdown_pct": -8.37
+      },
+      {
+        "ticker": "XLC",
+        "sector": "Communication Services",
+        "data_points": 125,
+        "return_pct": 11.77,
+        "volatility_pct": 12.29,
+        "sharpe": 1.495,
+        "max_drawdown_pct": -7.58
+      },
+      {
+        "ticker": "XLY",
+        "sector": "Consumer Discretionary",
+        "data_points": 125,
+        "return_pct": 11.26,
+        "volatility_pct": 17.37,
+        "sharpe": 1.047,
+        "max_drawdown_pct": -8.68
+      },
+      {
+        "ticker": "XLI",
+        "sector": "Industrials",
+        "data_points": 125,
+        "return_pct": 10.3,
+        "volatility_pct": 13.36,
+        "sharpe": 1.184,
+        "max_drawdown_pct": -5.11
+      },
+      {
+        "ticker": "XLK",
+        "sector": "Technology",
+        "data_points": 125,
+        "return_pct": 10.02,
+        "volatility_pct": 18.95,
+        "sharpe": 0.855,
+        "max_drawdown_pct": -10.52
+      },
+      {
+        "ticker": "XLP",
+        "sector": "Consumer Staples",
+        "data_points": 125,
+        "return_pct": 5.22,
+        "volatility_pct": 11.74,
+        "sharpe": 0.514,
+        "max_drawdown_pct": -8.53
+      },
+      {
+        "ticker": "XLF",
+        "sector": "Financials",
+        "data_points": 125,
+        "return_pct": 3.65,
+        "volatility_pct": 13.59,
+        "sharpe": 0.235,
+        "max_drawdown_pct": -6.05
+      },
+      {
+        "ticker": "XLRE",
+        "sector": "Real Estate",
+        "data_points": 125,
+        "return_pct": 1.35,
+        "volatility_pct": 12.37,
+        "sharpe": -0.122,
+        "max_drawdown_pct": -5.64
+      },
+      {
+        "ticker": "XLU",
+        "sector": "Utilities",
+        "data_points": 125,
+        "return_pct": 0.47,
+        "volatility_pct": 12.65,
+        "sharpe": -0.256,
+        "max_drawdown_pct": -9.18
+      }
+    ],
+    "sector_count": 11,
+    "sector_note": "All 11 GICS sectors included (via SPDR ETFs)",
+    "best_sector": "Energy",
+    "worst_sector": "Utilities",
+    "spread_pct": 21.13
   },
   "metadata": {
-    "total_rows": 188720,
-    "date_range_start": "2006-02-06 00:00:00",
-    "date_range_end": "2026-01-29 00:00:00",
-    "generated_at": "2026-01-30T23:05:16.478521",
-    "source": "Yahoo Finance"
+    "generated_at": "2026-01-31T01:09:26.750984",
+    "version": "1.1",
+    "fixes_applied": [
+      "F01: NaN values now shown as 'N/A' with data quality notes",
+      "F02: Correlation matrix only includes assets with valid data",
+      "F03: All 11 GICS sectors included (was 8)",
+      "F04: Date range explicitly stated",
+      "F05: Methodology section added with formulas",
+      "F06: ETF proxy disclosure added",
+      "F07: VaR interpretation clarified (daily, not annual)",
+      "F08: Risk-free rate stated (5%)",
+      "F09: Data quality section shows assets with missing data"
+    ]
   }
 }
