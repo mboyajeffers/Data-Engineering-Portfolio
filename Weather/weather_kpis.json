@@ -1,0 +1,171 @@
+{
+  "avg_temperature_all_cities": 61.14,
+  "max_temperature_recorded": 117.9,
+  "min_temperature_recorded": -33.6,
+  "hottest_cities": {
+    "Miami": 76.87,
+    "Mesa": 75.26,
+    "Honolulu": 75.23,
+    "Phoenix": 74.92,
+    "Tampa": 73.3
+  },
+  "coldest_cities": {
+    "Detroit": 51.35,
+    "Denver": 50.54,
+    "Milwaukee": 49.67,
+    "Minneapolis": 47.01,
+    "Anchorage": 36.94
+  },
+  "yearly_avg_temperatures": {
+    "2021": 62.6,
+    "2022": 60.43,
+    "2023": 61.32,
+    "2024": 61.83,
+    "2025": 61.34,
+    "2026": 40.69
+  },
+  "temperature_trend_per_year": -4.382,
+  "hours_above_100f": 19456,
+  "hours_below_32f": 161824,
+  "highest_hdd_cities": {
+    "Anchorage": 51307.0,
+    "Minneapolis": 36925.0,
+    "Milwaukee": 31780.0,
+    "Denver": 30752.0,
+    "Detroit": 29200.0
+  },
+  "highest_cdd_cities": {
+    "Mesa": 23831.0,
+    "Phoenix": 23690.0,
+    "Miami": 22029.0,
+    "Las Vegas": 20005.0,
+    "Honolulu": 18688.0
+  },
+  "yearly_total_precipitation": {
+    "2021": 1996.64,
+    "2022": 1990.43,
+    "2023": 1956.8,
+    "2024": 2009.32,
+    "2025": 1825.34,
+    "2026": 107.46
+  },
+  "wettest_cities": {
+    "Houston": 364.74,
+    "Nashville": 343.03,
+    "Orlando": 338.8,
+    "New Orleans": 333.35,
+    "Miami": 310.67
+  },
+  "driest_cities": {
+    "Phoenix": 68.47,
+    "Mesa": 63.68,
+    "Albuquerque": 47.53,
+    "El Paso": 42.6,
+    "Las Vegas": 25.45
+  },
+  "heavy_precip_hours": 823,
+  "total_rain_days": 35083,
+  "seasonal_patterns": {
+    "monthly_avg_temperature": {
+      "1": 40.82,
+      "2": 44.5,
+      "3": 52.3,
+      "4": 59.59,
+      "5": 67.69,
+      "6": 75.71,
+      "7": 78.9,
+      "8": 77.89,
+      "9": 73.04,
+      "10": 63.71,
+      "11": 52.45,
+      "12": 46.16
+    },
+    "hourly_avg_temperature": {
+      "0": 58.52,
+      "1": 57.59,
+      "2": 56.78,
+      "3": 56.07,
+      "4": 55.42,
+      "5": 54.85,
+      "6": 54.45,
+      "7": 54.81,
+      "8": 55.67,
+      "9": 57.36,
+      "10": 59.66,
+      "11": 62.18,
+      "12": 64.52,
+      "13": 66.49,
+      "14": 67.94,
+      "15": 68.81,
+      "16": 69.06,
+      "17": 68.58,
+      "18": 67.36,
+      "19": 65.39,
+      "20": 63.65,
+      "21": 62.06,
+      "22": 60.7,
+      "23": 59.53
+    },
+    "hottest_hour": 16,
+    "coldest_hour": 6,
+    "diurnal_range": 14.61
+  },
+  "regional_analysis": {
+    "Northeast": {
+      "cities": 5,
+      "avg_temperature": 54.64,
+      "avg_humidity": 69.58,
+      "total_precip": 1274.15
+    },
+    "Southeast": {
+      "cities": 9,
+      "avg_temperature": 67.66,
+      "avg_humidity": 73.36,
+      "total_precip": 2579.28
+    },
+    "Midwest": {
+      "cities": 11,
+      "avg_temperature": 53.08,
+      "avg_humidity": 69.79,
+      "total_precip": 2242.16
+    },
+    "Southwest": {
+      "cities": 6,
+      "avg_temperature": 69.82,
+      "avg_humidity": 33.42,
+      "total_precip": 322.74
+    },
+    "West Coast": {
+      "cities": 8,
+      "avg_temperature": 59.67,
+      "avg_humidity": 68.59,
+      "total_precip": 1133.4
+    },
+    "Texas": {
+      "cities": 5,
+      "avg_temperature": 69.78,
+      "avg_humidity": 66.08,
+      "total_precip": 1274.43
+    },
+    "Mountain": {
+      "cities": 2,
+      "avg_temperature": 54.1,
+      "avg_humidity": 61.61,
+      "total_precip": 329.38
+    },
+    "Pacific": {
+      "cities": 2,
+      "avg_temperature": 56.09,
+      "avg_humidity": 74.51,
+      "total_precip": 284.31
+    }
+  },
+  "metadata": {
+    "total_rows": 2191200,
+    "cities": 50,
+    "date_range_start": "2021-01-31 00:00:00",
+    "date_range_end": "2026-01-30 23:00:00",
+    "generated_at": "2026-01-30T22:17:47.971999",
+    "source": "Open-Meteo"
+  }
+}

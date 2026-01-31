@@ -1,0 +1,168 @@
+{
+  "total_market_cap": "3066777725899",
+  "total_volume_24h": 273216153404.59933,
+  "top_10_by_market_cap": [
+    {
+      "id": "bitcoin",
+      "symbol": "btc",
+      "market_cap": 1678214184192,
+      "current_price": 83983.0
+    },
+    {
+      "id": "ethereum",
+      "symbol": "eth",
+      "market_cap": 325961505366,
+      "current_price": 2700.71
+    },
+    {
+      "id": "tether",
+      "symbol": "usdt",
+      "market_cap": 185559278849,
+      "current_price": 0.998439
+    },
+    {
+      "id": "binancecoin",
+      "symbol": "bnb",
+      "market_cap": 116330050366,
+      "current_price": 853.17
+    },
+    {
+      "id": "ripple",
+      "symbol": "xrp",
+      "market_cap": 106379413604,
+      "current_price": 1.75
+    },
+    {
+      "id": "usd-coin",
+      "symbol": "usdc",
+      "market_cap": 70053909300,
+      "current_price": 0.999699
+    },
+    {
+      "id": "solana",
+      "symbol": "sol",
+      "market_cap": 66963214602,
+      "current_price": 118.24
+    },
+    {
+      "id": "tron",
+      "symbol": "trx",
+      "market_cap": 27704460819,
+      "current_price": 0.292498
+    },
+    {
+      "id": "staked-ether",
+      "symbol": "steth",
+      "market_cap": 25915701918,
+      "current_price": 2700.32
+    },
+    {
+      "id": "dogecoin",
+      "symbol": "doge",
+      "market_cap": 19423446511,
+      "current_price": 0.115241
+    }
+  ],
+  "bitcoin_dominance": 54.72,
+  "herfindahl_index": 3184.75,
+  "avg_change_24h": 0.82,
+  "median_change_24h": 0.05,
+  "gainers_24h": 553,
+  "losers_24h": 424,
+  "avg_change_7d": -4.24,
+  "median_change_7d": -6.25,
+  "gainers_7d": 222,
+  "losers_7d": 758,
+  "avg_change_30d": 4.23,
+  "median_change_30d": -3.32,
+  "gainers_30d": 347,
+  "losers_30d": 625,
+  "coins_over_1b_mcap": 92,
+  "coins_100m_to_1b_mcap": 320,
+  "coins_10m_to_100m_mcap": 588,
+  "coins_under_10m_mcap": 0,
+  "avg_ath_drawdown": -63.58,
+  "coins_within_20_pct_ath": 176,
+  "coins_over_50_pct_down_from_ath": 644,
+  "historical_start_date": "2025-01-31",
+  "historical_end_date": "2026-01-30",
+  "unique_coins_historical": 100,
+  "btc_price_start": 102382.39,
+  "btc_price_end": 83988.41,
+  "btc_1y_return": -17.97,
+  "btc_price_max": 124773.51,
+  "btc_price_min": 76329.09,
+  "btc_volatility_1y": 41.34,
+  "eth_price_start": 3296.39,
+  "eth_price_end": 2699.62,
+  "eth_1y_return": -18.1,
+  "eth_volatility_1y": 74.97,
+  "avg_1y_return": 63.34,
+  "median_1y_return": -17.99,
+  "best_performer": {
+    "coin_id": "myx-finance",
+    "return": 5374.83283331223
+  },
+  "worst_performer": {
+    "coin_id": "aptos",
+    "return": -81.61304929770664
+  },
+  "sectors": {
+    "layer1": {
+      "count": 13,
+      "total_market_cap": 2131211078653.0,
+      "total_volume_24h": 111447754071.0,
+      "avg_change_24h": 0.05
+    },
+    "layer2": {
+      "count": 6,
+      "total_market_cap": 4445882188.0,
+      "total_volume_24h": 339301988.0,
+      "avg_change_24h": -2.25
+    },
+    "defi": {
+      "count": 6,
+      "total_market_cap": 6453404592.0,
+      "total_volume_24h": 673125462.0,
+      "avg_change_24h": -0.98
+    },
+    "stablecoin": {
+      "count": 6,
+      "total_market_cap": 262017676720.0,
+      "total_volume_24h": 123702440386.0,
+      "avg_change_24h": -0.0
+    },
+    "exchange": {
+      "count": 5,
+      "total_market_cap": 131654918487.0,
+      "total_volume_24h": 1950082167.0,
+      "avg_change_24h": 0.2
+    },
+    "meme": {
+      "count": 6,
+      "total_market_cap": 26949501366.0,
+      "total_volume_24h": 2160332127.0,
+      "avg_change_24h": -0.47
+    },
+    "ai": {
+      "count": 5,
+      "total_market_cap": 3578706669.0,
+      "total_volume_24h": 231353457.0,
+      "avg_change_24h": 0.47
+    },
+    "gaming": {
+      "count": 6,
+      "total_market_cap": 1219409367.0,
+      "total_volume_24h": 217102871.0,
+      "avg_change_24h": -1.5
+    }
+  },
+  "metadata": {
+    "total_rows": 199555,
+    "market_snapshot_coins": 1000,
+    "sparkline_points": 164041,
+    "historical_points": 34514,
+    "generated_at": "2026-01-30T22:21:51.767665",
+    "source": "CoinGecko"
+  }
+}
