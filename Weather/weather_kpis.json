@@ -2,6 +2,10 @@
   "avg_temperature_all_cities": 61.14,
   "max_temperature_recorded": 117.9,
   "min_temperature_recorded": -33.6,
+  "max_temp_city": "Fresno",
+  "max_temp_date": "2024-07-07",
+  "min_temp_city": "Denver",
+  "min_temp_date": "2024-01-16",
   "hottest_cities": {
     "Miami": 76.87,
     "Mesa": 75.26,
@@ -22,9 +26,21 @@
     "2023": 61.32,
     "2024": 61.83,
     "2025": 61.34,
-    "2026": 40.69
+    "2026 (YTD)": 40.69
   },
-  "temperature_trend_per_year": -4.382,
+  "partial_years": [
+    "2026"
+  ],
+  "full_years": [
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2025"
+  ],
+  "temperature_trend_per_year": -0.112,
+  "trend_years_used": "2021-2025",
+  "trend_note": "Computed on 5 full calendar years; partial years excluded",
   "hours_above_100f": 19456,
   "hours_below_32f": 161824,
   "highest_hdd_cities": {
@@ -47,7 +63,7 @@
     "2023": 1956.8,
     "2024": 2009.32,
     "2025": 1825.34,
-    "2026": 107.46
+    "2026 (YTD)": 107.46
   },
   "wettest_cities": {
     "Houston": 364.74,
@@ -64,97 +80,139 @@
     "Las Vegas": 25.45
   },
   "heavy_precip_hours": 823,
+  "heavy_precip_definition": ">0.5 inches hourly accumulation",
   "total_rain_days": 35083,
-  "seasonal_patterns": {
-    "monthly_avg_temperature": {
-      "1": 40.82,
-      "2": 44.5,
-      "3": 52.3,
-      "4": 59.59,
-      "5": 67.69,
-      "6": 75.71,
-      "7": 78.9,
-      "8": 77.89,
-      "9": 73.04,
-      "10": 63.71,
-      "11": 52.45,
-      "12": 46.16
+  "extreme_events": {
+    "event_counts": {
+      "heat_days": 6207,
+      "frost_days": 12157,
+      "cold_snap_days": 4880,
+      "heavy_rain_days": 1949,
+      "high_wind_days": 13
     },
-    "hourly_avg_temperature": {
-      "0": 58.52,
-      "1": 57.59,
-      "2": 56.78,
-      "3": 56.07,
-      "4": 55.42,
-      "5": 54.85,
-      "6": 54.45,
-      "7": 54.81,
-      "8": 55.67,
-      "9": 57.36,
-      "10": 59.66,
-      "11": 62.18,
-      "12": 64.52,
-      "13": 66.49,
-      "14": 67.94,
-      "15": 68.81,
-      "16": 69.06,
-      "17": 68.58,
-      "18": 67.36,
-      "19": 65.39,
-      "20": 63.65,
-      "21": 62.06,
-      "22": 60.7,
-      "23": 59.53
+    "unique_extreme_days": 20240,
+    "total_city_days": 91300,
+    "extreme_day_rate": 22.17,
+    "event_days_sum": 20326,
+    "event_days_note": "Sum of individual event types; days with multiple events counted multiple times",
+    "thresholds": {
+      "heat": ">=95\u00b0F daily max",
+      "frost": "<=32\u00b0F daily min",
+      "cold_snap": "<=23\u00b0F daily min",
+      "heavy_rain": ">=1.0 in/day",
+      "high_wind": ">=40 mph"
     },
-    "hottest_hour": 16,
-    "coldest_hour": 6,
-    "diurnal_range": 14.61
+    "threshold_note": "Configurable operational thresholds for risk screening"
   },
   "regional_analysis": {
     "Northeast": {
-      "cities": 5,
+      "cities": [
+        "New York",
+        "Boston",
+        "Philadelphia",
+        "Pittsburgh",
+        "Baltimore"
+      ],
+      "city_count": 5,
       "avg_temperature": 54.64,
       "avg_humidity": 69.58,
       "total_precip": 1274.15
     },
     "Southeast": {
-      "cities": 9,
+      "cities": [
+        "Atlanta",
+        "Miami",
+        "Jacksonville",
+        "Tampa",
+        "Orlando",
+        "Charlotte",
+        "Raleigh",
+        "Nashville",
+        "New Orleans"
+      ],
+      "city_count": 9,
       "avg_temperature": 67.66,
       "avg_humidity": 73.36,
       "total_precip": 2579.28
     },
     "Midwest": {
-      "cities": 11,
+      "cities": [
+        "Chicago",
+        "Detroit",
+        "Minneapolis",
+        "Milwaukee",
+        "Cleveland",
+        "Columbus",
+        "Indianapolis",
+        "Kansas City",
+        "St. Louis",
+        "Cincinnati",
+        "Omaha"
+      ],
+      "city_count": 11,
       "avg_temperature": 53.08,
       "avg_humidity": 69.79,
       "total_precip": 2242.16
     },
     "Southwest": {
-      "cities": 6,
+      "cities": [
+        "Phoenix",
+        "Las Vegas",
+        "Tucson",
+        "Mesa",
+        "El Paso",
+        "Albuquerque"
+      ],
+      "city_count": 6,
       "avg_temperature": 69.82,
       "avg_humidity": 33.42,
       "total_precip": 322.74
     },
     "West Coast": {
-      "cities": 8,
+      "cities": [
+        "Los Angeles",
+        "San Francisco",
+        "San Diego",
+        "San Jose",
+        "Seattle",
+        "Portland",
+        "Sacramento",
+        "Fresno"
+      ],
+      "city_count": 8,
       "avg_temperature": 59.67,
       "avg_humidity": 68.59,
       "total_precip": 1133.4
     },
     "Texas": {
-      "cities": 5,
+      "cities": [
+        "Houston",
+        "Dallas",
+        "San Antonio",
+        "Austin",
+        "Fort Worth"
+      ],
+      "city_count": 5,
       "avg_temperature": 69.78,
       "avg_humidity": 66.08,
       "total_precip": 1274.43
     },
     "Mountain": {
-      "cities": 2,
+      "cities": [
+        "Denver",
+        "Louisville"
+      ],
+      "city_count": 2,
       "avg_temperature": 54.1,
       "avg_humidity": 61.61,
       "total_precip": 329.38
     },
     "Pacific": {
-      "cities": 2,
+      "cities": [
+        "Honolulu",
+        "Anchorage"
+      ],
+      "city_count": 2,
       "avg_temperature": 56.09,
       "avg_humidity": 74.51,
       "total_precip": 284.31
@@ -165,7 +223,8 @@
     "cities": 50,
     "date_range_start": "2021-01-31 00:00:00",
     "date_range_end": "2026-01-30 23:00:00",
-    "generated_at": "2026-01-30T22:17:47.971999",
-    "source": "Open-Meteo"
+    "generated_at": "2026-01-30T23:52:13.709296",
+    "source": "Open-Meteo (ERA5 reanalysis)",
+    "version": "1.1"
   }
 }
