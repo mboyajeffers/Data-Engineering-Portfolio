@@ -1,219 +1,158 @@
-# Data KPI Pipeline Demo
+# Mboya Jeffers | Data Engineering Portfolio
 
-**A reference implementation demonstrating enterprise-grade data engineering and analytics engineering practices for transactional KPI pipelines.**
+**Data Engineer & Analytics Engineer** — Building production-grade analytics pipelines that transform raw data into actionable intelligence.
 
-> **Note**: All data, reports, and outputs in this repository are synthetic examples created for portfolio demonstration purposes. No proprietary code or client information is included.
-
----
-
-## Overview
-
-This repository showcases a complete analytics data pipeline built with industry-standard patterns. It demonstrates the full lifecycle from raw data ingestion through validation, transformation, KPI computation, and executive-ready deliverables.
-
-The pipeline processes transactional data across multiple industries and produces:
-- **Validated, cleaned datasets** (CSV/Parquet)
-- **KPI metrics** (JSON)
-- **Executive summary reports** (PDF/Markdown)
-- **Data quality scorecards**
-
-### Industry Case Studies
-- **E-Commerce** - Luxury jewelry retailer (800K transactions)
-- **iGaming** - Online casino platform (400K events) with responsible gaming compliance
-- **Brokerage** - FCA-regulated European broker (650K trades) with MiFID II support
-- **Oil & Gas** - Upstream production operations (500K records) with multi-basin analysis
-- **Sports Betting** - Multi-jurisdiction operator (5K bets) with RG compliance
-- **Compliance** - Crypto AML/KYC analytics (5K transactions) with pattern detection
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://linkedin.com/in/mboyajeffers)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-black)](https://github.com/mboyajeffers)
+[![Email](https://img.shields.io/badge/Email-Contact-green)](mailto:MboyaJeffers9@gmail.com)
 
 ---
 
-## What This Demonstrates
+## About Me
+
+I'm a Data Engineer with full-stack pipeline ownership—from raw data ingestion through KPI computation to automated report delivery. I built **CMS Enterprise**, a production analytics platform processing data across 11 industries with 188+ KPIs, multi-currency support, and real-time market data integration.
+
+This repository contains **proof of capability**: real analytics outputs I've generated across multiple industries, demonstrating enterprise-grade data engineering and analytics engineering practices.
+
+### What I Bring
+
+| Capability | Evidence |
+|------------|----------|
+| **Large-Scale Processing** | 23.6M rows (Netflix), 7.7M rows (Disney) processed with production pipelines |
+| **Multi-Industry Expertise** | Finance, Betting, Sports, Compliance, Solar, Weather, Media |
+| **End-to-End Ownership** | Ingestion → Validation → Transformation → KPIs → Executive Reports |
+| **Production Systems** | 11 analytics engines, 188+ KPIs, 30+ currencies in production |
+
+---
+
+## Portfolio Highlights
+
+### Enterprise Scale Analytics
+
+| Project | Dataset Size | Processing Time | Key Deliverables |
+|---------|--------------|-----------------|------------------|
+| [Netflix Streaming Analysis](./Netflix_Analysis/) | **23.6M rows** | ~2.5 hours | Content performance, viewing patterns, engagement metrics |
+| [Disney Media Analysis](./Enterprise_Scale/) | **7.7M rows** | ~50 min | Cross-platform analytics, revenue correlation, audience segmentation |
+
+### Industry-Specific Analytics
+
+| Industry | Folder | Sample KPIs |
+|----------|--------|-------------|
+| [Finance](./Finance/) | Stock analytics, risk metrics | VaR, Sharpe Ratio, Beta, Max Drawdown |
+| [Betting](./Betting/) | Sports betting analytics | GGR, Hold %, Player LTV, Bonus ROI |
+| [Sports](./Sports/) | Sports data intelligence | Win rates, performance trends, market analysis |
+| [Compliance](./Compliance/) | AML/KYC analytics | Transaction patterns, risk scoring, audit trails |
+| [Solar](./Solar/) | Renewable energy analytics | Capacity factor, generation forecasts, efficiency |
+| [Weather](./Weather/) | Climate analytics | Heat stress, freeze risk, precipitation patterns |
+
+---
+
+## Technical Skills Demonstrated
 
 ### Data Engineering
-- Schema contract enforcement and validation gates
-- Multi-stage data quality checks (nulls, duplicates, ranges, referential integrity)
-- Quarantine handling for invalid records
-- Reconciliation checks suitable for regulated environments
-- Idempotent, re-runnable pipeline design
-- Structured logging and observability patterns
-- Configuration-driven architecture (YAML contracts)
+- **Pipeline Design**: Idempotent, re-runnable ETL/ELT pipelines with checkpoint recovery
+- **Schema Enforcement**: Contract-driven validation with 150+ column aliases for normalization
+- **Data Quality**: Multi-stage validation (nulls, duplicates, ranges, referential integrity)
+- **Scale**: Chunked processing for multi-million row datasets
+- **Observability**: Structured logging, telemetry, and audit trails
 
 ### Analytics Engineering
-- Standardized KPI definitions with documented formulas
-- Metric catalog with grain, unit, and caveats
-- Revenue, customer, product, and operational KPIs
-- Segment and category breakdowns
-- Repeat purchase rate and customer lifetime value
-- Executive-ready report generation
+- **KPI Frameworks**: 188+ standardized metrics across 11 industry verticals
+- **Financial Analytics**: VaR, Sharpe, Sortino, Beta using CFA/Basel standards
+- **Compliance Metrics**: AML pattern detection, threshold monitoring, audit reporting
+- **Report Generation**: Automated PDF/CSV/Excel/Parquet delivery
+
+### Infrastructure
+- **Cloud**: GCP (Compute Engine, Cloud Storage), Nginx, Gunicorn
+- **APIs**: Flask REST APIs, Google Drive/Sheets integration, webhooks
+- **DevOps**: Git, CI/CD, systemd services, automated backups
+- **Real-Time Data**: Yahoo Finance, FRED, NREL, NOAA, NASA POWER, Open-Meteo APIs
 
 ---
 
-## Pipeline Architecture
+## The Platform I Built: CMS Enterprise
 
-```
-+--------------+    +--------------+    +--------------+    +--------------+    +--------------+
-|   INGEST     | -> |  VALIDATE    | -> |  TRANSFORM   | -> |   METRICS    | -> |   EXPORT     |
-|              |    |              |    |              |    |              |    |              |
-| Load files   |    | Schema       |    | Normalize    |    | Compute      |    | Reports      |
-| Type cast    |    | Nulls        |    | Aliases      |    | KPIs         |    | Datasets     |
-| Normalize    |    | Duplicates   |    | Dates        |    | Aggregates   |    | Scorecards   |
-| columns      |    | Ranges       |    | Derived      |    | Breakdowns   |    | JSON         |
-+--------------+    +--------------+    +--------------+    +--------------+    +--------------+
-```
+All analytics in this portfolio were generated using **CMS Enterprise**, a platform I architected and built:
 
-See [docs/architecture.md](docs/architecture.md) for detailed diagrams.
+| Metric | Value |
+|--------|-------|
+| Industry Engines | 11 (Fintech, Brokerage, Crypto, Gaming, Betting, Ecommerce, Oil & Gas, Solar, Compliance, Media, Weather) |
+| Total KPIs | 188+ computed metrics |
+| Currencies | 32 supported with real-time FX |
+| Countries | 14 supported |
+| API Endpoints | 30 REST blueprints |
+| Test Coverage | 22 passing tests |
+
+**Architecture**: Python/Flask backend, GCP infrastructure, SQLite metadata, GCS storage, automated PDF generation, three-tier deployment (PROD → DEV → LOCAL).
+
+---
+
+## Sample Outputs
+
+### Executive Reports
+Each industry folder contains production-quality deliverables:
+- **Executive Summary PDFs** — Board-ready analytics summaries
+- **KPI Dashboards** — Metric breakdowns with visualizations
+- **Data Quality Scorecards** — Validation results and data health
+- **Cleaned Datasets** — Normalized, validated data exports
+
+### Example: Netflix 23.6M Row Analysis
+```
+Netflix_Analysis/
+├── Netflix_Streaming_Analysis_Executive_Summary.pdf
+├── Netflix_Streaming_Analysis_Report.pdf
+├── LINKEDIN_ARTICLE.md
+├── README.md
+└── data/
+    └── netflix_titles.csv
+```
 
 ---
 
 ## Repository Structure
 
 ```
-data-kpi-demo/
-├── README.md
-├── LICENSE
-├── requirements.txt
-│
-├── docs/
-│   ├── methodology.md        # Data processing methodology
-│   ├── quality_scorecard.md  # Quality check definitions
-│   ├── kpi_catalog.md        # KPI definitions (20 KPIs)
-│   ├── architecture.md       # Pipeline architecture diagrams
-│   ├── outputs/
-│   │   ├── pdf/              # Sample executive reports
-│   │   └── md/               # Markdown report outputs
-│   └── case-study/           # Demo case study
-│
-├── data/
-│   └── sample_*.csv          # Sample transaction data (200 rows)
-│
-├── src/demo_pipeline/
-│   ├── ingest.py             # Data ingestion module
-│   ├── validate.py           # Validation module
-│   ├── transform.py          # Transformation module
-│   ├── metrics.py            # KPI computation module
-│   ├── report_stub.py        # Report generation
-│   └── run_demo.py           # Pipeline orchestrator
-│
-├── configs/
-│   ├── schema_contract.yaml  # Expected data schema
-│   ├── validation_rules.yaml # Quality check rules
-│   └── kpi_definitions.yaml  # KPI formulas
-│
-└── tests/
-    ├── test_validation.py    # Validation tests
-    └── test_metrics.py       # KPI computation tests
+Proof_Package/
+├── README.md                    # You are here
+├── Netflix_Analysis/            # 23.6M row streaming analytics
+├── Enterprise_Scale/            # 7.7M row Disney media analytics
+├── Finance/                     # Stock & financial risk analytics
+├── Betting/                     # Sports betting analytics
+├── Sports/                      # Sports data intelligence
+├── Compliance/                  # AML/KYC compliance analytics
+├── Solar/                       # Renewable energy analytics
+├── Weather/                     # Climate & weather analytics
+├── docs/                        # Methodology, architecture, KPI catalog
+├── configs/                     # Schema contracts, validation rules
+├── generate_*.py                # Report generation scripts
+└── LinkedIn_Posts_Ready_To_Copy.md  # Content for professional sharing
 ```
 
 ---
 
-## Quick Start
+## Contact
 
-### Prerequisites
-- Python 3.10+
-- pip
+**Mboya Jeffers** — Data Engineer / Analytics Engineer
 
-### Installation
-
-```bash
-git clone https://github.com/CleanMetricsStudio/data-kpi-demo.git
-cd data-kpi-demo
-pip install -r requirements.txt
-```
-
-### Run the Pipeline
-
-```bash
-# Run with sample data
-python -m src.demo_pipeline.run_demo
-
-# Run with custom input
-python -m src.demo_pipeline.run_demo --input data/sample_luxury_jewelry_transactions.csv
-
-# Run with verbose logging
-python -m src.demo_pipeline.run_demo -v
-```
-
-### Run Tests
-
-```bash
-pytest tests/ -v
-```
+- **Email**: MboyaJeffers9@gmail.com
+- **LinkedIn**: [linkedin.com/in/mboyajeffers](https://linkedin.com/in/mboyajeffers)
+- **GitHub**: [github.com/mboyajeffers](https://github.com/mboyajeffers)
+- **Location**: Remote (US-based)
 
 ---
 
-## Sample Outputs
+## What I'm Looking For
 
-### Industry Case Studies
+**Target Roles**: Data Engineer, Analytics Engineer, Senior Data Engineer
 
-#### E-Commerce (Luxury Jewelry)
-- [Executive Summary Report](docs/case-studies/ecommerce-jewelry/Demo_Executive_Summary_Report.pdf)
-- [Case Study: Luxe Gemstone](docs/case-studies/ecommerce-jewelry/Demo_Case_Study_Luxe_Gemstone.pdf)
-- [Customer Intelligence Report](docs/case-studies/ecommerce-jewelry/Demo_Customer_Intelligence_Report.pdf)
-- [Product Category Report](docs/case-studies/ecommerce-jewelry/Demo_Product_Category_Report.pdf)
-- [Sales Performance Report](docs/case-studies/ecommerce-jewelry/Demo_Sales_Performance_Report.pdf)
+**Ideal Environment**:
+- Companies solving complex data problems at scale
+- Teams that value clean architecture and production discipline
+- Roles with end-to-end pipeline ownership
+- Remote-first organizations
 
-#### iGaming (Online Casino)
-- [Executive Summary Report](docs/case-studies/igaming-casino/Demo_Executive_Summary_Report.pdf)
-- [Gaming Revenue Report](docs/case-studies/igaming-casino/Demo_Gaming_Revenue_Report.pdf)
-- [Player Intelligence Report](docs/case-studies/igaming-casino/Demo_Player_Intelligence_Report.pdf)
-- [Game Market Report](docs/case-studies/igaming-casino/Demo_Game_Market_Report.pdf)
-
-#### Brokerage (UK/European)
-- [Executive Summary Report](docs/case-studies/brokerage-uk/Demo_Executive_Summary_Report.pdf)
-- [Case Study: Sterling Capital](docs/case-studies/brokerage-uk/Demo_Case_Study_Sterling_Capital.pdf)
-- [Client Intelligence Report](docs/case-studies/brokerage-uk/Demo_Client_Intelligence_Report.pdf)
-- [Trading Revenue Report](docs/case-studies/brokerage-uk/Demo_Trading_Revenue_Report.pdf)
-- [Asset Market Report](docs/case-studies/brokerage-uk/Demo_Asset_Market_Report.pdf)
-
-#### Oil & Gas (Production Operations)
-- [Oil & Gas Analytics Report](docs/case-studies/oilgas-energy/Demo_Oil_Gas_Analytics_Report.pdf)
-
-#### Sports Betting (Multi-Jurisdiction)
-- [Executive Summary Report](docs/case-studies/betting-sports/Demo_Executive_Summary_Report.md)
-- [Case Study: FastLane](docs/case-studies/betting-sports/Demo_Case_Study_FastLane.md)
-- [Betting Revenue Report](docs/case-studies/betting-sports/Demo_Betting_Revenue_Report.md)
-- [Player Intelligence Report](docs/case-studies/betting-sports/Demo_Player_Intelligence_Report.md)
-- [Sports Market Report](docs/case-studies/betting-sports/Demo_Sports_Market_Report.md)
-
-#### Compliance (Crypto AML/KYC)
-- [Compliance Analytics Report](docs/case-studies/compliance-aml/Demo_Compliance_Analytics_Report.pdf)
-
-### Documentation
-- [Methodology](docs/methodology.md) - Data processing approach
-- [Quality Scorecard](docs/quality_scorecard.md) - Validation checks
-- [KPI Catalog](docs/kpi_catalog.md) - Metric definitions
-- [Architecture](docs/architecture.md) - System design
-- [Case Studies Overview](docs/case-studies/README.md) - All industry demos
+**Compensation**: $125K+ base (negotiable based on total package)
 
 ---
 
-## KPI Highlights
-
-| KPI | Description |
-|-----|-------------|
-| Total Revenue | Sum of completed order totals |
-| Average Order Value | Mean revenue per order |
-| Unique Customers | Distinct customer count |
-| Repeat Purchase Rate | % of customers with >1 order |
-| Revenue by Segment | Breakdown by customer tier |
-| Category Mix | Revenue % by product category |
-| Discount Utilization | % of orders using discounts |
-
-See [docs/kpi_catalog.md](docs/kpi_catalog.md) for complete definitions.
-
----
-
-## Technology Stack
-
-| Layer | Technology |
-|-------|------------|
-| Language | Python 3.10+ |
-| Data Processing | pandas, NumPy |
-| Configuration | YAML |
-| Testing | pytest |
-| Output Formats | CSV, JSON, Parquet, PDF, Markdown |
-
----
-
-## License
-
-MIT License - see [LICENSE](LICENSE) for details.
+*This portfolio demonstrates real capabilities with synthetic data. All outputs were generated using pipelines I designed and built.*
