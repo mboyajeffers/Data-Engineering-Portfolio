@@ -1,0 +1,190 @@
+{
+  "index_performance": {
+    "^GSPC": {
+      "start_price": 1265.02,
+      "end_price": 6969.01,
+      "total_return_pct": 450.9,
+      "cagr": 8.92,
+      "annual_volatility": 19.49,
+      "max_drawdown": -56.78,
+      "name": "S&P 500"
+    },
+    "^DJI": {
+      "start_price": 10798.27,
+      "end_price": 49071.56,
+      "total_return_pct": 354.44,
+      "cagr": 7.87,
+      "annual_volatility": 18.38,
+      "max_drawdown": -53.78,
+      "name": "Dow Jones Industrial"
+    },
+    "^IXIC": {
+      "start_price": 2258.8,
+      "end_price": 23685.12,
+      "total_return_pct": 948.57,
+      "cagr": 12.48,
+      "annual_volatility": 22.08,
+      "max_drawdown": -55.63,
+      "name": "NASDAQ Composite"
+    },
+    "^RUT": {
+      "start_price": 727.89,
+      "end_price": 2654.78,
+      "total_return_pct": 264.72,
+      "cagr": 6.69,
+      "annual_volatility": 24.97,
+      "max_drawdown": -59.89,
+      "name": "Russell 2000"
+    }
+  },
+  "treasury_yields": {
+    "^TNX": {
+      "name": "10-Year Treasury Yield",
+      "current_yield": 4.23,
+      "avg_20yr": 2.9,
+      "max_yield": 5.25,
+      "min_yield": 0.5
+    },
+    "^TYX": {
+      "name": "30-Year Treasury Yield",
+      "current_yield": 4.85,
+      "avg_20yr": 3.5,
+      "max_yield": 5.36,
+      "min_yield": 0.94
+    },
+    "^FVX": {
+      "name": "5-Year Treasury Yield",
+      "current_yield": 3.81,
+      "avg_20yr": 2.35,
+      "max_yield": 5.23,
+      "min_yield": 0.19
+    }
+  },
+  "sector_analysis": {
+    "XLF": {
+      "start_price": 17.29,
+      "end_price": 53.55,
+      "total_return_pct": 209.64,
+      "cagr": 5.82,
+      "annual_volatility": 29.81,
+      "max_drawdown": -82.69,
+      "name": "Financial"
+    },
+    "XLK": {
+      "start_price": 8.2,
+      "end_price": 146.87,
+      "total_return_pct": 1691.85,
+      "cagr": 15.54,
+      "annual_volatility": 22.8,
+      "max_drawdown": -53.04,
+      "name": "Technology"
+    },
+    "XLE": {
+      "start_price": 15.7,
+      "end_price": 50.51,
+      "total_return_pct": 221.82,
+      "cagr": 6.03,
+      "annual_volatility": 30.11,
+      "max_drawdown": -71.26,
+      "name": "Energy"
+    },
+    "XLV": {
+      "start_price": 22.51,
+      "end_price": 153.82,
+      "total_return_pct": 583.24,
+      "cagr": 10.1,
+      "annual_volatility": 16.93,
+      "max_drawdown": -39.17,
+      "name": "Healthcare"
+    },
+    "XLI": {
+      "start_price": 21.46,
+      "end_price": 165.86,
+      "total_return_pct": 672.82,
+      "cagr": 10.78,
+      "annual_volatility": 21.23,
+      "max_drawdown": -62.26,
+      "name": "Industrial"
+    },
+    "XLP": {
+      "start_price": 13.68,
+      "end_price": 82.13,
+      "total_return_pct": 500.45,
+      "cagr": 9.39,
+      "annual_volatility": 14.31,
+      "max_drawdown": -32.39,
+      "name": "Consumer Staples"
+    },
+    "XLY": {
+      "start_price": 12.89,
+      "end_price": 121.19,
+      "total_return_pct": 839.96,
+      "cagr": 11.87,
+      "annual_volatility": 22.36,
+      "max_drawdown": -59.05,
+      "name": "Consumer Discretionary"
+    },
+    "XLU": {
+      "start_price": 7.97,
+      "end_price": 43.33,
+      "total_return_pct": 443.6,
+      "cagr": 8.84,
+      "annual_volatility": 18.87,
+      "max_drawdown": -46.48,
+      "name": "Utilities"
+    },
+    "XLB": {
+      "start_price": 10.21,
+      "end_price": 50.0,
+      "total_return_pct": 389.73,
+      "cagr": 8.28,
+      "annual_volatility": 23.61,
+      "max_drawdown": -59.82,
+      "name": "Materials"
+    }
+  },
+  "commodities": {
+    "GC=F": {
+      "start_price": 570.2,
+      "end_price": 5318.4,
+      "total_return_pct": 832.73,
+      "cagr": 11.83,
+      "annual_volatility": 18.08,
+      "max_drawdown": -44.36,
+      "name": "Gold"
+    },
+    "CL=F": {
+      "start_price": 65.11,
+      "end_price": 65.42,
+      "total_return_pct": 0.48,
+      "cagr": 0.02,
+      "annual_volatility": 85.16,
+      "max_drawdown": -125.9,
+      "name": "Crude Oil"
+    },
+    "SI=F": {
+      "start_price": 9.73,
+      "end_price": 114.04,
+      "total_return_pct": 1072.26,
+      "cagr": 13.11,
+      "annual_volatility": 33.76,
+      "max_drawdown": -75.85,
+      "name": "Silver"
+    }
+  },
+  "vix_analysis": {
+    "current": 16.88,
+    "avg_20yr": 19.48,
+    "max": 82.69,
+    "min": 9.14,
+    "pct_above_20": 34.47,
+    "pct_above_30": 8.89
+  },
+  "metadata": {
+    "total_rows": 188720,
+    "date_range_start": "2006-02-06 00:00:00",
+    "date_range_end": "2026-01-29 00:00:00",
+    "generated_at": "2026-01-30T23:05:16.478521",
+    "source": "Yahoo Finance"
+  }
+}
