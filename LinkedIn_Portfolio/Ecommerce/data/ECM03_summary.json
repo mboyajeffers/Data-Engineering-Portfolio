@@ -1,0 +1,25 @@
+{
+  "report_metadata": {
+    "report_code": "ECM03",
+    "report_title": "Handmade Marketplace Study",
+    "generated_date": "2026-01-31T06:08:08.484741",
+    "total_rows_processed": 1495,
+    "author": "Mboya Jeffers",
+    "email": "MboyaJeffers9@gmail.com"
+  },
+  "marketplace_metrics": {
+    "gms": "$2.8B",
+    "active_buyers": "98M",
+    "active_sellers": "6M",
+    "take_rate": "18%"
+  },
+  "category_performance": {
+    "top_category": "Home & Living",
+    "avg_item_price": "$49"
+  },
+  "seller_economics": {
+    "star_sellers": "75K",
+    "repeat_buyers": "38%",
+    "payments_adoption": "90%"
+  }
+}

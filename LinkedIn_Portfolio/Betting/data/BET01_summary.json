@@ -1,0 +1,26 @@
+{
+  "report_metadata": {
+    "report_code": "BET01",
+    "report_title": "Daily Fantasy Sports Market Analysis",
+    "generated_date": "2026-01-31T06:02:51.329539",
+    "total_rows_processed": 1595,
+    "author": "Mboya Jeffers",
+    "email": "MboyaJeffers9@gmail.com"
+  },
+  "user_metrics": {
+    "mup": "44M",
+    "arpmup": "$112",
+    "mup_growth": "19%",
+    "handle": "$9.0B"
+  },
+  "market_position": {
+    "top_state": "New York",
+    "states_live": 8,
+    "avg_share": "33%"
+  },
+  "product_mix": {
+    "dfs_contests": "150K/day",
+    "parlay_share": "25%",
+    "sgp_growth": "Accelerating"
+  }
+}

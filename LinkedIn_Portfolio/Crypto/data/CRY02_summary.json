@@ -1,0 +1,27 @@
+{
+  "report_metadata": {
+    "report_code": "CRY02",
+    "report_title": "Global Exchange Liquidity Analysis",
+    "generated_date": "2026-01-31T05:53:37.565948",
+    "total_rows_processed": 8875,
+    "author": "Mboya Jeffers",
+    "email": "MboyaJeffers9@gmail.com"
+  },
+  "global_volume": {
+    "leader": "Binance",
+    "leader_spot_volume": "$557B",
+    "total_spot": "$1295B",
+    "total_derivatives": "$1843B",
+    "deriv_to_spot_ratio": "1.4x"
+  },
+  "liquidity_metrics": {
+    "avg_spread": "2.74 bps",
+    "avg_1pct_depth": "$5.0M",
+    "slippage_1M": "27.7 bps"
+  },
+  "derivatives_insights": {
+    "btc_oi": "$12.4B avg",
+    "avg_funding": "1.038%",
+    "avg_liquidations": "$52M/day"
+  }
+}

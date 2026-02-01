@@ -1,0 +1,26 @@
+{
+  "report_metadata": {
+    "report_code": "MED03",
+    "report_title": "Audio Streaming Market Analysis",
+    "generated_date": "2026-01-31T05:47:07.336443",
+    "total_rows_processed": 4320,
+    "author": "Mboya Jeffers",
+    "email": "MboyaJeffers9@gmail.com"
+  },
+  "listener_metrics": {
+    "leader_mau": "1525M",
+    "leader_name": "Spotify",
+    "total_market_mau": "2376M",
+    "avg_premium_conversion": "40.9%",
+    "avg_arpu": "$5.73"
+  },
+  "podcast_metrics": {
+    "total_listens": "22.7B",
+    "top_category": "Education",
+    "avg_ad_cpm": "$25.09"
+  },
+  "artist_economics": {
+    "avg_payout_per_stream": "$3.94/1000",
+    "top_100_dominance": "High concentration"
+  }
+}

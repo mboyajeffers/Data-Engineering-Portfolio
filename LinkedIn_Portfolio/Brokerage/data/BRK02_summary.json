@@ -1,0 +1,25 @@
+{
+  "report_metadata": {
+    "report_code": "BRK02",
+    "report_title": "Global Trading Platform Analytics",
+    "generated_date": "2026-01-31T05:58:04.081591",
+    "total_rows_processed": 1575,
+    "author": "Mboya Jeffers",
+    "email": "MboyaJeffers9@gmail.com"
+  },
+  "global_reach": {
+    "total_accounts": "3.6M",
+    "total_equity": "$771B",
+    "regions": 3,
+    "avg_darts": "1729K"
+  },
+  "product_mix": {
+    "top_product": "Stocks",
+    "options_share": "29%"
+  },
+  "margin_business": {
+    "margin_loans": "$60B",
+    "sec_lending": "$35B",
+    "avg_rate": "6.5%"
+  }
+}

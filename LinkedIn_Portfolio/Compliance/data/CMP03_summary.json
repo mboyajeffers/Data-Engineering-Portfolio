@@ -1,0 +1,29 @@
+{
+  "report_metadata": {
+    "report_code": "CMP03",
+    "report_title": "Consumer Credit Compliance Trends",
+    "generated_date": "2026-01-31T05:42:13.760900",
+    "data_start": "2016-02-03 05:42:07.872292",
+    "data_end": "2026-01-31 05:42:07.872292",
+    "total_rows_processed": 733947,
+    "issuers_analyzed": 7,
+    "author": "Mboya Jeffers",
+    "email": "MboyaJeffers9@gmail.com"
+  },
+  "complaint_metrics": {
+    "total_complaints": "935,318",
+    "top_issuer": "Capital One",
+    "avg_resolution_rate": "91.5%",
+    "total_monetary_relief": "$296,477,650"
+  },
+  "compliance_scores": {
+    "industry_avg_score": "84.4/100",
+    "best_performer": "Discover",
+    "improvement_trend": "+3-5% annually"
+  },
+  "enforcement_summary": {
+    "total_actions": 65,
+    "total_fines": "$996.0M",
+    "top_issue": "Fraud Protection"
+  }
+}

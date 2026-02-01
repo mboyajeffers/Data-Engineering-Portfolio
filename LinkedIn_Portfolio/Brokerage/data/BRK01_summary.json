@@ -1,0 +1,26 @@
+{
+  "report_metadata": {
+    "report_code": "BRK01",
+    "report_title": "Retail Brokerage Market Analysis",
+    "generated_date": "2026-01-31T05:58:04.266741",
+    "total_rows_processed": 2065,
+    "author": "Mboya Jeffers",
+    "email": "MboyaJeffers9@gmail.com"
+  },
+  "market_position": {
+    "leader": "Fidelity",
+    "leader_aum": "$23986B",
+    "total_market_aum": "$75244B",
+    "accounts": "107M"
+  },
+  "trading_metrics": {
+    "avg_daily_equity_trades": "5.3M",
+    "avg_options_volume": "34M contracts",
+    "margin_balances": "$80B"
+  },
+  "revenue_insights": {
+    "nii_share": "~50%",
+    "asset_mgmt_share": "~25%",
+    "rate_sensitivity": "High"
+  }
+}

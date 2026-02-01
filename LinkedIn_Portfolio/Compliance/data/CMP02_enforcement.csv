@@ -1,0 +1,57 @@
+Date,Bank,Agency,Action_Type,Fine_Amount,Category,Resolution_Months
+2019-02-04 05:42:00.967308,Wells Fargo,Fed,MOU,0.0,Consumer Protection,37
+2025-06-26 05:42:00.967308,Wells Fargo,Fed,Cease & Desist,1000000.0,Liquidity,22
+2018-04-30 05:42:00.967308,Wells Fargo,CFPB,MOU,1000000000.0,Capital Requirements,32
+2025-04-10 05:42:00.967308,Wells Fargo,CFPB,MOU,100000000.0,Capital Requirements,28
+2016-05-16 05:42:00.967308,Wells Fargo,SEC,Consent Order,5000000.0,Cybersecurity,31
+2024-03-17 05:42:00.967308,Wells Fargo,Fed,MOU,10000000.0,Liquidity,24
+2021-12-03 05:42:00.967308,Wells Fargo,SEC,Cease & Desist,0.0,Cybersecurity,46
+2025-01-22 05:42:00.967308,Wells Fargo,FDIC,CMP,5000000.0,Liquidity,13
+2019-01-10 05:42:00.967308,Wells Fargo,FDIC,CMP,10000000.0,Model Risk,31
+2024-12-16 05:42:00.967308,Wells Fargo,Fed,Cease & Desist,50000000.0,Capital Requirements,31
+2018-08-18 05:42:00.967308,Wells Fargo,CFPB,Cease & Desist,1000000000.0,Consumer Protection,13
+2019-04-29 05:42:00.967308,Wells Fargo,FDIC,CMP,1000000000.0,BSA/AML,10
+2022-06-10 05:42:00.967308,Wells Fargo,SEC,Consent Order,1000000000.0,Cybersecurity,10
+2020-09-03 05:42:00.967308,JPMorgan,SEC,Cease & Desist,500000000.0,Fair Lending,6
+2019-07-11 05:42:00.967308,JPMorgan,SEC,MOU,1000000000.0,BSA/AML,32
+2020-12-28 05:42:00.967308,JPMorgan,FDIC,CMP,10000000.0,BSA/AML,31
+2019-11-30 05:42:00.967308,JPMorgan,FDIC,Consent Order,5000000.0,Cybersecurity,10
+2025-05-03 05:42:00.967308,JPMorgan,FDIC,Cease & Desist,100000000.0,Consumer Protection,23
+2019-03-28 05:42:00.967308,JPMorgan,SEC,Consent Order,100000000.0,Liquidity,14
+2021-04-15 05:42:00.967308,JPMorgan,FDIC,CMP,500000000.0,Cybersecurity,16
+2017-01-01 05:42:00.967308,JPMorgan,OCC,Consent Order,50000000.0,Model Risk,9
+2021-09-10 05:42:00.967308,Bank of America,CFPB,MOU,1000000.0,Model Risk,16
+2017-04-15 05:42:00.967308,Bank of America,FDIC,Cease & Desist,100000000.0,Cybersecurity,17
+2024-03-07 05:42:00.967308,Bank of America,Fed,Consent Order,10000000.0,Third Party Risk,30
+2018-01-26 05:42:00.967308,Bank of America,OCC,Consent Order,5000000.0,Liquidity,39
+2022-11-23 05:42:00.967308,Bank of America,FDIC,Cease & Desist,500000000.0,Cybersecurity,24
+2016-05-12 05:42:00.967308,Bank of America,Fed,Cease & Desist,50000000.0,Capital Requirements,22
+2023-06-26 05:42:00.967308,Bank of America,FDIC,CMP,50000000.0,Liquidity,16
+2025-08-09 05:42:00.967308,Bank of America,CFPB,MOU,100000000.0,Liquidity,19
+2025-03-30 05:42:00.967308,Bank of America,OCC,MOU,5000000.0,BSA/AML,34
+2016-09-21 05:42:00.967308,Bank of America,CFPB,CMP,1000000000.0,Cybersecurity,43
+2021-02-25 05:42:00.967308,Bank of America,Fed,CMP,10000000.0,Market Conduct,12
+2023-06-10 05:42:00.967308,Bank of America,OCC,MOU,500000000.0,Model Risk,21
+2016-06-06 05:42:00.967308,Bank of America,OCC,MOU,5000000.0,Liquidity,10
+2018-03-15 05:42:00.967308,Bank of America,CFPB,Cease & Desist,0.0,Third Party Risk,23
+2021-04-17 05:42:00.967308,Bank of America,CFPB,Consent Order,10000000.0,Fair Lending,6
+2022-05-25 05:42:00.967308,Bank of America,Fed,Cease & Desist,5000000.0,Capital Requirements,18
+2016-02-09 05:42:00.967308,Bank of America,FDIC,CMP,1000000000.0,Fair Lending,46
+2022-07-22 05:42:00.967308,Bank of America,Fed,CMP,5000000.0,Capital Requirements,24
+2019-04-28 05:42:00.967308,Bank of America,FDIC,Consent Order,5000000.0,BSA/AML,36
+2025-03-10 05:42:00.967308,Bank of America,SEC,Consent Order,500000000.0,BSA/AML,31
+2018-12-02 05:42:00.967308,Bank of America,CFPB,Consent Order,1000000000.0,Capital Requirements,8
+2019-01-07 05:42:00.967308,Bank of America,CFPB,CMP,0.0,Model Risk,20
+2024-07-03 05:42:00.967308,Bank of America,OCC,CMP,1000000000.0,Consumer Protection,18
+2023-04-17 05:42:00.967308,Citigroup,CFPB,Cease & Desist,1000000000.0,Liquidity,45
+2018-10-14 05:42:00.967308,Citigroup,Fed,Cease & Desist,1000000.0,Cybersecurity,47
+2023-10-16 05:42:00.967308,Citigroup,SEC,Consent Order,10000000.0,Model Risk,43
+2022-12-19 05:42:00.967308,Citigroup,Fed,CMP,1000000.0,Cybersecurity,22
+2025-12-08 05:42:00.967308,Citigroup,FDIC,Consent Order,5000000.0,Model Risk,32
+2021-07-13 05:42:00.967308,US Bancorp,SEC,MOU,10000000.0,Fair Lending,40
+2022-02-13 05:42:00.967308,US Bancorp,SEC,Consent Order,10000000.0,Capital Requirements,38
+2017-01-26 05:42:00.967308,US Bancorp,SEC,Cease & Desist,500000000.0,Capital Requirements,33
+2020-11-04 05:42:00.967308,US Bancorp,FDIC,MOU,500000000.0,Operational Risk,8
+2022-03-28 05:42:00.967308,US Bancorp,FDIC,Consent Order,100000000.0,Capital Requirements,19
+2021-12-19 05:42:00.967308,US Bancorp,SEC,Consent Order,50000000.0,Model Risk,26
+2025-03-24 05:42:00.967308,US Bancorp,SEC,MOU,1000000000.0,Fair Lending,13

@@ -1,0 +1,25 @@
+{
+  "report_metadata": {
+    "report_code": "ECM01",
+    "report_title": "E-commerce Marketplace Analytics",
+    "generated_date": "2026-01-31T06:08:08.423848",
+    "total_rows_processed": 1495,
+    "author": "Mboya Jeffers",
+    "email": "MboyaJeffers9@gmail.com"
+  },
+  "gmv_metrics": {
+    "total_gmv": "$981B",
+    "3p_share": "~60%",
+    "active_customers": "1513M",
+    "prime_members": "175M"
+  },
+  "category_performance": {
+    "top_category": "Electronics",
+    "avg_aov": "$95"
+  },
+  "fulfillment": {
+    "daily_packages": "21M",
+    "same_day": "22%",
+    "one_day": "32%"
+  }
+}

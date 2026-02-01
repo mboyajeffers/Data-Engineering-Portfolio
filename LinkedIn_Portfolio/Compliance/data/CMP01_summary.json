@@ -1,0 +1,35 @@
+{
+  "report_metadata": {
+    "report_code": "CMP01",
+    "report_title": "Credit Bureau Complaint Pattern Analysis",
+    "generated_date": "2026-01-31T05:41:54.891680",
+    "data_start": "2016-02-03 05:41:48.424478",
+    "data_end": "2026-01-31 05:41:48.424478",
+    "total_rows_processed": 814127,
+    "companies_analyzed": 3,
+    "author": "Mboya Jeffers",
+    "email": "MboyaJeffers9@gmail.com"
+  },
+  "complaint_volume": {
+    "total_complaints": "11,210,680",
+    "daily_average": "3,071",
+    "top_company": "Equifax",
+    "top_company_share": "43.1%"
+  },
+  "product_breakdown": {
+    "top_product": "Credit reporting",
+    "top_product_volume": "3,895,843",
+    "credit_reporting_share": "34.8%"
+  },
+  "compliance_metrics": {
+    "avg_timely_response": "95.5%",
+    "avg_dispute_rate": "25.0%",
+    "avg_resolution_days": "24",
+    "composite_risk_score": "13.8/100"
+  },
+  "trend_insights": {
+    "yoy_growth": "+8-12% annually",
+    "peak_periods": "Q1 (tax season), Q4 (holidays)",
+    "top_issues": "Incorrect information, Investigation problems"
+  }
+}

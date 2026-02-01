@@ -1,0 +1,25 @@
+{
+  "report_metadata": {
+    "report_code": "SOL03",
+    "report_title": "Renewable Utility Economics",
+    "generated_date": "2026-01-31T06:16:15.305858",
+    "total_rows_processed": 1195,
+    "author": "Mboya Jeffers",
+    "email": "MboyaJeffers9@gmail.com"
+  },
+  "generation": {
+    "total_capacity": "64 GW",
+    "renewable": "1368 GW",
+    "solar": "727 GW",
+    "wind": "794 GW"
+  },
+  "development": {
+    "backlog": "20 GW",
+    "pipeline": "40 GW",
+    "avg_ppa_price": "$35/MWh"
+  },
+  "operations": {
+    "solar_cf": "29%",
+    "wind_cf": "41%"
+  }
+}

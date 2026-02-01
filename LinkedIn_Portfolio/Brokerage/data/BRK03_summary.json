@@ -1,0 +1,26 @@
+{
+  "report_metadata": {
+    "report_code": "BRK03",
+    "report_title": "Millennial Trading Platform Study",
+    "generated_date": "2026-01-31T05:58:03.851792",
+    "total_rows_processed": 1135,
+    "author": "Mboya Jeffers",
+    "email": "MboyaJeffers9@gmail.com"
+  },
+  "user_metrics": {
+    "mau": "12M",
+    "funded_accounts": "8M",
+    "auc": "$80B",
+    "arpu": "$56"
+  },
+  "trading_patterns": {
+    "avg_equity_volume": "$4.9B",
+    "options_dominance": "High",
+    "avg_trade_size": "$349"
+  },
+  "revenue_mix": {
+    "pfof_share": "~40%",
+    "nii_share": "~35%",
+    "gold_share": "~15%"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "report_metadata": {
+    "report_code": "CRY03",
+    "report_title": "Corporate Bitcoin Treasury Analysis",
+    "generated_date": "2026-01-31T05:53:36.910839",
+    "total_rows_processed": 1220,
+    "author": "Mboya Jeffers",
+    "email": "MboyaJeffers9@gmail.com"
+  },
+  "treasury_metrics": {
+    "leader": "MicroStrategy",
+    "leader_holdings": "245,000 BTC",
+    "leader_value": "$14.5B",
+    "total_corporate_btc": "291,899 BTC",
+    "companies_tracked": 6
+  },
+  "valuation_metrics": {
+    "avg_nav_premium": "38.5%",
+    "btc_beta": "2.26x",
+    "btc_correlation": "0.83"
+  },
+  "financing_summary": {
+    "total_raised": "$3.7B",
+    "total_btc_purchased": "89,242",
+    "primary_method": "Convertible notes"
+  }
+}

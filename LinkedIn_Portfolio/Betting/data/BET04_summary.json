@@ -1,0 +1,26 @@
+{
+  "report_metadata": {
+    "report_code": "BET04",
+    "report_title": "Traditional Casino Digital Integration",
+    "generated_date": "2026-01-31T06:02:51.486995",
+    "total_rows_processed": 1315,
+    "author": "Mboya Jeffers",
+    "email": "MboyaJeffers9@gmail.com"
+  },
+  "digital_integration": {
+    "digital_revenue": "$3229M",
+    "digital_share": "15.6%",
+    "cross_channel": "8929K users",
+    "rewards_members": "69M"
+  },
+  "property_performance": {
+    "top_region": "Las Vegas",
+    "avg_occupancy": "83%",
+    "avg_revpar": "$166"
+  },
+  "loyalty_metrics": {
+    "active_members": "60M",
+    "daily_enrollments": "13K",
+    "digital_engagement": "40%"
+  }
+}

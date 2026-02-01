@@ -1,0 +1,36 @@
+{
+  "report_metadata": {
+    "report_code": "FIN03",
+    "report_title": "Asset Manager Market Position Analysis",
+    "generated_date": "2026-01-31T05:34:48.602762",
+    "data_start": "2016-02-03 00:00:00-05:00",
+    "data_end": "2026-01-30 00:00:00-06:00",
+    "total_rows_processed": 29648,
+    "tickers_analyzed": 12,
+    "author": "Mboya Jeffers",
+    "email": "MboyaJeffers9@gmail.com"
+  },
+  "market_position": {
+    "leader_aum": "$123,799,240B",
+    "leader_ticker": "BLK",
+    "top_5_combined_aum": "$215,879,140B",
+    "market_concentration": "73.8%"
+  },
+  "performance_metrics": {
+    "leader_10y_return": "372.08%",
+    "leader_ann_return": "16.79%",
+    "leader_volatility": "27.58%",
+    "leader_sharpe": "0.61"
+  },
+  "etf_dynamics": {
+    "total_etfs_tracked": 0,
+    "avg_daily_volume": "$1376.71B",
+    "correlation_observations": 0
+  },
+  "asset_allocation": {
+    "equity_weight": "45-60%",
+    "fixed_income_weight": "25-35%",
+    "alternatives_weight": "5-55%",
+    "trend": "Shift toward alternatives"
+  }
+}

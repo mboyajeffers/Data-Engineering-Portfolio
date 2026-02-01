@@ -1,0 +1,26 @@
+{
+  "report_metadata": {
+    "report_code": "GAM01",
+    "report_title": "AAA Gaming Publisher Analysis",
+    "generated_date": "2026-01-31T06:05:36.726545",
+    "total_rows_processed": 1495,
+    "author": "Mboya Jeffers",
+    "email": "MboyaJeffers9@gmail.com"
+  },
+  "franchise_metrics": {
+    "top_franchise": "Call of Duty",
+    "top_revenue": "$4411M",
+    "total_mau": "163M",
+    "mtx_share": "~40%"
+  },
+  "platform_split": {
+    "top_platform": "Mobile",
+    "mobile_growth": "Strong",
+    "console_share": "~45%"
+  },
+  "engagement": {
+    "total_mau": "400M",
+    "dau_mau": "22%",
+    "daily_hours": "2.8B"
+  }
+}

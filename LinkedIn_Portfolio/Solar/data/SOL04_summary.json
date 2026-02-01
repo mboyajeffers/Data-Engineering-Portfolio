@@ -1,0 +1,24 @@
+{
+  "report_metadata": {
+    "report_code": "SOL04",
+    "report_title": "Residential Solar Market Study",
+    "generated_date": "2026-01-31T06:16:14.758425",
+    "total_rows_processed": 1195,
+    "author": "Mboya Jeffers",
+    "email": "MboyaJeffers9@gmail.com"
+  },
+  "customers": {
+    "total": "2682K",
+    "nsv": "$62.0B",
+    "contract_length": "24 years"
+  },
+  "installations": {
+    "monthly_solar": "243 MW",
+    "storage_attach": "35%",
+    "avg_size": "10 kW"
+  },
+  "economics": {
+    "mrr": "$94M",
+    "renewal_rate": "94%"
+  }
+}

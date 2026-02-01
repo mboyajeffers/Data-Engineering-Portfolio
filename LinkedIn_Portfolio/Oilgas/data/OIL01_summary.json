@@ -1,0 +1,25 @@
+{
+  "report_metadata": {
+    "report_code": "OIL01",
+    "report_title": "Integrated Oil Major Analysis",
+    "generated_date": "2026-01-31T06:11:47.455061",
+    "total_rows_processed": 1175,
+    "author": "Mboya Jeffers",
+    "email": "MboyaJeffers9@gmail.com"
+  },
+  "production": {
+    "total_boe": "4010 MBOED",
+    "oil": "2355 MBOED",
+    "permian_share": "26%",
+    "guyana": "479 MBOED"
+  },
+  "financials": {
+    "revenue": "$106B",
+    "net_income": "$5B",
+    "capex": "$7B"
+  },
+  "reserves": {
+    "proved": "18 BBOE",
+    "breakeven": "$40/bbl"
+  }
+}

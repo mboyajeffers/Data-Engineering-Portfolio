@@ -1,0 +1,29 @@
+{
+  "report_metadata": {
+    "report_code": "MED04",
+    "report_title": "Media Consolidation Impact Study",
+    "generated_date": "2026-01-31T05:47:07.662800",
+    "total_rows_processed": 384,
+    "author": "Mboya Jeffers",
+    "email": "MboyaJeffers9@gmail.com"
+  },
+  "synergy_metrics": {
+    "total_realized": "$6.2B",
+    "realization_rate": "92%",
+    "cost_synergies": "$3.3B"
+  },
+  "debt_profile": {
+    "total_debt": "$38.7B",
+    "leverage_ratio": "3.0x",
+    "fcf": "$3.9B"
+  },
+  "streaming_metrics": {
+    "combined_subs": "161M",
+    "arpu": "$9.69",
+    "churn": "5.1%"
+  },
+  "content_library": {
+    "total_value": "$80B",
+    "annual_spend": "$19B"
+  }
+}

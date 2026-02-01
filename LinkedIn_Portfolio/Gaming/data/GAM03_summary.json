@@ -1,0 +1,26 @@
+{
+  "report_metadata": {
+    "report_code": "GAM03",
+    "report_title": "Open World Gaming Economics",
+    "generated_date": "2026-01-31T06:05:36.909270",
+    "total_rows_processed": 1175,
+    "author": "Mboya Jeffers",
+    "email": "MboyaJeffers9@gmail.com"
+  },
+  "gta_metrics": {
+    "total_units": "278M",
+    "online_revenue": "$121M/Q",
+    "active_players": "72M",
+    "shark_cards": "$53M/Q"
+  },
+  "rdr_metrics": {
+    "cumulative_units": "60M",
+    "online_status": "Sunset",
+    "franchise_value": "Strong IP"
+  },
+  "2k_metrics": {
+    "nba_dau": "9M",
+    "vc_revenue": "$16M/day avg",
+    "myteam_engagement": "High"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "report_metadata": {
+    "report_code": "FIN04",
+    "report_title": "Payment Network Revenue Correlation",
+    "generated_date": "2026-01-31T05:34:54.572422",
+    "data_start": "2016-02-03 00:00:00-05:00",
+    "data_end": "2026-01-30 00:00:00-05:00",
+    "total_rows_processed": 45263,
+    "tickers_analyzed": 19,
+    "author": "Mboya Jeffers",
+    "email": "MboyaJeffers9@gmail.com"
+  },
+  "market_leadership": {
+    "leader_tpv": "$51,579,230B",
+    "leader_network": "V",
+    "total_market_tpv": "$100,719,442B",
+    "duopoly_share": "87.4%"
+  },
+  "performance_metrics": {
+    "leader_10y_return": "364.09%",
+    "leader_ann_return": "16.59%",
+    "leader_volatility": "24.36%",
+    "leader_sharpe": "0.68"
+  },
+  "correlation_insights": {
+    "avg_consumer_correlation": "0.329",
+    "avg_bank_correlation": "0.471",
+    "total_observations": 306880
+  },
+  "revenue_drivers": {
+    "cross_border_premium": "2-3x domestic rates",
+    "commercial_growth": "Fastest growing segment",
+    "digital_disruption": "BNPL, crypto emerging threats"
+  }
+}

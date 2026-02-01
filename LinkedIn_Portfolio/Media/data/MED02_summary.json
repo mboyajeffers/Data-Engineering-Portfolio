@@ -1,0 +1,23 @@
+{
+  "report_metadata": {
+    "report_code": "MED02",
+    "report_title": "Entertainment Conglomerate Streaming Study",
+    "generated_date": "2026-01-31T05:47:07.648823",
+    "total_rows_processed": 1240,
+    "author": "Mboya Jeffers",
+    "email": "MboyaJeffers9@gmail.com"
+  },
+  "bundle_metrics": {
+    "total_subs": "438M",
+    "avg_arpu": "$10.69",
+    "bundle_penetration": "24.1%"
+  },
+  "franchise_performance": {
+    "top_franchise": "ESPN Originals",
+    "total_content_hours": "71.2B"
+  },
+  "synergy_insights": {
+    "avg_cross_promo_lift": "9.9%",
+    "parks_streaming_correlation": "Strong positive"
+  }
+}

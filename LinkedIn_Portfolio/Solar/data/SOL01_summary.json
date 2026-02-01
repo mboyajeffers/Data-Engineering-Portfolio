@@ -1,0 +1,24 @@
+{
+  "report_metadata": {
+    "report_code": "SOL01",
+    "report_title": "Utility-Scale Solar Manufacturing",
+    "generated_date": "2026-01-31T06:16:14.724150",
+    "total_rows_processed": 1195,
+    "author": "Mboya Jeffers",
+    "email": "MboyaJeffers9@gmail.com"
+  },
+  "manufacturing": {
+    "capacity": "101 GW",
+    "efficiency": "21.9%",
+    "asp": "$0.11/W"
+  },
+  "bookings": {
+    "backlog": "76 GW",
+    "pipeline": "171 GW",
+    "us_share": "70%"
+  },
+  "ira_impact": {
+    "us_content": "~90%",
+    "benefit": "Strong tailwind"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "report_metadata": {
+    "report_code": "WTH02",
+    "report_title": "Consumer Weather Platform Study",
+    "generated_date": "2026-01-31T06:16:13.691277",
+    "total_rows_processed": 1195,
+    "author": "Mboya Jeffers",
+    "email": "MboyaJeffers9@gmail.com"
+  },
+  "audience": {
+    "monthly_users": "6717M",
+    "dau_mau": "45%",
+    "app_downloads": "136M"
+  },
+  "advertising": {
+    "monthly_revenue": "$30M",
+    "avg_cpm": "$10",
+    "fill_rate": "91%"
+  },
+  "products": {
+    "minutecast": "Core differentiator",
+    "realfeel": "Proprietary index",
+    "accuracy": "87%"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "report_metadata": {
+    "report_code": "FIN-01",
+    "report_title": "Major Bank Stock: 10-Year Performance Analysis",
+    "generated_date": "2026-01-31T05:24:52.681231",
+    "data_start": "2016-02-03T00:00:00-05:00",
+    "data_end": "2026-01-30T00:00:00-05:00",
+    "total_rows_processed": 27643,
+    "tickers_analyzed": 11,
+    "author": "Mboya Jeffers",
+    "email": "MboyaJeffers9@gmail.com"
+  },
+  "key_findings": {
+    "total_return_10y": "596.79%",
+    "annualized_return": "26.17%",
+    "annualized_volatility": "27.52%",
+    "sharpe_ratio": "0.85",
+    "max_drawdown": "-43.63%",
+    "beta": "0.00",
+    "var_95_daily": "-2.50%"
+  },
+  "sector_comparison": {
+    "avg_sector_return": "357.26%",
+    "avg_sector_volatility": "31.51%",
+    "avg_sector_sharpe": "0.61",
+    "best_performer": "MS",
+    "worst_performer": "USB"
+  },
+  "risk_metrics": {
+    "sortino_ratio": "1.14",
+    "skewness": "0.329",
+    "kurtosis": "13.966",
+    "positive_days_pct": "52.5%",
+    "best_day": "18.01%",
+    "worst_day": "-14.96%"
+  }
+}

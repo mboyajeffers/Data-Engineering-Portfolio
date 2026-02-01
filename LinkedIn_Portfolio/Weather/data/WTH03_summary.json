@@ -1,0 +1,23 @@
+{
+  "report_metadata": {
+    "report_code": "WTH03",
+    "report_title": "Agricultural Weather Intelligence",
+    "generated_date": "2026-01-31T06:16:13.692374",
+    "total_rows_processed": 1435,
+    "author": "Mboya Jeffers",
+    "email": "MboyaJeffers9@gmail.com"
+  },
+  "platform": {
+    "subscribers": "6800K",
+    "acres": "3986M",
+    "arr": "$3208M"
+  },
+  "accuracy": {
+    "spray_window": "90%",
+    "frost_alert": "94%"
+  },
+  "crops": {
+    "top_crop": "Corn",
+    "daily_alerts": "117K"
+  }
+}

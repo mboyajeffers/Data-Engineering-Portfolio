@@ -1,0 +1,25 @@
+{
+  "report_metadata": {
+    "report_code": "ECM04",
+    "report_title": "Home Furnishings E-commerce Study",
+    "generated_date": "2026-01-31T06:08:08.616893",
+    "total_rows_processed": 1495,
+    "author": "Mboya Jeffers",
+    "email": "MboyaJeffers9@gmail.com"
+  },
+  "revenue_metrics": {
+    "net_revenue": "$3.1B",
+    "us_share": "~85%",
+    "active_customers": "31M",
+    "ltm_rev_per_cust": "$579"
+  },
+  "category_performance": {
+    "top_category": "Furniture",
+    "avg_aov": "$211"
+  },
+  "logistics": {
+    "daily_orders": "198K",
+    "two_day": "80%",
+    "castlegate": "30%"
+  }
+}

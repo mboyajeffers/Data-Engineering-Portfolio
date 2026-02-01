@@ -1,0 +1,24 @@
+{
+  "report_metadata": {
+    "report_code": "OIL04",
+    "report_title": "Energy Transition Strategy",
+    "generated_date": "2026-01-31T06:11:47.458269",
+    "total_rows_processed": 1435,
+    "author": "Mboya Jeffers",
+    "email": "MboyaJeffers9@gmail.com"
+  },
+  "transition": {
+    "renewables_capacity": "561 GW",
+    "ev_chargers": "2205K",
+    "carbon_reduction": "30%",
+    "low_carbon_capex": "19%"
+  },
+  "segments": {
+    "top_segment": "Integrated Gas",
+    "lng_position": "30 MTPA"
+  },
+  "lng_trading": {
+    "daily_cargoes": "7",
+    "avg_margin": "$68M/day"
+  }
+}

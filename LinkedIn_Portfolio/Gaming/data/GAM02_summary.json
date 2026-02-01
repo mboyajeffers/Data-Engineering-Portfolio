@@ -1,0 +1,26 @@
+{
+  "report_metadata": {
+    "report_code": "GAM02",
+    "report_title": "Sports Gaming Franchise Study",
+    "generated_date": "2026-01-31T06:05:36.966439",
+    "total_rows_processed": 1275,
+    "author": "Mboya Jeffers",
+    "email": "MboyaJeffers9@gmail.com"
+  },
+  "franchise_metrics": {
+    "top_franchise": "FIFA/EA Sports FC",
+    "top_revenue": "$1488M",
+    "ultimate_team_share": "~50%",
+    "total_weekly_players": "32M"
+  },
+  "live_services": {
+    "daily_transactions": "1445K",
+    "conversion_rate": "5.5%",
+    "avg_spend": "$15"
+  },
+  "esports": {
+    "monthly_viewers": "28M",
+    "watch_hours": "125M/month",
+    "prize_pools": "$180M total"
+  }
+}

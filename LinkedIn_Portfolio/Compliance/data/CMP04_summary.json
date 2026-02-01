@@ -1,0 +1,33 @@
+{
+  "report_metadata": {
+    "report_code": "CMP04",
+    "report_title": "Systemically Important Bank Compliance Monitor",
+    "generated_date": "2026-01-31T05:42:17.632902",
+    "data_start": "2016-03-31 05:42:17.575251",
+    "data_end": "2025-12-31 05:42:17.575251",
+    "total_rows_processed": 6198,
+    "banks_analyzed": 6,
+    "author": "Mboya Jeffers",
+    "email": "MboyaJeffers9@gmail.com"
+  },
+  "capital_adequacy": {
+    "avg_cet1_ratio": "12.4%",
+    "avg_leverage_ratio": "6.0%",
+    "avg_lcr": "127%",
+    "avg_gsib_surcharge": "2.5%"
+  },
+  "risk_profile": {
+    "avg_risk_score": "44.9/100",
+    "highest_risk_category": "Operational Risk",
+    "avg_control_effectiveness": "82.5%"
+  },
+  "stress_testing": {
+    "pass_rate": "78.3%",
+    "avg_severely_adverse_loss": "6.9%",
+    "min_cet1_stress": "8.1%"
+  },
+  "resolution_readiness": {
+    "satisfactory_plans": "65%",
+    "avg_separability": "77/100"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "report_metadata": {
+    "report_code": "CRY01",
+    "report_title": "US Crypto Exchange Market Structure",
+    "generated_date": "2026-01-31T05:53:36.665738",
+    "total_rows_processed": 9445,
+    "author": "Mboya Jeffers",
+    "email": "MboyaJeffers9@gmail.com"
+  },
+  "market_structure": {
+    "leader_exchange": "Coinbase",
+    "leader_volume": "$93.1B",
+    "leader_share": "42.7%",
+    "total_exchanges": 5
+  },
+  "trading_metrics": {
+    "avg_daily_volume": "$43M",
+    "avg_spread": "10.5 bps",
+    "pairs_tracked": 5
+  },
+  "regulatory": {
+    "total_actions": "184",
+    "clarity_score": "46/100",
+    "outlook": "Evolving framework"
+  }
+}

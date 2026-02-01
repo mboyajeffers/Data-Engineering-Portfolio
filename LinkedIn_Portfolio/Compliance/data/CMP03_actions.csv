@@ -1,0 +1,66 @@
+Date,Issuer,Agency,Action_Type,Fine_Amount,Issue_Category
+2023-05-01 05:42:13.745681,Capital One,OCC,Consent Order,100000000.0,UDAP
+2020-03-24 05:42:13.745723,Capital One,CFPB,Consent Order,10000000.0,Collection Practices
+2020-12-07 05:42:13.745744,Capital One,Fed,Restitution,1000000.0,UDAP
+2018-04-04 05:42:13.745762,Capital One,CFPB,Consent Order,10000000.0,Collection Practices
+2024-04-24 05:42:13.745778,Capital One,Fed,CMP,5000000.0,Fraud Protection
+2017-09-07 05:42:13.745795,Capital One,CFPB,Restitution,100000000.0,Fraud Protection
+2023-03-20 05:42:13.745810,Capital One,State AG,CMP,500000.0,Fraud Protection
+2018-10-08 05:42:13.745826,Capital One,Fed,CMP,0.0,Fee Complaints
+2025-03-07 05:42:13.745842,Capital One,CFPB,CMP,5000000.0,Fraud Protection
+2023-09-18 05:42:13.745859,Synchrony,State AG,Restitution,10000000.0,Fee Complaints
+2017-01-13 05:42:13.745875,Synchrony,CFPB,Restitution,25000000.0,Interest Rate Issues
+2024-10-28 05:42:13.745890,Synchrony,CFPB,Consent Order,1000000.0,Fee Complaints
+2021-07-22 05:42:13.745905,Synchrony,Fed,CMP,25000000.0,UDAP
+2016-04-21 05:42:13.745921,Synchrony,State AG,CMP,10000000.0,Interest Rate Issues
+2024-01-09 05:42:13.745936,Synchrony,Fed,Restitution,5000000.0,Billing Disputes
+2017-03-08 05:42:13.745953,Discover,State AG,Consent Order,5000000.0,Credit Reporting
+2018-04-10 05:42:13.745968,Discover,Fed,Consent Order,5000000.0,Disclosure Violations
+2025-12-19 05:42:13.745983,Discover,OCC,Consent Order,5000000.0,Interest Rate Issues
+2021-09-27 05:42:13.745998,Discover,State AG,Consent Order,1000000.0,Account Management
+2024-01-03 05:42:13.746013,Discover,OCC,Consent Order,5000000.0,Fee Complaints
+2022-10-26 05:42:13.746029,Discover,CFPB,CMP,0.0,Collection Practices
+2020-07-16 05:42:13.746045,AmEx,Fed,Restitution,1000000.0,Interest Rate Issues
+2020-10-03 05:42:13.746060,AmEx,CFPB,Restitution,10000000.0,Account Management
+2016-03-12 05:42:13.746075,AmEx,State AG,CMP,5000000.0,Account Management
+2016-05-23 05:42:13.746090,AmEx,CFPB,Consent Order,500000.0,Credit Reporting
+2018-02-01 05:42:13.746105,AmEx,Fed,CMP,10000000.0,Disclosure Violations
+2025-04-04 05:42:13.746121,AmEx,CFPB,Consent Order,500000.0,Disclosure Violations
+2025-05-20 05:42:13.746136,AmEx,CFPB,Consent Order,25000000.0,Billing Disputes
+2026-01-17 05:42:13.746151,AmEx,State AG,CMP,10000000.0,Collection Practices
+2025-10-06 05:42:13.746166,AmEx,Fed,Restitution,5000000.0,Interest Rate Issues
+2022-07-12 05:42:13.746181,AmEx,State AG,CMP,10000000.0,Account Management
+2022-06-02 05:42:13.746196,AmEx,OCC,CMP,25000000.0,Fraud Protection
+2022-04-09 05:42:13.746211,AmEx,Fed,Restitution,5000000.0,Billing Disputes
+2021-05-29 05:42:13.746226,AmEx,OCC,Consent Order,25000000.0,UDAP
+2023-10-13 05:42:13.746243,Chase,OCC,Consent Order,100000000.0,Disclosure Violations
+2024-05-12 05:42:13.746257,Chase,OCC,Restitution,1000000.0,Collection Practices
+2020-02-04 05:42:13.746272,Chase,State AG,Consent Order,25000000.0,Credit Reporting
+2017-05-05 05:42:13.746287,Chase,OCC,CMP,0.0,Fraud Protection
+2023-07-30 05:42:13.746302,Chase,OCC,Restitution,10000000.0,Account Management
+2025-03-07 05:42:13.746317,Chase,OCC,Restitution,500000.0,Fraud Protection
+2020-01-14 05:42:13.746332,Chase,CFPB,CMP,10000000.0,Billing Disputes
+2019-03-24 05:42:13.746347,Chase,State AG,CMP,5000000.0,Fraud Protection
+2021-11-19 05:42:13.746362,Chase,State AG,CMP,5000000.0,Billing Disputes
+2022-07-31 05:42:13.746376,Chase,State AG,Consent Order,100000000.0,Fraud Protection
+2021-12-28 05:42:13.746391,Chase,State AG,Consent Order,1000000.0,Collection Practices
+2019-09-09 05:42:13.746406,Chase,CFPB,Restitution,25000000.0,Fraud Protection
+2025-04-10 05:42:13.746422,BofA,State AG,Consent Order,0.0,Disclosure Violations
+2020-10-19 05:42:13.746438,BofA,State AG,Restitution,25000000.0,Fee Complaints
+2021-03-26 05:42:13.746453,BofA,CFPB,Restitution,1000000.0,Account Management
+2022-01-30 05:42:13.746468,BofA,State AG,CMP,0.0,Billing Disputes
+2024-10-16 05:42:13.746483,BofA,CFPB,CMP,25000000.0,Billing Disputes
+2019-12-30 05:42:13.746498,BofA,Fed,Consent Order,500000.0,Billing Disputes
+2019-09-26 05:42:13.746513,BofA,CFPB,Restitution,500000.0,Fraud Protection
+2021-06-05 05:42:13.746528,BofA,OCC,CMP,10000000.0,Fee Complaints
+2023-11-12 05:42:13.746543,BofA,State AG,Consent Order,10000000.0,UDAP
+2020-02-06 05:42:13.746559,Citi,OCC,Restitution,100000000.0,Fraud Protection
+2025-05-25 05:42:13.746574,Citi,OCC,Restitution,5000000.0,Disclosure Violations
+2018-02-03 05:42:13.746589,Citi,Fed,Restitution,500000.0,Billing Disputes
+2025-06-03 05:42:13.746604,Citi,OCC,Restitution,10000000.0,Fraud Protection
+2023-09-02 05:42:13.746620,Citi,CFPB,Consent Order,10000000.0,UDAP
+2024-01-07 05:42:13.746635,Citi,Fed,CMP,25000000.0,UDAP
+2020-10-07 05:42:13.746649,Citi,CFPB,CMP,5000000.0,Account Management
+2023-05-06 05:42:13.746664,Citi,State AG,Restitution,25000000.0,Collection Practices
+2019-05-10 05:42:13.746679,Citi,OCC,CMP,500000.0,Disclosure Violations
+2016-04-29 05:42:13.746693,Citi,Fed,Consent Order,0.0,Account Management

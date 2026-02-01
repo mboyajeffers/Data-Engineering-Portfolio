@@ -1,0 +1,31 @@
+{
+  "report_metadata": {
+    "report_code": "MED01",
+    "report_title": "Streaming Leader Content Analysis",
+    "generated_date": "2026-01-31T05:47:08.005543",
+    "data_start": "2016-03-31 05:47:07.873483",
+    "data_end": "2025-12-31 05:47:07.873483",
+    "total_rows_processed": 17469,
+    "author": "Mboya Jeffers",
+    "email": "MboyaJeffers9@gmail.com"
+  },
+  "subscriber_metrics": {
+    "leader_subs": "375M",
+    "leader_name": "Amazon Prime",
+    "total_market_subs": "1088M",
+    "avg_arpu": "$8.26",
+    "avg_churn": "4.0%"
+  },
+  "content_metrics": {
+    "total_titles_analyzed": "14,265",
+    "avg_budget": "$35.0M",
+    "avg_hours_viewed": "49.2M",
+    "avg_completion_rate": "60.2%",
+    "top_genre": "Reality"
+  },
+  "engagement_insights": {
+    "avg_weekly_hours": "9.9",
+    "mobile_viewing_share": "35%",
+    "tv_viewing_share": "55%"
+  }
+}

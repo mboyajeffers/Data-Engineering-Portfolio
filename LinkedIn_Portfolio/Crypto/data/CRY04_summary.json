@@ -1,0 +1,28 @@
+{
+  "report_metadata": {
+    "report_code": "CRY04",
+    "report_title": "Bitcoin Mining Economics Study",
+    "generated_date": "2026-01-31T05:53:36.698410",
+    "total_rows_processed": 2005,
+    "author": "Mboya Jeffers",
+    "email": "MboyaJeffers9@gmail.com"
+  },
+  "network_metrics": {
+    "current_hashrate": "1574 EH/s",
+    "current_difficulty": "776T",
+    "block_reward": "3.125 BTC",
+    "daily_issuance": "450 BTC"
+  },
+  "miner_economics": {
+    "leader": "Marathon",
+    "leader_hashrate": "49.6 EH/s",
+    "avg_cost_per_btc": "$24,722",
+    "avg_gross_margin": "50%",
+    "avg_efficiency": "27 J/TH"
+  },
+  "sustainability": {
+    "renewable_pct": "49%",
+    "network_power": "15 GW",
+    "trend": "Increasing renewable adoption"
+  }
+}

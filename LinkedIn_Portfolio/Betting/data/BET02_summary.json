@@ -1,0 +1,27 @@
+{
+  "report_metadata": {
+    "report_code": "BET02",
+    "report_title": "Sports Betting Market Dynamics",
+    "generated_date": "2026-01-31T06:02:51.385240",
+    "total_rows_processed": 1255,
+    "author": "Mboya Jeffers",
+    "email": "MboyaJeffers9@gmail.com"
+  },
+  "market_structure": {
+    "leader": "FanDuel",
+    "leader_share": "39%",
+    "top_two_share": "68%",
+    "avg_hold": "10.8%"
+  },
+  "betting_behavior": {
+    "daily_bets": "19.4M",
+    "avg_bet": "$50",
+    "mobile_share": "90%",
+    "live_share": "35%"
+  },
+  "economics": {
+    "avg_cac": "$461",
+    "avg_ltv": "$1148",
+    "ltv_cac": "2.6x"
+  }
+}

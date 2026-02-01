@@ -1,0 +1,25 @@
+{
+  "report_metadata": {
+    "report_code": "OIL03",
+    "report_title": "E&P Pure-Play Analysis",
+    "generated_date": "2026-01-31T06:11:47.503496",
+    "total_rows_processed": 1355,
+    "author": "Mboya Jeffers",
+    "email": "MboyaJeffers9@gmail.com"
+  },
+  "production": {
+    "total": "1344 MBOED",
+    "top_basin": "Permian",
+    "permian_share": "~45%"
+  },
+  "well_economics": {
+    "monthly_wells": "53",
+    "avg_cost": "$7M",
+    "avg_ip30": "1154 BOED"
+  },
+  "returns": {
+    "fcf_yield": "~8%",
+    "dividend": "$10M/day",
+    "shareholder_returns": "Strong"
+  }
+}

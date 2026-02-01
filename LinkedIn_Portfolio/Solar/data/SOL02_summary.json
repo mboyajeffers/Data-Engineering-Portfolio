@@ -1,0 +1,24 @@
+{
+  "report_metadata": {
+    "report_code": "SOL02",
+    "report_title": "Microinverter Market Dynamics",
+    "generated_date": "2026-01-31T06:16:14.674491",
+    "total_rows_processed": 1195,
+    "author": "Mboya Jeffers",
+    "email": "MboyaJeffers9@gmail.com"
+  },
+  "inverter_metrics": {
+    "shipped": "4M",
+    "revenue": "$312M",
+    "gross_margin": "45%"
+  },
+  "storage": {
+    "attach_rate": "27%",
+    "iq_battery": "Growing rapidly"
+  },
+  "install_base": {
+    "daily_systems": "11K",
+    "avg_size": "9 kW",
+    "nps": "70"
+  }
+}

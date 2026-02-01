@@ -1,0 +1,27 @@
+{
+  "report_metadata": {
+    "report_code": "BET03",
+    "report_title": "Casino iGaming Platform Study",
+    "generated_date": "2026-01-31T06:02:51.545273",
+    "total_rows_processed": 1475,
+    "author": "Mboya Jeffers",
+    "email": "MboyaJeffers9@gmail.com"
+  },
+  "igaming_metrics": {
+    "ngr": "$877M",
+    "active_users": "5121K",
+    "arpu": "$151",
+    "slots_share": "60%"
+  },
+  "game_performance": {
+    "daily_slots": "277K sessions",
+    "live_dealer_growth": "Strong",
+    "avg_session": "33 min",
+    "rtp": "94.5%"
+  },
+  "market_position": {
+    "top_state": "New Jersey",
+    "states_live": 6,
+    "avg_share": "23%"
+  }
+}

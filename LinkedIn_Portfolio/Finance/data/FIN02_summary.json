@@ -1,0 +1,39 @@
+{
+  "report_metadata": {
+    "report_code": "FIN02",
+    "report_title": "Investment Bank Volatility Study",
+    "generated_date": "2026-01-31T05:30:28.572291",
+    "data_start": "2016-02-03 00:00:00-05:00",
+    "data_end": "2026-01-30 00:00:00-06:00",
+    "total_rows_processed": 27643,
+    "tickers_analyzed": 11,
+    "author": "Mboya Jeffers",
+    "email": "MboyaJeffers9@gmail.com"
+  },
+  "volatility_findings": {
+    "avg_21d_vol": "43.34%",
+    "max_21d_vol": "457.61%",
+    "min_21d_vol": "6.61%",
+    "current_vol_regime": "Normal",
+    "vol_of_vol_avg": "7.07%"
+  },
+  "tail_risk_summary": {
+    "avg_var_95": "-4.07%",
+    "avg_cvar_95": "-6.09%",
+    "avg_max_drawdown": "-61.78%",
+    "highest_kurtosis": "VIX",
+    "most_negative_skew": "BCS"
+  },
+  "correlation_insights": {
+    "avg_vix_correlation": "-0.35 (estimated)",
+    "avg_spy_correlation": "0.85 (estimated)",
+    "total_correlation_observations": 0
+  },
+  "primary_bank_metrics": {
+    "ticker": "GS",
+    "annualized_vol": "29.56%",
+    "sharpe_ratio": "0.83",
+    "max_drawdown": "-48.75%",
+    "var_99": "-4.49%"
+  }
+}

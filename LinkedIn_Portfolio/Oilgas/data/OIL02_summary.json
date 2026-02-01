@@ -1,0 +1,24 @@
+{
+  "report_metadata": {
+    "report_code": "OIL02",
+    "report_title": "Downstream Refining Economics",
+    "generated_date": "2026-01-31T06:11:47.330689",
+    "total_rows_processed": 1435,
+    "author": "Mboya Jeffers",
+    "email": "MboyaJeffers9@gmail.com"
+  },
+  "refining": {
+    "capacity": "2066 MBPD",
+    "utilization": "86%",
+    "crack_spread": "$20/bbl"
+  },
+  "products": {
+    "top_product": "Gasoline",
+    "gasoline_share": "~40%"
+  },
+  "retail": {
+    "stations": "10K",
+    "daily_gallons": "21M",
+    "ev_transition": "In Progress"
+  }
+}

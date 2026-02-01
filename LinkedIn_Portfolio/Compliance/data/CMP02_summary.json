@@ -1,0 +1,30 @@
+{
+  "report_metadata": {
+    "report_code": "CMP02",
+    "report_title": "Large Bank Regulatory Risk Profile",
+    "generated_date": "2026-01-31T05:42:00.970978",
+    "data_start": "2016-02-03 05:41:59.816244",
+    "data_end": "2026-01-31 05:41:59.816244",
+    "total_rows_processed": 182550,
+    "banks_analyzed": 5,
+    "author": "Mboya Jeffers",
+    "email": "MboyaJeffers9@gmail.com"
+  },
+  "regulatory_profile": {
+    "avg_risk_score": "36.4/100",
+    "highest_risk_category": "Consumer Protection",
+    "total_exam_findings": "332,882",
+    "avg_remediation_rate": "82.5%"
+  },
+  "enforcement_summary": {
+    "total_actions": 56,
+    "total_fines": "$15.49B",
+    "highest_fined_bank": "Bank of America",
+    "most_common_agency": "FDIC"
+  },
+  "trend_insights": {
+    "risk_trajectory": "Improving",
+    "key_focus_areas": "BSA/AML, Consumer Protection",
+    "regulatory_outlook": "Heightened scrutiny expected"
+  }
+}
