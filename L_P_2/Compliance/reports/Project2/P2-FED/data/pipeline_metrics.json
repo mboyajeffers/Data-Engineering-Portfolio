@@ -1,0 +1,61 @@
+{
+  "start_time": "2026-02-01T06:47:28.006184+00:00",
+  "end_time": "2026-02-01T06:50:03.992831+00:00",
+  "duration_seconds": 155.99,
+  "raw_rows": 24800,
+  "cleaned_rows": 24800,
+  "modeled_rows": 24800,
+  "api_calls": 248,
+  "api_errors": 11,
+  "overall_quality_score": 0.9667,
+  "quality_gates": [
+    {
+      "name": "schema_drift",
+      "passed": true,
+      "score": 1.0,
+      "threshold": 0.95,
+      "details": "Checked 5 expected columns",
+      "issues": []
+    },
+    {
+      "name": "freshness",
+      "passed": true,
+      "score": 0.95,
+      "threshold": 0.80,
+      "details": "Latest date: 2024-09-30",
+      "issues": []
+    },
+    {
+      "name": "completeness",
+      "passed": true,
+      "score": 1.0,
+      "threshold": 0.90,
+      "details": "Average completeness: 100.0%",
+      "issues": []
+    },
+    {
+      "name": "duplicates",
+      "passed": true,
+      "score": 1.0,
+      "threshold": 0.95,
+      "details": "Duplicate rate: 0.00%",
+      "issues": []
+    },
+    {
+      "name": "value_sanity",
+      "passed": true,
+      "score": 0.85,
+      "threshold": 0.85,
+      "details": "Checked award_amount distribution",
+      "issues": []
+    },
+    {
+      "name": "referential_integrity",
+      "passed": true,
+      "score": 1.0,
+      "threshold": 0.95,
+      "details": "Checked 2 foreign key relationships",
+      "issues": []
+    }
+  ]
+}

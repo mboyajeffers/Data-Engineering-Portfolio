@@ -1,0 +1,51 @@
+{
+  "start_time": "2026-02-01T08:01:18.342163+00:00",
+  "end_time": "2026-02-01T08:01:19.571510+00:00",
+  "duration_seconds": 1.229347,
+  "api_calls": 2,
+  "api_errors": 0,
+  "raw_hospitals": 942,
+  "raw_measures": 0,
+  "cleaned_hospitals": 942,
+  "modeled_hospitals": 942,
+  "quality_measures": 0,
+  "overall_quality_score": 1.0,
+  "quality_gates": [
+    {
+      "name": "completeness",
+      "passed": true,
+      "score": 1.0,
+      "threshold": 0.9,
+      "details": "Checked 4 key columns",
+      "issues": []
+    },
+    {
+      "name": "uniqueness",
+      "passed": true,
+      "score": 1.0,
+      "threshold": 0.99,
+      "details": "942 unique of 942 records",
+      "issues": []
+    },
+    {
+      "name": "range_hospital_overall_rating",
+      "passed": true,
+      "score": 1.0,
+      "threshold": 0.95,
+      "details": "633 of 633 in range [1, 5]",
+      "issues": []
+    }
+  ],
+  "data_sources": {
+    "hospital_info": {
+      "dataset_id": "xubh-q36u",
+      "url": "https://data.cms.gov/provider-data/dataset/xubh-q36u",
+      "verifiable": true
+    },
+    "timely_care": {
+      "dataset_id": "yv7e-xc69",
+      "url": "https://data.cms.gov/provider-data/dataset/yv7e-xc69",
+      "verifiable": true
+    }
+  }
+}

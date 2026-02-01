@@ -1,0 +1,151 @@
+{
+  "metadata": {
+    "pipeline": "P3-SEC",
+    "generated": "2026-02-01T08:03:24.326206+00:00",
+    "source": "NIST NVD + CISA KEV + FIRST EPSS",
+    "data_disclaimer": "REAL public vulnerability data - no simulation"
+  },
+  "summary": {
+    "total_cves_analyzed": 500,
+    "critical_severity": 5,
+    "high_severity": 21,
+    "in_kev_catalog": 0,
+    "avg_cvss_v3": 6.47,
+    "avg_epss": 0.0007
+  },
+  "severity_distribution": {
+    "UNKNOWN": 433,
+    "MEDIUM": 38,
+    "HIGH": 21,
+    "CRITICAL": 5,
+    "LOW": 3
+  },
+  "kev_stats": {
+    "total_kev_vulnerabilities": 1501,
+    "recent_additions_30d": 17
+  },
+  "top_priority_cves": [
+    {
+      "cve_id": "CVE-2025-14998",
+      "severity": "CRITICAL",
+      "cvss_v3": 9.8,
+      "epss_score": 0.00092,
+      "in_kev": false,
+      "priority_score": 4.9
+    },
+    {
+      "cve_id": "CVE-2025-65125",
+      "severity": "CRITICAL",
+      "cvss_v3": 9.8,
+      "epss_score": 0.00038,
+      "in_kev": false,
+      "priority_score": 4.9
+    },
+    {
+      "cve_id": "CVE-2025-11837",
+      "severity": "CRITICAL",
+      "cvss_v3": 9.8,
+      "epss_score": 0.00132,
+      "in_kev": false,
+      "priority_score": 4.9
+    },
+    {
+      "cve_id": "CVE-2025-59389",
+      "severity": "CRITICAL",
+      "cvss_v3": 9.8,
+      "epss_score": 0.00106,
+      "in_kev": false,
+      "priority_score": 4.9
+    },
+    {
+      "cve_id": "CVE-2025-67268",
+      "severity": "CRITICAL",
+      "cvss_v3": 9.8,
+      "epss_score": 0.00106,
+      "in_kev": false,
+      "priority_score": 4.9
+    },
+    {
+      "cve_id": "CVE-2025-15428",
+      "severity": "HIGH",
+      "cvss_v3": 8.8,
+      "epss_score": 0.00079,
+      "in_kev": false,
+      "priority_score": 4.4
+    },
+    {
+      "cve_id": "CVE-2025-15429",
+      "severity": "HIGH",
+      "cvss_v3": 8.8,
+      "epss_score": 0.00079,
+      "in_kev": false,
+      "priority_score": 4.4
+    },
+    {
+      "cve_id": "CVE-2025-15430",
+      "severity": "HIGH",
+      "cvss_v3": 8.8,
+      "epss_score": 0.00079,
+      "in_kev": false,
+      "priority_score": 4.4
+    },
+    {
+      "cve_id": "CVE-2025-15431",
+      "severity": "HIGH",
+      "cvss_v3": 8.8,
+      "epss_score": 0.00079,
+      "in_kev": false,
+      "priority_score": 4.4
+    },
+    {
+      "cve_id": "CVE-2025-52863",
+      "severity": "HIGH",
+      "cvss_v3": 8.1,
+      "epss_score": 0.00107,
+      "in_kev": false,
+      "priority_score": 4.05
+    }
+  ],
+  "cwe_analysis": [
+    {
+      "cwe": "CWE-89",
+      "count": 21
+    },
+    {
+      "cwe": "CWE-74",
+      "count": 11
+    },
+    {
+      "cwe": "CWE-476",
+      "count": 10
+    },
+    {
+      "cwe": "CWE-120",
+      "count": 8
+    },
+    {
+      "cwe": "CWE-434",
+      "count": 5
+    },
+    {
+      "cwe": "CWE-22",
+      "count": 5
+    },
+    {
+      "cwe": "CWE-125",
+      "count": 4
+    },
+    {
+      "cwe": "CWE-121",
+      "count": 4
+    },
+    {
+      "cwe": "CWE-284",
+      "count": 4
+    },
+    {
+      "cwe": "CWE-119",
+      "count": 4
+    }
+  ]
+}

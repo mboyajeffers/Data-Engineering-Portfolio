@@ -1,0 +1,31 @@
+{
+  "start_time": "2026-02-01T08:04:52.651020+00:00",
+  "end_time": "2026-02-01T08:04:55.264585+00:00",
+  "duration_seconds": 2.613565,
+  "api_calls": 1,
+  "api_errors": 0,
+  "records_fetched": 5000,
+  "regions_analyzed": 7,
+  "quality_score": 100.0,
+  "quality_gates": [
+    {
+      "gate": "region_coverage",
+      "value": 100.0,
+      "threshold": 50,
+      "passed": true
+    },
+    {
+      "gate": "value_validity",
+      "value": 96.2,
+      "threshold": 90,
+      "passed": "True"
+    }
+  ],
+  "data_sources": {
+    "eia_930": {
+      "url": "https://www.eia.gov/opendata/",
+      "description": "EIA Open Data API - Hourly Electric Grid Monitor",
+      "verifiable": true
+    }
+  }
+}

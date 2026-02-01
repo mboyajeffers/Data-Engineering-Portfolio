@@ -1,0 +1,203 @@
+{
+  "reliability": {
+    "on_time_rate": 0.677629407351838,
+    "avg_dep_delay": 27.413176403335953,
+    "median_dep_delay": 8.0,
+    "p90_dep_delay": 63.0,
+    "cancellation_rate": 0.020125031257814452,
+    "diversion_rate": 0.001800450112528132
+  },
+  "carrier_rankings": {
+    "by_carrier": [
+      {
+        "carrier": "F9",
+        "avg_delay": 29.9,
+        "median_delay": 8.0,
+        "cancel_rate": 0.02,
+        "flight_count": 12571,
+        "on_time_rate": 0.6841142311669716,
+        "rank": 1
+      },
+      {
+        "carrier": "DL",
+        "avg_delay": 30.42,
+        "median_delay": 8.0,
+        "cancel_rate": 0.02,
+        "flight_count": 12296,
+        "on_time_rate": 0.6826610279765778,
+        "rank": 2
+      },
+      {
+        "carrier": "AS",
+        "avg_delay": 30.41,
+        "median_delay": 8.0,
+        "cancel_rate": 0.02,
+        "flight_count": 12354,
+        "on_time_rate": 0.6795369920673466,
+        "rank": 3
+      },
+      {
+        "carrier": "UA",
+        "avg_delay": 30.45,
+        "median_delay": 8.0,
+        "cancel_rate": 0.02,
+        "flight_count": 12553,
+        "on_time_rate": 0.6780849199394567,
+        "rank": 4
+      },
+      {
+        "carrier": "B6",
+        "avg_delay": 30.02,
+        "median_delay": 8.0,
+        "cancel_rate": 0.02,
+        "flight_count": 12526,
+        "on_time_rate": 0.6766725211559955,
+        "rank": 5
+      },
+      {
+        "carrier": "WN",
+        "avg_delay": 30.14,
+        "median_delay": 8.0,
+        "cancel_rate": 0.02,
+        "flight_count": 12711,
+        "on_time_rate": 0.675084572417591,
+        "rank": 6
+      },
+      {
+        "carrier": "AA",
+        "avg_delay": 30.31,
+        "median_delay": 8.0,
+        "cancel_rate": 0.02,
+        "flight_count": 12303,
+        "on_time_rate": 0.6738193936438267,
+        "rank": 7
+      },
+      {
+        "carrier": "NK",
+        "avg_delay": 31.71,
+        "median_delay": 8.0,
+        "cancel_rate": 0.02,
+        "flight_count": 12661,
+        "on_time_rate": 0.6711950082931838,
+        "rank": 8
+      }
+    ],
+    "best_carrier": "F9",
+    "worst_carrier": "NK"
+  },
+  "airport_rankings": {
+    "by_origin": [
+      {
+        "origin": "DFW",
+        "avg_delay": 27.08,
+        "median_delay": 8.0,
+        "cancel_rate": 0.02,
+        "flight_count": 10061,
+        "on_time_rate": 0.7172249279395686,
+        "rank": 1
+      },
+      {
+        "origin": "SEA",
+        "avg_delay": 27.1,
+        "median_delay": 8.0,
+        "cancel_rate": 0.02,
+        "flight_count": 9899,
+        "on_time_rate": 0.7125972320436408,
+        "rank": 2
+      },
+      {
+        "origin": "PHX",
+        "avg_delay": 27.02,
+        "median_delay": 8.0,
+        "cancel_rate": 0.02,
+        "flight_count": 9891,
+        "on_time_rate": 0.7115559599636033,
+        "rank": 3
+      },
+      {
+        "origin": "MIA",
+        "avg_delay": 26.75,
+        "median_delay": 8.0,
+        "cancel_rate": 0.02,
+        "flight_count": 10089,
+        "on_time_rate": 0.7099811676082862,
+        "rank": 4
+      },
+      {
+        "origin": "LAX",
+        "avg_delay": 27.38,
+        "median_delay": 8.0,
+        "cancel_rate": 0.02,
+        "flight_count": 9968,
+        "on_time_rate": 0.7099719101123596,
+        "rank": 5
+      },
+      {
+        "origin": "DEN",
+        "avg_delay": 27.51,
+        "median_delay": 8.0,
+        "cancel_rate": 0.02,
+        "flight_count": 9911,
+        "on_time_rate": 0.7082030067601655,
+        "rank": 6
+      },
+      {
+        "origin": "ORD",
+        "avg_delay": 27.59,
+        "median_delay": 8.0,
+        "cancel_rate": 0.02,
+        "flight_count": 10103,
+        "on_time_rate": 0.70771058101554,
+        "rank": 7
+      },
+      {
+        "origin": "SFO",
+        "avg_delay": 27.54,
+        "median_delay": 8.0,
+        "cancel_rate": 0.02,
+        "flight_count": 9967,
+        "on_time_rate": 0.7068325474064413,
+        "rank": 8
+      },
+      {
+        "origin": "ATL",
+        "avg_delay": 27.73,
+        "median_delay": 8.0,
+        "cancel_rate": 0.02,
+        "flight_count": 10067,
+        "on_time_rate": 0.7011026124962749,
+        "rank": 9
+      },
+      {
+        "origin": "JFK",
+        "avg_delay": 28.44,
+        "median_delay": 8.0,
+        "cancel_rate": 0.02,
+        "flight_count": 10019,
+        "on_time_rate": 0.7005689190537978,
+        "rank": 10
+      }
+    ],
+    "best_airport": "DFW",
+    "worst_airport": "JFK"
+  },
+  "weather_attribution": {
+    "severe_weather_flights": 44180,
+    "normal_weather_flights": 45728,
+    "severe_avg_delay": 26.99309642372114,
+    "normal_avg_delay": 26.67254198740378,
+    "weather_delay_delta": 0.32055443631736225,
+    "weather_impact_pct": 0.0120181434701179,
+    "severe_cancel_rate": 0.01937528293345405,
+    "normal_cancel_rate": 0.020643806857942617,
+    "note": "Correlation observed; causation requires further analysis"
+  },
+  "summary": {
+    "total_flights": 99975,
+    "date_range": "2024-01-01 to 2024-01-31",
+    "carriers": 8,
+    "airports": 10,
+    "total_miles": 160281374,
+    "avg_distance": 1603.214543635909
+  }
+}

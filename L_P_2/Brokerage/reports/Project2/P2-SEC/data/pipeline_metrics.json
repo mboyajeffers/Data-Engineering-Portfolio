@@ -1,0 +1,55 @@
+{
+  "start_time": "2026-02-01T06:57:55.989873+00:00",
+  "end_time": "2026-02-01T06:58:51.795694+00:00",
+  "duration_seconds": 55.805821,
+  "raw_facts": 1082675,
+  "cleaned_facts": 1082675,
+  "companies_processed": 39,
+  "api_calls": 80,
+  "api_errors": 0,
+  "overall_quality_score": 0.9661055137579699,
+  "quality_gates": [
+    {
+      "name": "unit_consistency",
+      "passed": true,
+      "score": 0.980658070253446,
+      "threshold": 0.9,
+      "details": "Checked 4498 concepts for unit consistency",
+      "issues": []
+    },
+    {
+      "name": "period_logic",
+      "passed": true,
+      "score": 1.0,
+      "threshold": 0.95,
+      "details": "Validated period types for 1,082,675 facts",
+      "issues": []
+    },
+    {
+      "name": "coverage",
+      "passed": true,
+      "score": 0.9935897435897436,
+      "threshold": 0.8,
+      "details": "Checked coverage across 39 companies",
+      "issues": []
+    },
+    {
+      "name": "restatement",
+      "passed": true,
+      "score": 0.8259464594883462,
+      "threshold": 0.5,
+      "details": "Detected 83,541 restatements across 39 companies",
+      "issues": [
+        "83,541 potential restatements detected (17.4%)"
+      ]
+    },
+    {
+      "name": "outliers",
+      "passed": true,
+      "score": 0.9884224744329644,
+      "threshold": 0.85,
+      "details": "Analyzed outliers in 114,014 key metric facts",
+      "issues": []
+    }
+  ]
+}

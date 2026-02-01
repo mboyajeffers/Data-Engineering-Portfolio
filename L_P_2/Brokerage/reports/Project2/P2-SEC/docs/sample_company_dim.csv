@@ -1,0 +1,40 @@
+cik,name,ticker,sector,sic,sic_description,fiscal_year_end,state,company_id
+320193,Apple Inc.,AAPL,Technology,3571,Electronic Computers,926,CA,1
+789019,MICROSOFT CORP,MSFT,Technology,7372,Services-Prepackaged Software,630,WA,2
+1652044,Alphabet Inc.,GOOGL,Technology,7370,"Services-Computer Programming, Data Processing, Etc.",1231,DE,3
+1018724,AMAZON COM INC,AMZN,Technology,5961,Retail-Catalog & Mail-Order Houses,1231,DE,4
+1326801,"Meta Platforms, Inc.",META,Technology,7370,"Services-Computer Programming, Data Processing, Etc.",1231,DE,5
+1045810,NVIDIA CORP,NVDA,Technology,3674,Semiconductors & Related Devices,125,DE,6
+1559720,"Airbnb, Inc.",CRM,Technology,7340,Services-To Dwellings & Other Buildings,1231,DE,7
+1403161,VISA INC.,V,Technology,7389,"Services-Business Services, NEC",930,DE,8
+310158,"Merck & Co., Inc.",JNJ,Healthcare,2834,Pharmaceutical Preparations,1231,NJ,9
+78003,PFIZER INC,PFE,Healthcare,2834,Pharmaceutical Preparations,1231,DE,10
+1551152,AbbVie Inc.,ABBV,Healthcare,2834,Pharmaceutical Preparations,1231,DE,11
+64803,CVS HEALTH Corp,MRK,Healthcare,5912,Retail-Drug Stores and Proprietary Stores,1231,DE,12
+19617,JPMORGAN CHASE & CO,JPM,Financial,6021,National Commercial Banks,1231,DE,13
+70858,BANK OF AMERICA CORP /DE/,BAC,Financial,6021,National Commercial Banks,1231,DE,14
+1067983,BERKSHIRE HATHAWAY INC,BRK-B,Financial,6331,"Fire, Marine & Casualty Insurance",1231,DE,15
+831001,CITIGROUP INC,C,Financial,6021,National Commercial Banks,1231,DE,16
+72971,WELLS FARGO & COMPANY/MN,WFC,Financial,6021,National Commercial Banks,1231,DE,17
+886982,GOLDMAN SACHS GROUP INC,GS,Financial,6211,"Security Brokers, Dealers & Flotation Companies",1231,DE,18
+21344,COCA COLA CO,KO,Consumer,2080,Beverages,1231,DE,19
+77476,PEPSICO INC,PEP,Consumer,2080,Beverages,1227,NC,20
+80424,PROCTER & GAMBLE Co,PG,Consumer,2840,"Soap, Detergents, Cleang Preparations, Perfumes, Cosmetics",630,OH,21
+1018840,ABERCROMBIE & FITCH CO /DE/,NKE,Consumer,5651,Retail-Family Clothing Stores,131,OH,22
+104169,Walmart Inc.,WMT,Consumer,5331,Retail-Variety Stores,131,DE,23
+27419,TARGET CORP,DIS,Consumer,5331,Retail-Variety Stores,201,MN,24
+1551182,Eaton Corp plc,COST,Consumer,3590,Misc Industrial & Commercial Machinery & Equipment,1231,,25
+12927,BOEING CO,BA,Industrial,3721,Aircraft,1231,DE,26
+40545,GENERAL ELECTRIC CO,GE,Industrial,3600,Electronic & Other Electrical Equipment (No Computer Equip),1231,NY,27
+34088,EXXON MOBIL CORP,XOM,Energy,2911,Petroleum Refining,1231,NJ,28
+93410,CHEVRON CORP,CVX,Energy,2911,Petroleum Refining,1231,DE,29
+50863,INTEL CORP,IBM,Technology,3674,Semiconductors & Related Devices,1227,DE,30
+858877,"CISCO SYSTEMS, INC.",CSCO,Technology,3576,Computer Communications Equipment,725,DE,31
+732717,AT&T INC.,T,Communications,4813,Telephone Communications (No Radiotelephone),1231,DE,32
+732712,VERIZON COMMUNICATIONS INC,VZ,Communications,4813,Telephone Communications (No Radiotelephone),1231,DE,33
+1288776,GOOGLE INC.,NFLX,Communications,7370,"Services-Computer Programming, Data Processing, Etc.",1231,DE,34
+1393311,Public Storage,AMT,Real Estate,6798,Real Estate Investment Trusts,1231,MD,35
+1035002,VALERO ENERGY CORP/TX,PLD,Real Estate,2911,Petroleum Refining,1231,DE,36
+66740,3M CO,LIN,Materials,3841,Surgical & Medical Instruments & Apparatus,1231,DE,37
+1004980,PG&E Corp,NEE,Utilities,4931,Electric & Other Services Combined,1231,CA,38
+72741,EVERSOURCE ENERGY,DUK,Utilities,4911,Electric Services,1231,MA,39

@@ -259,7 +259,16 @@ output/
 tmp/
 temp/
 
-# Checkpoints and internal docs
-*checkpoint*
-*CHECKPOINT*
+# Internal docs (but allow project checkpoints)
 internal/
+
+# Large data files (>100MB GitHub limit)
+**/raw_xbrl_facts.csv
+**/cleaned_xbrl_facts.csv
+**/xbrl_facts.csv
+**/raw_awards*.csv
+**/cleaned_awards*.csv
+**/award_fact.csv
+**/flight_fact.csv
+**/flight_weather*.csv
+**/raw_flights.csv

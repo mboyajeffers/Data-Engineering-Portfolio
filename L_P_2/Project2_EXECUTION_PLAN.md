@@ -7,11 +7,11 @@
 
 Three enterprise-grade portfolio projects using **public, verifiable data** processed through **CMS** to demonstrate mid→senior data engineering skills.
 
-| Project | Data Source | Enterprise Problem |
-|---------|-------------|-------------------|
-| P2-FED | USAspending.gov API | Procurement Spend Intelligence + DQ SLA |
-| P2-SEC | SEC EDGAR XBRL APIs | Financial Facts + Cohort Benchmarking |
-| P2-AIR | BTS TranStats + NOAA CDO | Airline Reliability + Weather Attribution |
+| Project | Data Source | Enterprise Problem | Target Rows |
+|---------|-------------|-------------------|-------------|
+| P2-FED | USAspending.gov API | Procurement Spend Intelligence + DQ SLA | ~3M rows |
+| P2-SEC | SEC EDGAR XBRL APIs | Financial Facts + Cohort Benchmarking | ~500K rows |
+| P2-AIR | BTS TranStats + NOAA CDO | Airline Reliability + Weather Attribution | ~7M rows |
 
 ---
 

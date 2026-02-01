@@ -1,0 +1,11 @@
+airport_code,airport_name,city,state,latitude,longitude,weather_station
+ATL,Atlanta Hartsfield-Jackson,Atlanta,GA,33.6407,-84.4277,GHCND:USW00013874
+ORD,Chicago O'Hare,Chicago,IL,41.9742,-87.9073,GHCND:USW00094846
+DFW,Dallas/Fort Worth,Dallas,TX,32.8998,-97.0403,GHCND:USW00003927
+DEN,Denver International,Denver,CO,39.8561,-104.6737,GHCND:USW00003017
+LAX,Los Angeles International,Los Angeles,CA,33.9416,-118.4085,GHCND:USW00023174
+JFK,New York JFK,New York,NY,40.6413,-73.7781,GHCND:USW00094789
+SFO,San Francisco International,San Francisco,CA,37.6213,-122.379,GHCND:USW00023234
+SEA,Seattle-Tacoma,Seattle,WA,47.4502,-122.3088,GHCND:USW00024233
+MIA,Miami International,Miami,FL,25.7959,-80.287,GHCND:USW00012839
+PHX,Phoenix Sky Harbor,Phoenix,AZ,33.4373,-112.0078,GHCND:USW00023183

@@ -1,0 +1,388 @@
+{
+  "company_metrics": {
+    "AAPL": {
+      "fiscal_year": 2025,
+      "revenue": 383285000000.0,
+      "net_income": 96995000000.0,
+      "gross_profit": 169148000000.0,
+      "operating_income": 114301000000.0,
+      "operating_cash_flow": 110543000000.0,
+      "net_margin": 0.2530623426432028,
+      "gross_margin": 0.4413112957720756
+    },
+    "MSFT": {
+      "fiscal_year": 2026,
+      "revenue": 135217000000.0,
+      "net_income": 48775000000.0,
+      "gross_profit": 93319000000.0,
+      "operating_income": 62205000000.0,
+      "operating_cash_flow": 56471000000.0,
+      "net_margin": 0.36071647795765327,
+      "gross_margin": 0.6901425116664325
+    },
+    "GOOGL": {
+      "fiscal_year": 2025,
+      "revenue": 165281000000.0,
+      "net_income": 47281000000.0,
+      "operating_income": 52897000000.0,
+      "operating_cash_flow": 55488000000.0,
+      "net_margin": 0.28606433891372873
+    },
+    "AMZN": {
+      "fiscal_year": 2025,
+      "revenue": 291290000000.0,
+      "net_income": 37684000000.0,
+      "operating_income": 29979000000.0,
+      "operating_cash_flow": 99147000000.0,
+      "net_margin": 0.1293693569981805
+    },
+    "META": {
+      "fiscal_year": 2025,
+      "revenue": 134902000000.0,
+      "net_income": 39098000000.0,
+      "operating_income": 46751000000.0,
+      "operating_cash_flow": 71113000000.0,
+      "net_margin": 0.28982520644616094
+    },
+    "NVDA": {
+      "fiscal_year": 2026,
+      "revenue": 56084000000.0,
+      "net_income": 31480000000.0,
+      "gross_profit": 42979000000.0,
+      "operating_income": 35551000000.0,
+      "operating_cash_flow": 29833000000.0,
+      "net_margin": 0.5613009057841809,
+      "gross_margin": 0.766332643891306
+    },
+    "CRM": {
+      "fiscal_year": 2025,
+      "revenue": 4890000000.0,
+      "net_income": 819000000.0,
+      "operating_income": 598000000.0,
+      "operating_cash_flow": 2974000000.0,
+      "net_margin": 0.16748466257668712
+    },
+    "V": {
+      "fiscal_year": 2025,
+      "revenue": 32653000000.0,
+      "net_income": 17273000000.0,
+      "operating_income": 21000000000.0,
+      "operating_cash_flow": 20755000000.0,
+      "net_margin": 0.5289866168499066
+    },
+    "JNJ": {
+      "fiscal_year": 2025,
+      "revenue": 31887000000.0,
+      "net_income": 10217000000.0,
+      "operating_cash_flow": 8727000000.0,
+      "net_margin": 0.3204127073729106
+    },
+    "PFE": {
+      "fiscal_year": 2025,
+      "revenue": 28162000000.0,
+      "net_income": 3156000000.0,
+      "operating_cash_flow": -691000000.0,
+      "net_margin": 0.11206590441019813
+    },
+    "ABBV": {
+      "fiscal_year": 2025,
+      "revenue": 26772000000.0,
+      "net_income": 2739000000.0,
+      "operating_income": 6796000000.0,
+      "operating_cash_flow": 6311000000.0,
+      "net_margin": 0.10230838189152847
+    },
+    "MRK": {
+      "fiscal_year": 2025,
+      "revenue": 179671000000.0,
+      "net_income": 2883000000.0,
+      "operating_income": 5316000000.0,
+      "operating_cash_flow": 7992000000.0,
+      "net_margin": 0.016045995180079143
+    },
+    "JPM": {
+      "fiscal_year": 2025,
+      "revenue": 92134000000.0,
+      "net_income": 31568000000.0,
+      "operating_cash_flow": -115689000000.0,
+      "net_margin": 0.34263138472225235
+    },
+    "BAC": {
+      "fiscal_year": 2025,
+      "revenue": 51195000000.0,
+      "net_income": 13571000000.0,
+      "operating_cash_flow": 2557000000.0,
+      "net_margin": 0.2650844809063385
+    },
+    "BRK-B": {
+      "fiscal_year": 2025,
+      "revenue": 124810000000.0,
+      "net_income": 43050000000.0,
+      "operating_cash_flow": 24168000000.0,
+      "net_margin": 0.34492428491306787
+    },
+    "C": {
+      "fiscal_year": 2025,
+      "revenue": 41048000000.0,
+      "net_income": 6588000000.0,
+      "operating_cash_flow": -27791000000.0,
+      "net_margin": 0.16049503020853634
+    },
+    "WFC": {
+      "fiscal_year": 2025,
+      "revenue": 41552000000.0,
+      "net_income": 9529000000.0,
+      "operating_cash_flow": -10075000000.0,
+      "net_margin": 0.22932710820177127
+    },
+    "GS": {
+      "fiscal_year": 2025,
+      "revenue": 26944000000.0,
+      "net_income": 7175000000.0,
+      "operating_cash_flow": -21918000000.0,
+      "net_margin": 0.26629305225653205
+    },
+    "KO": {
+      "fiscal_year": 2025,
+      "revenue": 23663000000.0,
+      "net_income": 5588000000.0,
+      "gross_profit": 14616000000.0,
+      "operating_income": 4773000000.0,
+      "operating_cash_flow": 4113000000.0,
+      "net_margin": 0.23614926256180535,
+      "gross_margin": 0.6176731606305202
+    },
+    "PEP": {
+      "fiscal_year": 2025,
+      "revenue": 40751000000.0,
+      "net_income": 5125000000.0,
+      "gross_profit": 22584000000.0,
+      "operating_income": 6765000000.0,
+      "operating_cash_flow": 1315000000.0,
+      "net_margin": 0.12576378493779294,
+      "gross_margin": 0.5541949890800226
+    },
+    "PG": {
+      "fiscal_year": 2026,
+      "revenue": 43619000000.0,
+      "net_income": 8589000000.0,
+      "operating_income": 11538000000.0,
+      "operating_cash_flow": 9127000000.0,
+      "net_margin": 0.1969096036131044
+    },
+    "NKE": {
+      "fiscal_year": 2025,
+      "revenue": 2154704000.0,
+      "net_income": 247018000.0,
+      "operating_income": 305474000.0,
+      "operating_cash_flow": 260119000.0,
+      "net_margin": 0.11464126859188084
+    },
+    "WMT": {
+      "fiscal_year": 2026,
+      "revenue": 327705000000.0,
+      "net_income": 9605000000.0,
+      "operating_income": 14781000000.0,
+      "operating_cash_flow": 16357000000.0,
+      "net_margin": 0.02930989762133626
+    },
+    "DIS": {
+      "fiscal_year": 2025,
+      "revenue": 49983000000.0,
+      "net_income": 2134000000.0,
+      "operating_income": 2931000000.0,
+      "operating_cash_flow": 3339000000.0,
+      "net_margin": 0.04269451613548607
+    },
+    "COST": {
+      "fiscal_year": 2025,
+      "revenue": 12293000000.0,
+      "net_income": 1814000000.0,
+      "operating_cash_flow": 1421000000.0,
+      "net_margin": 0.14756365411209632
+    },
+    "BA": {
+      "fiscal_year": 2025,
+      "revenue": 77794000000.0,
+      "net_income": -2222000000.0,
+      "gross_profit": 7724000000.0,
+      "operating_income": -773000000.0,
+      "operating_cash_flow": 5960000000.0,
+      "net_margin": -0.028562614083348332,
+      "gross_margin": 0.09928786281718384
+    },
+    "GE": {
+      "fiscal_year": 2025,
+      "revenue": 35348000000.0,
+      "net_income": 9482000000.0,
+      "operating_cash_flow": 5189000000.0,
+      "net_margin": 0.2682471426954849
+    },
+    "XOM": {
+      "fiscal_year": 2025,
+      "revenue": 176143000000.0,
+      "net_income": 17460000000.0,
+      "operating_cash_flow": 25224000000.0,
+      "net_margin": 0.09912400719869652
+    },
+    "CVX": {
+      "fiscal_year": 2025,
+      "revenue": 96154000000.0,
+      "net_income": 9935000000.0,
+      "operating_cash_flow": 13123000000.0,
+      "net_margin": 0.10332383468186451
+    },
+    "IBM": {
+      "fiscal_year": 2025,
+      "revenue": 54228000000.0,
+      "net_income": 1689000000.0,
+      "gross_profit": 21711000000.0,
+      "operating_income": 93000000.0,
+      "operating_cash_flow": 11471000000.0,
+      "net_margin": 0.031146271298959947,
+      "gross_margin": 0.400365125027661
+    },
+    "CSCO": {
+      "fiscal_year": 2025,
+      "revenue": 56998000000.0,
+      "net_income": 12613000000.0,
+      "gross_profit": 35753000000.0,
+      "operating_income": 15031000000.0,
+      "operating_cash_flow": 19886000000.0,
+      "net_margin": 0.2212884662619741,
+      "gross_margin": 0.6272676234253833
+    },
+    "T": {
+      "fiscal_year": 2025,
+      "revenue": 59825000000.0,
+      "net_income": 7042000000.0,
+      "operating_income": 11607000000.0,
+      "operating_cash_flow": 16640000000.0,
+      "net_margin": 0.11770998746343501
+    },
+    "VZ": {
+      "fiscal_year": 2025,
+      "revenue": 65777000000.0,
+      "net_income": 9195000000.0,
+      "operating_income": 15339000000.0,
+      "operating_cash_flow": 16569000000.0,
+      "net_margin": 0.13979050427961143
+    },
+    "NFLX": {
+      "fiscal_year": 2015,
+      "revenue": 31375000000.0,
+      "net_income": 6722000000.0,
+      "operating_income": 8373000000.0,
+      "operating_cash_flow": 10018000000.0,
+      "net_margin": 0.21424701195219123
+    },
+    "AMT": {
+      "fiscal_year": 2025,
+      "revenue": 2330431000.0,
+      "net_income": 1027075000.0,
+      "operating_cash_flow": 1560865000.0,
+      "net_margin": 0.44072319669623344
+    },
+    "PLD": {
+      "fiscal_year": 2025,
+      "net_income": 2125000000.0,
+      "operating_income": 2900000000.0,
+      "operating_cash_flow": 4318000000.0
+    },
+    "LIN": {
+      "fiscal_year": 2025,
+      "revenue": 12271000000.0,
+      "net_income": 2073000000.0,
+      "operating_income": 2421000000.0,
+      "operating_cash_flow": 1788000000.0,
+      "net_margin": 0.16893488713226307
+    },
+    "NEE": {
+      "fiscal_year": 2025,
+      "revenue": 11847000000.0,
+      "net_income": 1259000000.0,
+      "operating_income": 2410000000.0,
+      "operating_cash_flow": 2972000000.0,
+      "net_margin": 0.10627162994851017
+    },
+    "DUK": {
+      "fiscal_year": 2025,
+      "revenue": 5866097000.0,
+      "net_income": 860949000.0,
+      "operating_income": 1448470000.0,
+      "operating_cash_flow": 962026000.0,
+      "net_margin": 0.14676692185621887
+    }
+  },
+  "cohort_benchmarks": {
+    "revenue": {
+      "min": 43619000000.0,
+      "p25": 52967750000.0,
+      "median": 95650500000.0,
+      "p75": 183339000000.0,
+      "max": 327705000000.0,
+      "mean": 140656250000.0,
+      "std": 131130359661.35632
+    },
+    "net_income": {
+      "min": 8589000000.0,
+      "p25": 9351000000.0,
+      "median": 20542500000.0,
+      "p75": 35803750000.0,
+      "max": 48775000000.0,
+      "mean": 24612250000.0,
+      "std": 19261071022.05551
+    }
+  },
+  "coverage_stats": {
+    "total_concepts": 4498,
+    "mapped_concepts": 25,
+    "mapping_rate": 0.005558025789239662,
+    "revenue_coverage": 0.9743589743589743,
+    "cost_of_revenue_coverage": 0.7692307692307693,
+    "gross_profit_coverage": 0.41025641025641024,
+    "operating_income_coverage": 0.7692307692307693,
+    "net_income_coverage": 1.0,
+    "eps_coverage": 0.9487179487179487,
+    "assets_coverage": 1.0,
+    "liabilities_coverage": 0.6410256410256411,
+    "equity_coverage": 1.0,
+    "cash_coverage": 0.9743589743589743,
+    "current_assets_coverage": 0.8205128205128205,
+    "current_liabilities_coverage": 0.8205128205128205,
+    "operating_cash_flow_coverage": 1.0,
+    "investing_cash_flow_coverage": 1.0,
+    "financing_cash_flow_coverage": 1.0,
+    "capex_coverage": 0.7948717948717948
+  },
+  "summary": {
+    "total_facts": 1082675,
+    "total_companies": 39,
+    "total_concepts": 4498,
+    "facts_by_type": {
+      "annual": 434308,
+      "instant": 416549,
+      "quarterly": 231664,
+      "multi-year": 154
+    },
+    "facts_by_form": {
+      "10-Q": 674618,
+      "10-K": 363825,
+      "8-K": 38656,
+      "10-Q/A": 3326,
+      "10-K/A": 2250
+    },
+    "companies_by_sector": {
+      "Technology": 10,
+      "Consumer": 7,
+      "Financial": 6,
+      "Healthcare": 4,
+      "Communications": 3,
+      "Industrial": 2,
+      "Energy": 2,
+      "Real Estate": 2,
+      "Utilities": 2,
+      "Materials": 1
+    }
+  }
+}

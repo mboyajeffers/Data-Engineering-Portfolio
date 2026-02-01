@@ -1,0 +1,42 @@
+{
+  "start_time": "2026-02-01T08:03:12.833182+00:00",
+  "end_time": "2026-02-01T08:03:24.330635+00:00",
+  "duration_seconds": 11.497453,
+  "api_calls": 7,
+  "api_errors": 0,
+  "cves_fetched": 500,
+  "kev_records": 1501,
+  "enriched_vulnerabilities": 500,
+  "quality_score": 75.0,
+  "quality_gates": [
+    {
+      "gate": "cvss_completeness",
+      "value": 13.4,
+      "threshold": 50,
+      "passed": false
+    },
+    {
+      "gate": "severity_validity",
+      "value": true,
+      "threshold": true,
+      "passed": true
+    }
+  ],
+  "data_sources": {
+    "nvd": {
+      "url": "https://nvd.nist.gov/developers/vulnerabilities",
+      "description": "NIST National Vulnerability Database",
+      "verifiable": true
+    },
+    "cisa_kev": {
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "description": "CISA Known Exploited Vulnerabilities",
+      "verifiable": true
+    },
+    "epss": {
+      "url": "https://api.first.org/epss",
+      "description": "FIRST Exploit Prediction Scoring System",
+      "verifiable": true
+    }
+  }
+}

@@ -1,0 +1,243 @@
+{
+  "summary": {
+    "total_hospitals": 942,
+    "states_covered": 4,
+    "with_ratings": "633",
+    "avg_rating": 2.9036334913112163,
+    "quality_measures": 0
+  },
+  "ratings_distribution": {
+    "1_star": 85,
+    "2_star": 157,
+    "3_star": 178,
+    "4_star": 160,
+    "5_star": 53
+  },
+  "state_comparison": [
+    {
+      "state": "CA",
+      "hospital_count": 378,
+      "avg_rating": 3.01,
+      "median_rating": 3.0
+    },
+    {
+      "state": "IL",
+      "hospital_count": 194,
+      "avg_rating": 2.91,
+      "median_rating": 3.0
+    },
+    {
+      "state": "FL",
+      "hospital_count": 221,
+      "avg_rating": 2.83,
+      "median_rating": 3.0
+    },
+    {
+      "state": "GA",
+      "hospital_count": 149,
+      "avg_rating": 2.68,
+      "median_rating": 3.0
+    }
+  ],
+  "ownership_analysis": [
+    {
+      "hospital_ownership": "Veterans Health Administration",
+      "count": 23,
+      "avg_rating": 3.7
+    },
+    {
+      "hospital_ownership": "Voluntary non-profit - Other",
+      "count": 71,
+      "avg_rating": 3.25
+    },
+    {
+      "hospital_ownership": "Voluntary non-profit - Church",
+      "count": 70,
+      "avg_rating": 3.11
+    },
+    {
+      "hospital_ownership": "Voluntary non-profit - Private",
+      "count": 349,
+      "avg_rating": 3.11
+    },
+    {
+      "hospital_ownership": "Government - Federal",
+      "count": 4,
+      "avg_rating": 3.0
+    },
+    {
+      "hospital_ownership": "Government - State",
+      "count": 21,
+      "avg_rating": 3.0
+    },
+    {
+      "hospital_ownership": "Physician",
+      "count": 5,
+      "avg_rating": 3.0
+    },
+    {
+      "hospital_ownership": "Government - Hospital District or Authority",
+      "count": 125,
+      "avg_rating": 2.61
+    },
+    {
+      "hospital_ownership": "Government - Local",
+      "count": 33,
+      "avg_rating": 2.52
+    },
+    {
+      "hospital_ownership": "Proprietary",
+      "count": 231,
+      "avg_rating": 2.37
+    },
+    {
+      "hospital_ownership": "Department of Defense",
+      "count": 10,
+      "avg_rating": NaN
+    }
+  ],
+  "top_hospitals": [
+    {
+      "facility_id": "050007",
+      "facility_name": "PENINSULA MEDICAL CENTER",
+      "citytown": "BURLINGAME",
+      "state": "CA",
+      "hospital_overall_rating": 5.0
+    },
+    {
+      "facility_id": "050025",
+      "facility_name": "UC SAN DIEGO HEALTH HILLCREST - HILLCREST MED CTR",
+      "citytown": "SAN DIEGO",
+      "state": "CA",
+      "hospital_overall_rating": 5.0
+    },
+    {
+      "facility_id": "050043",
+      "facility_name": "ALTA BATES SUMMIT MEDICAL CENTER",
+      "citytown": "OAKLAND",
+      "state": "CA",
+      "hospital_overall_rating": 5.0
+    },
+    {
+      "facility_id": "050054",
+      "facility_name": "SAN GORGONIO MEMORIAL HOSPITAL",
+      "citytown": "BANNING",
+      "state": "CA",
+      "hospital_overall_rating": 5.0
+    },
+    {
+      "facility_id": "050070",
+      "facility_name": "KAISER FOUNDATION HOSPITAL - SOUTH SAN FRANCISCO",
+      "citytown": "SOUTH SAN FRANCISCO",
+      "state": "CA",
+      "hospital_overall_rating": 5.0
+    },
+    {
+      "facility_id": "050127",
+      "facility_name": "WOODLAND MEMORIAL HOSPITAL",
+      "citytown": "WOODLAND",
+      "state": "CA",
+      "hospital_overall_rating": 5.0
+    },
+    {
+      "facility_id": "050131",
+      "facility_name": "NOVATO COMMUNITY HOSPITAL",
+      "citytown": "NOVATO",
+      "state": "CA",
+      "hospital_overall_rating": 5.0
+    },
+    {
+      "facility_id": "050197",
+      "facility_name": "SEQUOIA HOSPITAL",
+      "citytown": "REDWOOD CITY",
+      "state": "CA",
+      "hospital_overall_rating": 5.0
+    },
+    {
+      "facility_id": "050224",
+      "facility_name": "HOAG MEMORIAL HOSPITAL PRESBYTERIAN",
+      "citytown": "NEWPORT BEACH",
+      "state": "CA",
+      "hospital_overall_rating": 5.0
+    },
+    {
+      "facility_id": "050232",
+      "facility_name": "FRENCH HOSPITAL MEDICAL CENTER",
+      "citytown": "SAN LUIS OBISPO",
+      "state": "CA",
+      "hospital_overall_rating": 5.0
+    }
+  ],
+  "bottom_hospitals": [
+    {
+      "facility_id": "050002",
+      "facility_name": "ST ROSE HOSPITAL",
+      "citytown": "HAYWARD",
+      "state": "CA",
+      "hospital_overall_rating": 1.0
+    },
+    {
+      "facility_id": "050030",
+      "facility_name": "OROVILLE HOSPITAL",
+      "citytown": "OROVILLE",
+      "state": "CA",
+      "hospital_overall_rating": 1.0
+    },
+    {
+      "facility_id": "050045",
+      "facility_name": "EL CENTRO REGIONAL MEDICAL CENTER",
+      "citytown": "EL CENTRO",
+      "state": "CA",
+      "hospital_overall_rating": 1.0
+    },
+    {
+      "facility_id": "050056",
+      "facility_name": "ANTELOPE VALLEY HOSPITAL",
+      "citytown": "LANCASTER",
+      "state": "CA",
+      "hospital_overall_rating": 1.0
+    },
+    {
+      "facility_id": "050060",
+      "facility_name": "COMMUNITY REGIONAL MEDICAL CENTER",
+      "citytown": "FRESNO",
+      "state": "CA",
+      "hospital_overall_rating": 1.0
+    },
+    {
+      "facility_id": "050090",
+      "facility_name": "SONOMA VALLEY HOSPITAL",
+      "citytown": "SONOMA",
+      "state": "CA",
+      "hospital_overall_rating": 1.0
+    },
+    {
+      "facility_id": "050110",
+      "facility_name": "LOMPOC VALLEY MEDICAL CENTER",
+      "citytown": "LOMPOC",
+      "state": "CA",
+      "hospital_overall_rating": 1.0
+    },
+    {
+      "facility_id": "050194",
+      "facility_name": "WATSONVILLE COMMUNITY HOSPITAL",
+      "citytown": "WATSONVILLE",
+      "state": "CA",
+      "hospital_overall_rating": 1.0
+    },
+    {
+      "facility_id": "050228",
+      "facility_name": "ZUCKERBERG SAN FRANCISCO GENERAL HOSP & TRAUMA CTR",
+      "citytown": "SAN FRANCISCO",
+      "state": "CA",
+      "hospital_overall_rating": 1.0
+    },
+    {
+      "facility_id": "050289",
+      "facility_name": "AHMC SETON MEDICAL CENTER",
+      "citytown": "DALY CITY",
+      "state": "CA",
+      "hospital_overall_rating": 1.0
+    }
+  ]
+}

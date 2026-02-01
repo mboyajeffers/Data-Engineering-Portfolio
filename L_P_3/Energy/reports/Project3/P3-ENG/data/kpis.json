@@ -1,0 +1,176 @@
+{
+  "metadata": {
+    "pipeline": "P3-ENG",
+    "generated": "2026-02-01T08:04:55.258094+00:00",
+    "source": "EIA Open Data API (EIA-930)",
+    "data_disclaimer": "REAL US government energy data - no simulation"
+  },
+  "summary": {
+    "total_records": 5000,
+    "regions_covered": 7,
+    "days_analyzed": 18,
+    "total_generation_mwh": 717830576
+  },
+  "regional_summary": [
+    {
+      "respondent": "CISO",
+      "total_mwh": 23372223,
+      "avg_daily_mwh": 39952.52,
+      "records": 585
+    },
+    {
+      "respondent": "ERCO",
+      "total_mwh": 121523760,
+      "avg_daily_mwh": 168783.0,
+      "records": 720
+    },
+    {
+      "respondent": "ISNE",
+      "total_mwh": 31208937,
+      "avg_daily_mwh": 32141.03,
+      "records": 971
+    },
+    {
+      "respondent": "MISO",
+      "total_mwh": 180593757,
+      "avg_daily_mwh": 264025.96,
+      "records": 684
+    },
+    {
+      "respondent": "NYIS",
+      "total_mwh": 36046803,
+      "avg_daily_mwh": 53010.0,
+      "records": 680
+    },
+    {
+      "respondent": "PJM",
+      "total_mwh": 247555645,
+      "avg_daily_mwh": 364052.42,
+      "records": 680
+    },
+    {
+      "respondent": "SWPP",
+      "total_mwh": 77529451,
+      "avg_daily_mwh": 114013.9,
+      "records": 680
+    }
+  ],
+  "fuel_mix": {
+    "BAT": -0.05,
+    "COL": 20.73,
+    "GEO": 0.16,
+    "NG": 38.6,
+    "NUC": 17.53,
+    "OIL": 1.24,
+    "OTH": 1.01,
+    "PS": 0.07,
+    "SNB": 0.0,
+    "SUN": 4.13,
+    "WAT": 2.55,
+    "WND": 14.03
+  },
+  "renewables_penetration": {
+    "avg_renewable_pct": 26.15,
+    "max_renewable_pct": 62.72,
+    "min_renewable_pct": -0.0,
+    "by_region": [
+      {
+        "respondent": "CISO",
+        "renewable_pct": 47.3,
+        "total_generation": 23372223.0
+      },
+      {
+        "respondent": "SWPP",
+        "renewable_pct": 38.29,
+        "total_generation": 77529451.0
+      },
+      {
+        "respondent": "ERCO",
+        "renewable_pct": 33.43,
+        "total_generation": 121523760.0
+      },
+      {
+        "respondent": "NYIS",
+        "renewable_pct": 23.61,
+        "total_generation": 36046803.0
+      },
+      {
+        "respondent": "MISO",
+        "renewable_pct": 20.95,
+        "total_generation": 180593757.0
+      },
+      {
+        "respondent": "ISNE",
+        "renewable_pct": 15.68,
+        "total_generation": 31208937.0
+      },
+      {
+        "respondent": "PJM",
+        "renewable_pct": 9.24,
+        "total_generation": 247555645.0
+      }
+    ]
+  },
+  "top_renewable_days": [
+    {
+      "respondent": "SWPP",
+      "period": "2026-01-16",
+      "renewable_pct": 62.72,
+      "total_generation": 3739519.0
+    },
+    {
+      "respondent": "CISO",
+      "period": "2026-01-17",
+      "renewable_pct": 56.86,
+      "total_generation": 1535305.0
+    },
+    {
+      "respondent": "CISO",
+      "period": "2026-01-18",
+      "renewable_pct": 56.79,
+      "total_generation": 1441790.0
+    },
+    {
+      "respondent": "CISO",
+      "period": "2026-01-16",
+      "renewable_pct": 54.5,
+      "total_generation": 1657768.0
+    },
+    {
+      "respondent": "CISO",
+      "period": "2026-01-19",
+      "renewable_pct": 53.34,
+      "total_generation": 1701094.0
+    },
+    {
+      "respondent": "SWPP",
+      "period": "2026-01-18",
+      "renewable_pct": 53.16,
+      "total_generation": 4382110.0
+    },
+    {
+      "respondent": "CISO",
+      "period": "2026-01-15",
+      "renewable_pct": 52.9,
+      "total_generation": 1636340.0
+    },
+    {
+      "respondent": "CISO",
+      "period": "2026-01-14",
+      "renewable_pct": 51.91,
+      "total_generation": 1752578.0
+    },
+    {
+      "respondent": "CISO",
+      "period": "2026-01-13",
+      "renewable_pct": 51.24,
+      "total_generation": 1743766.0
+    },
+    {
+      "respondent": "ERCO",
+      "period": "2026-01-16",
+      "renewable_pct": 50.33,
+      "total_generation": 6098142.0
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "start_time": "2026-02-01T07:06:40.391118+00:00",
+  "end_time": "2026-02-01T07:07:17.129197+00:00",
+  "duration_seconds": 36.738079,
+  "flight_records": 99975,
+  "weather_records": 1536,
+  "joined_records": 99975,
+  "api_calls": 10,
+  "api_errors": 0,
+  "overall_quality_score": 0.9748262065516378,
+  "quality_gates": [
+    {
+      "name": "timezone",
+      "passed": true,
+      "score": 1.0,
+      "threshold": 0.95,
+      "details": "Verified date/time consistency",
+      "issues": []
+    },
+    {
+      "name": "join_coverage",
+      "passed": true,
+      "score": 0.8993048262065516,
+      "threshold": 0.8,
+      "details": "Flight-weather join rate: 89.9%",
+      "issues": []
+    },
+    {
+      "name": "outliers",
+      "passed": true,
+      "score": 1.0,
+      "threshold": 0.95,
+      "details": "Checked for impossible delay values",
+      "issues": []
+    },
+    {
+      "name": "delay_codes",
+      "passed": true,
+      "score": 1.0,
+      "threshold": 0.75,
+      "details": "Checked delay reason code coverage",
+      "issues": []
+    },
+    {
+      "name": "completeness",
+      "passed": true,
+      "score": 1.0,
+      "threshold": 0.95,
+      "details": "Checked required field completeness",
+      "issues": []
+    }
+  ]
+}

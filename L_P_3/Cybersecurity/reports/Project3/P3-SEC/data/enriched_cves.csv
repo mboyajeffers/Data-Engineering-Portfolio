@@ -1,0 +1,648 @@
+cve_id,published,last_modified,cvss_v3,cvss_v2,severity,cwe_ids,description,in_kev,epss_score,priority_score
+CVE-2025-15418,2026-01-02T00:15:43.047,2026-01-06T15:06:20.447,3.3,1.7,LOW,CWE-404,"A security flaw has been discovered in Open5GS up to 2.7.6. Affected by this vulnerability is the function ogs_gtp2_parse_bearer_qos in the library lib/gtp/v2/types.c of the component Bearer QoS IE Length Handler. Performing manipulation results in denial of service. The attack must be initiated from a local position. The exploit has been released to the public and may be used for attacks. The patch is named 4e913d21f2c032b187815f063dbab5ebe65fe83a. To fix this issue, it is recommended to deploy",False,0.0002,1.65
+CVE-2025-15419,2026-01-02T01:15:50.053,2026-01-06T15:04:24.860,3.3,1.7,LOW,CWE-404,A weakness has been identified in Open5GS up to 2.7.6. Affected by this issue is the function sgwc_s5c_handle_create_session_response of the file src/sgwc/s5c-handler.c of the component GTPv2-C Flow Handler. Executing a manipulation can lead to denial of service. The attack needs to be launched locally. The exploit has been made available to the public and could be used for attacks. This patch is called 5aaa09907e7b9e0a326265a5f08d56f54280b5f2. It is advisable to implement a patch to correct thi,False,0.0002,1.65
+CVE-2025-15420,2026-01-02T01:15:50.297,2026-01-06T17:50:39.360,7.3,7.5,HIGH,"CWE-74,CWE-89,CWE-89",A security vulnerability has been detected in Yonyou KSOA 9.0. This affects an unknown part of the file /worksheet/agent_work_report.jsp. The manipulation of the argument ID leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed publicly and may be used. The vendor was contacted early about this disclosure but did not respond in any way.,False,0.0003,3.65
+CVE-2025-15421,2026-01-02T01:15:50.480,2026-01-15T16:39:36.063,7.3,7.5,HIGH,"CWE-74,CWE-89,CWE-89",A vulnerability was detected in Yonyou KSOA 9.0. This vulnerability affects unknown code of the file /worksheet/agent_worksadd.jsp of the component HTTP GET Parameter Handler. The manipulation of the argument ID results in sql injection. The attack can be launched remotely. The exploit is now public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.,False,0.0003,3.65
+CVE-2025-15422,2026-01-02T02:15:39.867,2026-01-07T21:57:09.493,5.3,5.0,MEDIUM,CWE-693,A flaw has been found in EmpireSoft EmpireCMS up to 8.0. This issue affects the function egetip of the file e/class/connect.php of the component IP Address Handler. This manipulation causes protection mechanism failure. The attack may be initiated remotely. The exploit has been published and may be used. The vendor was contacted early about this disclosure but did not respond in any way.,False,0.00141,2.65
+CVE-2025-14047,2026-01-02T03:15:50.757,2026-01-02T16:45:26.640,5.3,,MEDIUM,CWE-862,"The Registration, User Profile, Membership, Content Restriction, User Directory, and Frontend Post Submission – WP User Frontend plugin for WordPress is vulnerable to unauthorized loss of data due to a missing capability check on the 'Frontend_Form_Ajax::submit_post' function in all versions up to, and including, 4.2.4. This makes it possible for unauthenticated attackers to delete attachment.",False,0.00075,2.65
+CVE-2025-14998,2026-01-02T03:15:50.940,2026-01-02T16:45:26.640,9.8,,CRITICAL,CWE-639,"The Branda plugin for WordPress is vulnerable to privilege escalation via account takeover in all versions up to, and including, 3.4.24. This is due to the plugin not properly validating a user's identity prior to updating their password. This makes it possible for unauthenticated attackers to change arbitrary user's passwords, including administrators, and leverage that to gain access to their account.",False,0.00092,4.9
+CVE-2025-15423,2026-01-02T03:15:51.090,2026-01-07T21:57:24.737,6.3,6.5,MEDIUM,"CWE-284,CWE-434,CWE-434",A vulnerability has been found in EmpireSoft EmpireCMS up to 8.0. Impacted is the function CheckSaveTranFiletype of the file e/class/connect.php. Such manipulation leads to unrestricted upload. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.,False,0.00036,3.15
+CVE-2025-15424,2026-01-02T03:15:51.270,2026-01-15T16:33:54.770,7.3,7.5,HIGH,"CWE-74,CWE-89,CWE-89",A vulnerability was found in Yonyou KSOA 9.0. The affected element is an unknown function of the file /worksheet/agent_worksdel.jsp of the component HTTP GET Parameter Handler. Performing manipulation of the argument ID results in sql injection. Remote exploitation of the attack is possible. The exploit has been made public and could be used. The vendor was contacted early about this disclosure but did not respond in any way.,False,0.00039,3.65
+CVE-2025-15425,2026-01-02T03:15:51.457,2026-01-15T16:36:01.447,7.3,7.5,HIGH,"CWE-74,CWE-89,CWE-89",A vulnerability was determined in Yonyou KSOA 9.0. The impacted element is an unknown function of the file /worksheet/del_user.jsp of the component HTTP GET Parameter Handler. Executing manipulation of the argument ID can lead to sql injection. The attack can be executed remotely. The exploit has been publicly disclosed and may be utilized. The vendor was contacted early about this disclosure but did not respond in any way.,False,0.0003,3.65
+CVE-2025-15426,2026-01-02T04:15:43.770,2026-01-02T16:45:26.640,7.3,7.5,HIGH,"CWE-284,CWE-434",A vulnerability was identified in jackying H-ui.admin up to 3.1. This affects an unknown function in the library /lib/webuploader/0.1.5/server/preview.php. The manipulation leads to unrestricted upload. The attack is possible to be carried out remotely. The exploit is publicly available and might be used. The vendor was contacted early about this disclosure but did not respond in any way.,False,0.00053,3.65
+CVE-2025-15427,2026-01-02T04:15:43.980,2026-01-29T10:15:51.830,7.3,7.5,HIGH,"CWE-74,CWE-89,CWE-89",A security flaw has been discovered in Seeyon Zhiyuan OA Web Application System up to 20251222. This impacts an unknown function of the file /carManager/carUseDetailList.j%73p. The manipulation of the argument CAR_BRAND_NO results in sql injection. The attack may be performed from remote. The exploit has been released to the public and may be used for attacks. The existence of this vulnerability is still disputed at present. Seeyon filed a report that this issue does not affect their product but,False,0.00035,3.65
+CVE-2025-15428,2026-01-02T05:15:43.710,2026-01-12T20:27:35.793,8.8,9.0,HIGH,"CWE-119,CWE-120",A weakness has been identified in UTT 进取 512W 1.7.7-171114. Affected is the function strcpy of the file /goform/formRemoteControl. This manipulation of the argument Profile causes buffer overflow. It is possible to initiate the attack remotely. The exploit has been made available to the public and could be used for attacks. The vendor was contacted early about this disclosure but did not respond in any way.,False,0.00079,4.4
+CVE-2025-12685,2026-01-02T06:15:53.283,2026-01-02T22:15:43.727,6.5,,MEDIUM,,The WPBookit WordPress plugin through 1.0.7 lacks a CSRF check when deleting customers. This could allow an unauthenticated attacker to delete any customer through a CSRF attack.,False,0.00029,3.25
+CVE-2025-13153,2026-01-02T06:15:53.423,2026-01-02T22:15:43.860,6.1,,MEDIUM,,"The Logo Slider  WordPress plugin before 4.9.0 does not validate and escape some of its slider options before outputting them back in the dashboard, which could allow users with the contributor role and above to perform Stored Cross-Site Scripting attacks.",False,0.00031,3.05
+CVE-2025-13456,2026-01-02T06:15:53.530,2026-01-02T22:15:43.990,6.1,,MEDIUM,,"The ShopBuilder  WordPress plugin before 3.2.2 does not sanitise and escape a parameter before outputting it back in the page, leading to a Reflected Cross-Site Scripting which could be used against high privilege users such as admin.",False,0.00031,3.05
+CVE-2025-14072,2026-01-02T06:15:53.627,2026-01-09T13:58:47.983,5.3,,MEDIUM,,The Ninja Forms  WordPress plugin before 3.13.3 allows unauthenticated attackers to generate valid access tokens via the REST API which can then be used to read form submissions.,False,0.00045,2.65
+CVE-2025-15429,2026-01-02T06:15:53.733,2026-01-12T20:25:15.637,8.8,9.0,HIGH,"CWE-119,CWE-120",A security vulnerability has been detected in UTT 进取 512W 1.7.7-171114. Affected by this vulnerability is the function strcpy of the file /goform/formConfigCliForEngineerOnly. Such manipulation of the argument addCommand leads to buffer overflow. It is possible to launch the attack remotely. The exploit has been disclosed publicly and may be used. The vendor was contacted early about this disclosure but did not respond in any way.,False,0.00079,4.4
+CVE-2025-15430,2026-01-02T06:15:53.923,2026-01-12T20:26:27.837,8.8,9.0,HIGH,"CWE-119,CWE-120",A vulnerability was detected in UTT 进取 512W 1.7.7-171114. Affected by this issue is the function strcpy of the file /goform/formFtpServerShareDirSelcet. Performing manipulation of the argument oldfilename results in buffer overflow. The attack can be initiated remotely. The exploit is now public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.,False,0.00079,4.4
+CVE-2025-15431,2026-01-02T06:15:54.113,2026-01-12T20:28:16.933,8.8,9.0,HIGH,"CWE-119,CWE-120",A flaw has been found in UTT 进取 512W 1.7.7-171114. This affects the function strcpy of the file /goform/formFtpServerDirConfig. Executing manipulation of the argument filename can lead to buffer overflow. The attack can be launched remotely. The exploit has been published and may be used. The vendor was contacted early about this disclosure but did not respond in any way.,False,0.00079,4.4
+CVE-2025-15432,2026-01-02T07:15:46.840,2026-01-12T15:32:44.450,5.3,5.0,MEDIUM,CWE-22,A vulnerability has been found in yeqifu carRental up to 3fabb7eae93d209426638863980301d6f99866b3. This vulnerability affects the function downloadShowFile of the file /file/downloadShowFile.action of the component com.yeqifu.sys.controller.FileController. The manipulation of the argument path leads to path traversal. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. This product uses a rolling release model to deliver continuous updates. As a re,False,0.0018,2.66
+CVE-2025-15434,2026-01-02T07:15:47.200,2026-01-07T17:57:44.850,7.3,7.5,HIGH,"CWE-74,CWE-89",A vulnerability was detected in Yonyou KSOA 9.0. Affected is an unknown function of the file /kp/PrintZPYG.jsp. The manipulation of the argument zpjhid results in sql injection. It is possible to launch the attack remotely. The exploit is now public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.,False,0.0003,3.65
+CVE-2025-15435,2026-01-02T08:15:41.253,2026-01-07T17:58:15.003,7.3,7.5,HIGH,"CWE-74,CWE-89",A flaw has been found in Yonyou KSOA 9.0. Affected by this vulnerability is an unknown functionality of the file /worksheet/work_update.jsp. This manipulation of the argument Report causes sql injection. The attack can be initiated remotely. The exploit has been published and may be used. The vendor was contacted early about this disclosure but did not respond in any way.,False,0.0003,3.65
+CVE-2025-15436,2026-01-02T08:15:41.550,2026-01-07T17:58:27.157,7.3,7.5,HIGH,"CWE-74,CWE-89",A vulnerability has been found in Yonyou KSOA 9.0. Affected by this issue is some unknown functionality of the file /worksheet/work_edit.jsp. Such manipulation of the argument Report leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.,False,0.0003,3.65
+CVE-2025-15437,2026-01-02T09:15:42.453,2026-01-02T16:45:26.640,3.5,4.0,LOW,"CWE-79,CWE-94",A vulnerability was found in LigeroSmart up to 6.1.24. This affects an unknown part of the component Environment Variable Handler. Performing manipulation of the argument REQUEST_URI results in cross site scripting. The attack may be initiated remotely. The exploit has been made public and could be used. Upgrading to version 6.1.26 and 6.3 is able to mitigate this issue. The patch is named 264ac5b2be5b3c673ebd8cb862e673f5d300d9a7. The affected component should be upgraded.,False,0.00035,1.75
+CVE-2026-0546,2026-01-02T09:15:42.917,2026-01-15T16:41:48.480,7.3,7.5,HIGH,"CWE-74,CWE-89,CWE-89",A vulnerability was determined in code-projects Content Management System 1.0. This impacts an unknown function of the file search.php. This manipulation of the argument Value causes sql injection. The attack is possible to be carried out remotely. The exploit has been publicly disclosed and may be utilized.,False,0.0003,3.65
+CVE-2026-0547,2026-01-02T10:15:41.510,2026-01-15T02:06:05.260,6.3,6.5,MEDIUM,"CWE-284,CWE-434,CWE-434",A vulnerability was found in PHPGurukul Online Course Registration up to 3.1. This issue affects some unknown processing of the file /admin/edit-student-profile.php of the component Student Registration Page. The manipulation of the argument photo results in unrestricted upload. The attack may be launched remotely. The exploit has been made public and could be used.,False,0.00036,3.15
+CVE-2026-0565,2026-01-02T14:15:52.880,2026-01-13T22:26:20.937,7.3,7.5,HIGH,"CWE-74,CWE-89,CWE-89",A weakness has been identified in code-projects Content Management System 1.0. This issue affects some unknown processing of the file /admin/delete.php. Executing manipulation of the argument del can lead to sql injection. The attack can be executed remotely. The exploit has been made available to the public and could be used for attacks.,False,0.0003,3.65
+CVE-2024-55374,2026-01-02T15:15:56.930,2026-01-12T15:27:42.607,5.3,,MEDIUM,CWE-203,REDCap 14.3.13 allows an attacker to enumerate usernames due to an observable discrepancy between login attempts.,False,0.00036,2.65
+CVE-2025-15438,2026-01-02T15:15:59.400,2026-01-02T16:45:26.640,4.7,5.8,MEDIUM,"CWE-20,CWE-502","A vulnerability was determined in PluXml up to 5.8.22. Affected is the function FileCookieJar::__destruct of the file core/admin/medias.php of the component Media Management Module. Executing manipulation of the argument File can lead to deserialization. The attack can be launched remotely. The exploit has been publicly disclosed and may be utilized. The vendor was informed early about this issue and announced that ""[w]e fix this issue in the next version 5.8.23"". A patch for it is ready.",False,0.00047,2.35
+CVE-2025-44013,2026-01-02T15:15:59.750,2026-01-05T20:22:54.760,6.5,,MEDIUM,CWE-476,"A NULL pointer dereference vulnerability has been reported to affect several QNAP operating system versions. If a remote attacker gains a user account, they can then exploit the vulnerability to launch a denial-of-service (DoS) attack.
+
+We have already fixed the vulnerability in the following versions:
+QTS 5.2.6.3195 build 20250715 and later
+QuTS hero h5.2.6.3195 build 20250715 and later",False,0.00118,3.25
+CVE-2025-45286,2026-01-02T15:15:59.903,2026-01-07T17:25:41.737,6.1,,MEDIUM,CWE-80,A cross-site scripting (XSS) vulnerability in mccutchen httpbin v2.17.1 allows attackers to execute arbitrary web scripts or HTML via a crafted payload.,False,0.00033,3.05
+CVE-2025-47208,2026-01-02T15:16:00.017,2026-01-05T19:47:19.010,6.5,,MEDIUM,CWE-770,"An allocation of resources without limits or throttling vulnerability has been reported to affect several QNAP operating system versions. If a remote attacker gains a user account, they can then exploit the vulnerability to prevent other systems, applications, or processes from accessing the same type of resource.
+
+We have already fixed the vulnerability in the following versions:
+QTS 5.2.6.3195 build 20250715 and later
+QuTS hero h5.2.6.3195 build 20250715 and later",False,0.00119,3.25
+CVE-2025-52426,2026-01-02T15:16:00.263,2026-01-05T20:22:31.720,4.9,,MEDIUM,CWE-476,"A NULL pointer dereference vulnerability has been reported to affect several QNAP operating system versions. If a remote attacker gains an administrator account, they can then exploit the vulnerability to launch a denial-of-service (DoS) attack.
+
+We have already fixed the vulnerability in the following versions:
+QTS 5.2.7.3256 build 20250913 and later
+QuTS hero h5.2.7.3256 build 20250913 and later
+QuTS hero h5.3.1.3250 build 20250912 and later",False,0.00128,2.45
+CVE-2025-52430,2026-01-02T15:16:00.403,2026-01-05T20:22:10.533,4.9,,MEDIUM,CWE-476,"A NULL pointer dereference vulnerability has been reported to affect several QNAP operating system versions. If a remote attacker gains an administrator account, they can then exploit the vulnerability to launch a denial-of-service (DoS) attack.
+
+We have already fixed the vulnerability in the following versions:
+QTS 5.2.7.3256 build 20250913 and later
+QuTS hero h5.2.7.3256 build 20250913 and later
+QuTS hero h5.3.1.3250 build 20250912 and later",False,0.00128,2.45
+CVE-2025-52431,2026-01-02T15:16:00.540,2026-01-05T20:21:44.410,4.9,,MEDIUM,CWE-476,"A NULL pointer dereference vulnerability has been reported to affect several QNAP operating system versions. If a remote attacker gains an administrator account, they can then exploit the vulnerability to launch a denial-of-service (DoS) attack.
+
+We have already fixed the vulnerability in the following versions:
+QTS 5.2.7.3256 build 20250913 and later
+QuTS hero h5.2.7.3256 build 20250913 and later
+QuTS hero h5.3.1.3250 build 20250912 and later",False,0.00128,2.45
+CVE-2025-52863,2026-01-02T15:16:00.670,2026-01-05T20:13:45.397,8.1,,HIGH,CWE-120,"A buffer overflow vulnerability has been reported to affect several QNAP operating system versions. If a remote attacker gains a user account, they can then exploit the vulnerability to modify memory or crash processes.
+
+We have already fixed the vulnerability in the following versions:
+QTS 5.2.7.3256 build 20250913 and later
+QuTS hero h5.2.7.3256 build 20250913 and later
+QuTS hero h5.3.0.3192 build 20250716 and later",False,0.00107,4.05
+CVE-2025-52864,2026-01-02T15:16:00.827,2026-01-05T20:13:29.287,8.1,,HIGH,CWE-120,"A buffer overflow vulnerability has been reported to affect several QNAP operating system versions. If a remote attacker gains a user account, they can then exploit the vulnerability to modify memory or crash processes.
+
+We have already fixed the vulnerability in the following versions:
+QTS 5.2.7.3256 build 20250913 and later
+QuTS hero h5.2.7.3256 build 20250913 and later
+QuTS hero h5.3.0.3192 build 20250716 and later",False,0.00107,4.05
+CVE-2025-52872,2026-01-02T15:16:00.980,2026-01-05T20:13:07.703,8.1,,HIGH,CWE-120,"A buffer overflow vulnerability has been reported to affect several QNAP operating system versions. If a remote attacker gains a user account, they can then exploit the vulnerability to modify memory or crash processes.
+
+We have already fixed the vulnerability in the following versions:
+QTS 5.2.7.3256 build 20250913 and later
+QuTS hero h5.2.7.3256 build 20250913 and later
+QuTS hero h5.3.0.3192 build 20250716 and later",False,0.00107,4.05
+CVE-2025-53405,2026-01-02T15:16:01.120,2026-01-05T20:21:20.253,4.9,,MEDIUM,CWE-476,"A NULL pointer dereference vulnerability has been reported to affect several QNAP operating system versions. If a remote attacker gains an administrator account, they can then exploit the vulnerability to launch a denial-of-service (DoS) attack.
+
+We have already fixed the vulnerability in the following versions:
+QTS 5.2.7.3256 build 20250913 and later
+QuTS hero h5.2.7.3256 build 20250913 and later
+QuTS hero h5.3.1.3250 build 20250912 and later",False,0.00128,2.45
+CVE-2025-53414,2026-01-02T15:16:01.253,2026-01-05T20:20:59.573,4.9,,MEDIUM,CWE-476,"A NULL pointer dereference vulnerability has been reported to affect several QNAP operating system versions. If a remote attacker gains an administrator account, they can then exploit the vulnerability to launch a denial-of-service (DoS) attack.
+
+We have already fixed the vulnerability in the following versions:
+QTS 5.2.7.3256 build 20250913 and later
+QuTS hero h5.2.7.3256 build 20250913 and later
+QuTS hero h5.3.1.3250 build 20250912 and later",False,0.00128,2.45
+CVE-2025-53589,2026-01-02T15:16:01.390,2026-01-05T20:20:33.977,4.9,,MEDIUM,CWE-476,"A NULL pointer dereference vulnerability has been reported to affect several QNAP operating system versions. If a remote attacker gains an administrator account, they can then exploit the vulnerability to launch a denial-of-service (DoS) attack.
+
+We have already fixed the vulnerability in the following versions:
+QTS 5.2.7.3256 build 20250913 and later
+QuTS hero h5.2.7.3256 build 20250913 and later
+QuTS hero h5.3.1.3250 build 20250912 and later",False,0.00128,2.45
+CVE-2025-53590,2026-01-02T15:16:01.523,2026-01-05T20:19:59.823,4.9,,MEDIUM,CWE-476,"A NULL pointer dereference vulnerability has been reported to affect several QNAP operating system versions. If a remote attacker gains an administrator account, they can then exploit the vulnerability to launch a denial-of-service (DoS) attack.
+
+We have already fixed the vulnerability in the following version:
+QTS 5.2.7.3256 build 20250913 and later",False,0.00128,2.45
+CVE-2025-53591,2026-01-02T15:16:01.653,2026-01-05T20:10:06.780,6.5,,MEDIUM,CWE-134,"A use of externally-controlled format string vulnerability has been reported to affect several QNAP operating system versions. If a remote attacker gains an administrator account, they can then exploit the vulnerability to obtain secret data or modify memory.
+
+We have already fixed the vulnerability in the following versions:
+QTS 5.2.7.3256 build 20250913 and later
+QuTS hero h5.2.7.3256 build 20250913 and later
+QuTS hero h5.3.1.3250 build 20250912 and later",False,0.00051,3.25
+CVE-2025-53592,2026-01-02T15:16:01.807,2026-01-05T20:19:26.977,6.5,,MEDIUM,CWE-476,"A NULL pointer dereference vulnerability has been reported to affect several QNAP operating system versions. If a remote attacker gains a user account, they can then exploit the vulnerability to launch a denial-of-service (DoS) attack.
+
+We have already fixed the vulnerability in the following versions:
+QTS 5.2.7.3256 build 20250913 and later
+QuTS hero h5.2.7.3256 build 20250913 and later
+QuTS hero h5.3.1.3250 build 20250912 and later",False,0.00118,3.25
+CVE-2025-53593,2026-01-02T15:16:02.540,2026-01-05T20:12:40.680,6.5,,MEDIUM,"CWE-121,CWE-787","A buffer overflow vulnerability has been reported to affect several QNAP operating system versions. If a remote attacker gains an administrator account, they can then exploit the vulnerability to modify memory or crash processes.
+
+We have already fixed the vulnerability in the following versions:
+QTS 5.2.7.3256 build 20250913 and later
+QuTS hero h5.2.7.3256 build 20250913 and later
+QuTS hero h5.3.1.3250 build 20250912 and later",False,0.00116,3.25
+CVE-2025-53596,2026-01-02T15:16:02.687,2026-01-05T20:18:51.807,4.9,,MEDIUM,CWE-476,"A NULL pointer dereference vulnerability has been reported to affect several QNAP operating system versions. If a remote attacker gains an administrator account, they can then exploit the vulnerability to launch a denial-of-service (DoS) attack.
+
+We have already fixed the vulnerability in the following versions:
+QTS 5.2.7.3256 build 20250913 and later
+QuTS hero h5.2.7.3256 build 20250913 and later
+QuTS hero h5.3.1.3250 build 20250912 and later",False,0.00128,2.45
+CVE-2025-54164,2026-01-02T15:16:02.827,2026-01-05T20:09:01.477,4.9,,MEDIUM,CWE-125,"An out-of-bounds read vulnerability has been reported to affect several QNAP operating system versions. If a remote attacker gains an administrator account, they can then exploit the vulnerability to obtain secret data.
+
+We have already fixed the vulnerability in the following versions:
+QTS 5.2.7.3256 build 20250913 and later
+QuTS hero h5.2.7.3256 build 20250913 and later
+QuTS hero h5.3.1.3250 build 20250912 and later",False,0.00051,2.45
+CVE-2025-54165,2026-01-02T15:16:02.980,2026-01-05T20:08:32.683,4.9,,MEDIUM,CWE-125,"An out-of-bounds read vulnerability has been reported to affect several QNAP operating system versions. If a remote attacker gains an administrator account, they can then exploit the vulnerability to obtain secret data.
+
+We have already fixed the vulnerability in the following versions:
+QTS 5.2.7.3256 build 20250913 and later
+QuTS hero h5.2.7.3256 build 20250913 and later
+QuTS hero h5.3.1.3250 build 20250912 and later",False,0.00051,2.45
+CVE-2025-54166,2026-01-02T15:16:03.107,2026-01-05T20:07:57.633,4.9,,MEDIUM,CWE-125,"An out-of-bounds read vulnerability has been reported to affect several QNAP operating system versions. If a remote attacker gains an administrator account, they can then exploit the vulnerability to obtain secret data.
+
+We have already fixed the vulnerability in the following versions:
+QTS 5.2.7.3256 build 20250913 and later
+QuTS hero h5.2.7.3256 build 20250913 and later
+QuTS hero h5.3.1.3250 build 20250912 and later",False,0.00051,2.45
+CVE-2025-57705,2026-01-02T15:16:03.243,2026-01-05T19:44:29.660,4.9,,MEDIUM,CWE-770,"An allocation of resources without limits or throttling vulnerability has been reported to affect several QNAP operating system versions. If a remote attacker gains an administrator account, they can then exploit the vulnerability to prevent other systems, applications, or processes from accessing the same type of resource.
+
+We have already fixed the vulnerability in the following versions:
+QTS 5.2.7.3256 build 20250913 and later
+QuTS hero h5.2.7.3256 build 20250913 and later
+QuTS hero h5.3.1.32",False,0.00129,2.45
+CVE-2025-62857,2026-01-02T15:16:03.450,2026-01-05T20:30:08.450,6.1,,MEDIUM,CWE-79,"A cross-site scripting (XSS) vulnerability has been reported to affect QuMagie. The remote attackers can then exploit the vulnerability to bypass security mechanisms or read application data.
+
+We have already fixed the vulnerability in the following version:
+QuMagie 2.8.1 and later",False,0.00079,3.05
+CVE-2025-65125,2026-01-02T15:16:03.673,2026-01-12T15:16:24.087,9.8,,CRITICAL,CWE-89,SQL injection in gosaliajainam/online-movie-booking 5.5 in movie_details.php allows attackers to gain sensitive information.,False,0.00038,4.9
+CVE-2025-11837,2026-01-02T16:15:48.403,2026-01-22T18:28:22.310,9.8,,CRITICAL,CWE-94,"An improper control of generation of code vulnerability has been reported to affect Malware Remover. The remote attackers can then exploit the vulnerability to bypass protection mechanism.
+
+We have already fixed the vulnerability in the following version:
+Malware Remover 6.6.8.20251023 and later",False,0.00132,4.9
+CVE-2025-48721,2026-01-02T16:16:59.100,2026-01-06T13:59:54.243,6.5,,MEDIUM,"CWE-120,CWE-121","A buffer overflow vulnerability has been reported to affect several QNAP operating system versions. If a remote attacker gains an administrator account, they can then exploit the vulnerability to modify memory or crash processes.
+
+We have already fixed the vulnerability in the following version:
+QTS 5.2.8.3332 build 20251128 and later",False,0.00116,3.25
+CVE-2025-52871,2026-01-02T16:16:59.427,2026-01-05T20:32:33.323,6.5,,MEDIUM,CWE-125,"An out-of-bounds read vulnerability has been reported to affect License Center. If a remote attacker gains a user account, they can then exploit the vulnerability to obtain secret data.
+
+We have already fixed the vulnerability in the following version:
+License Center 2.0.36 and later",False,0.00047,3.25
+CVE-2025-53594,2026-01-02T16:16:59.567,2026-01-02T16:45:26.640,,,UNKNOWN,"CWE-22,CWE-59,CWE-367","A path traversal vulnerability has been reported to affect several product versions. If a local attacker gains a user account, they can then exploit the vulnerability to read the contents of unexpected files or system data.
+
+We have already fixed the vulnerability in the following versions:
+Qfinder Pro Mac 7.13.0 and later
+Qsync for Mac 5.1.5 and later
+QVPN Device Client for Mac 2.2.8 and later",False,0.00018,2.5
+CVE-2025-53597,2026-01-02T16:16:59.727,2026-01-05T20:33:21.780,6.5,,MEDIUM,"CWE-121,CWE-787","A buffer overflow vulnerability has been reported to affect License Center. If a remote attacker gains an administrator account, they can then exploit the vulnerability to modify memory or crash processes.
+
+We have already fixed the vulnerability in the following version:
+License Center 2.0.36 and later",False,0.00116,3.25
+CVE-2025-59380,2026-01-02T16:16:59.873,2026-01-06T13:58:34.420,4.9,,MEDIUM,CWE-22,"A path traversal vulnerability has been reported to affect several QNAP operating system versions. If a remote attacker gains an administrator account, they can then exploit the vulnerability to read the contents of unexpected files or system data.
+
+We have already fixed the vulnerability in the following versions:
+QTS 5.2.8.3332 build 20251128 and later
+QuTS hero h5.2.8.3321 build 20251117 and later",False,0.00064,2.45
+CVE-2025-59381,2026-01-02T16:17:00.020,2026-01-06T13:57:35.633,4.9,,MEDIUM,CWE-22,"A path traversal vulnerability has been reported to affect several QNAP operating system versions. If a remote attacker gains an administrator account, they can then exploit the vulnerability to read the contents of unexpected files or system data.
+
+We have already fixed the vulnerability in the following versions:
+QTS 5.2.8.3332 build 20251128 and later
+QuTS hero h5.2.8.3321 build 20251117 and later",False,0.00064,2.45
+CVE-2025-59384,2026-01-02T16:17:00.160,2026-01-22T18:23:46.007,7.5,,HIGH,CWE-22,"A path traversal vulnerability has been reported to affect Qfiling. The remote attackers can then exploit the vulnerability to read the contents of unexpected files or system data.
+
+We have already fixed the vulnerability in the following version:
+Qfiling 3.13.1 and later",False,0.00064,3.75
+CVE-2025-59387,2026-01-02T16:17:00.293,2026-01-02T16:45:26.640,,,UNKNOWN,CWE-89,"An SQL injection vulnerability has been reported to affect MARS (Multi-Application Recovery Service). The remote attackers can then exploit the vulnerability to execute unauthorized code or commands.
+
+We have already fixed the vulnerability in the following version:
+MARS (Multi-Application Recovery Service) 1.2.1.1686 and later",False,0.00139,2.5
+CVE-2025-59389,2026-01-02T16:17:00.433,2026-01-22T18:20:57.957,9.8,,CRITICAL,CWE-89,"An SQL injection vulnerability has been reported to affect Hyper Data Protector. The remote attackers can then exploit the vulnerability to execute unauthorized code or commands.
+
+We have already fixed the vulnerability in the following versions:
+Hyper Data Protector 2.2.4.1 and later",False,0.00106,4.9
+CVE-2025-62840,2026-01-02T16:17:00.573,2026-01-02T16:45:26.640,,,UNKNOWN,CWE-209,"A generation of error message containing sensitive information vulnerability has been reported to affect HBS 3 Hybrid Backup Sync. If an attacker gains local network access, they can then exploit the vulnerability to read application data.
+
+We have already fixed the vulnerability in the following version:
+HBS 3 Hybrid Backup Sync 26.2.0.938 and later",False,0.00024,2.5
+CVE-2025-62842,2026-01-02T16:17:00.710,2026-01-02T16:45:26.640,,,UNKNOWN,CWE-73,"An external control of file name or path vulnerability has been reported to affect HBS 3 Hybrid Backup Sync. If an attacker gains local network access, they can then exploit the vulnerability to read or modify files or directories.
+
+We have already fixed the vulnerability in the following version:
+HBS 3 Hybrid Backup Sync 26.2.0.938 and later",False,0.00024,2.5
+CVE-2025-62852,2026-01-02T16:17:00.850,2026-01-06T13:56:14.357,6.5,,MEDIUM,"CWE-121,CWE-787","A buffer overflow vulnerability has been reported to affect several QNAP operating system versions. If a remote attacker gains an administrator account, they can then exploit the vulnerability to modify memory or crash processes.
+
+We have already fixed the vulnerability in the following version:
+QTS 5.2.8.3332 build 20251128 and later",False,0.00116,3.25
+CVE-2025-67268,2026-01-02T16:17:00.990,2026-01-12T15:33:45.577,9.8,,CRITICAL,CWE-122,"gpsd before commit dc966aa contains a heap-based out-of-bounds write vulnerability in the drivers/driver_nmea2000.c file. The hnd_129540 function, which handles NMEA2000 PGN 129540 (GNSS Satellites in View) packets, fails to validate the user-supplied satellite count against the size of the skyview array (184 elements). This allows an attacker to write beyond the bounds of the array by providing a satellite count up to 255, leading to memory corruption, Denial of Service (DoS), and potentially a",False,0.00106,4.9
+CVE-2025-67269,2026-01-02T16:17:01.100,2026-01-09T22:07:39.427,7.5,,HIGH,CWE-191,"An integer underflow vulnerability exists in the `nextstate()` function in `gpsd/packet.c` of gpsd versions prior to commit `ffa1d6f40bca0b035fc7f5e563160ebb67199da7`. When parsing a NAVCOM packet, the payload length is calculated using `lexer->length = (size_t)c - 4` without checking if the input byte `c` is less than 4. This results in an unsigned integer underflow, setting `lexer->length` to a very large value (near `SIZE_MAX`). The parser then enters a loop attempting to consume this massive",False,0.0009,3.75
+CVE-2025-69284,2026-01-02T16:17:05.277,2026-01-02T16:45:26.640,4.3,,MEDIUM,CWE-284,"Plane is an an open-source project management tool. In plane.io, a guest user doesn't have a permission to access https[:]//app[.]plane[.]so/[:]slug/settings. Prior to Plane version 1.2.0, a problem occurs when the `/api/workspaces/:slug/members/` is accessible by guest and able to list of users on a specific workspace that they joined. Since the `display_name` in the response is actually the handler of the email, a malicious guest can still identify admin users' email addresses. Version 1.2.0 f",False,0.00028,2.15
+CVE-2025-9110,2026-01-02T16:17:05.643,2026-01-06T13:55:15.713,7.5,,HIGH,CWE-497,"An exposure of sensitive system information to an unauthorized control sphere vulnerability has been reported to affect several QNAP operating system versions. The remote attackers can then exploit the vulnerability to read application data.
+
+We have already fixed the vulnerability in the following versions:
+QTS 5.2.8.3332 build 20251128 and later
+QuTS hero h5.2.8.3321 build 20251117 and later
+QuTS hero h5.3.1.3250 build 20250912 and later",False,0.00055,3.75
+CVE-2025-15439,2026-01-02T17:15:44.533,2026-01-08T18:09:49.800,6.3,6.5,MEDIUM,"CWE-74,CWE-89",A vulnerability was identified in Daptin 0.10.3. Affected by this vulnerability is the function goqu.L of the file server/resource/resource_aggregate.go of the component Aggregate API. The manipulation of the argument column/group/order leads to sql injection. The attack may be initiated remotely. The exploit is publicly available and might be used. The vendor was contacted early about this disclosure but did not respond in any way.,False,0.00031,3.15
+CVE-2025-34094,2026-01-02T17:15:45.150,2026-01-02T17:15:45.150,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34122,2026-01-02T17:15:45.247,2026-01-02T17:15:45.247,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34131,2026-01-02T17:15:45.317,2026-01-02T17:15:45.317,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34137,2026-01-02T17:15:45.370,2026-01-02T17:15:45.370,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34144,2026-01-02T17:15:45.433,2026-01-02T17:15:45.433,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34145,2026-01-02T17:15:45.493,2026-01-02T17:15:45.493,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34166,2026-01-02T17:15:45.550,2026-01-02T17:15:45.550,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34167,2026-01-02T17:15:45.610,2026-01-02T17:15:45.610,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34168,2026-01-02T17:15:45.680,2026-01-02T17:15:45.680,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34169,2026-01-02T17:15:45.753,2026-01-02T17:15:45.753,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34170,2026-01-02T17:15:45.820,2026-01-02T17:15:45.820,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34171,2026-01-02T17:15:45.897,2026-01-08T18:09:49.800,,,UNKNOWN,"CWE-497,CWE-862","CasaOS versions up to and including 0.4.15 expose multiple unauthenticated endpoints that allow remote attackers to retrieve sensitive configuration files and system debug information. The /v1/users/image endpoint can be abused with a user-controlled path parameter to access files under /var/lib/casaos/1/, which reveals installed applications and configuration details. Additionally, /v1/sys/debug discloses host operating system, kernel, hardware, and storage information. The endpoints also retur",False,0.00178,2.51
+CVE-2025-34213,2026-01-02T17:15:45.960,2026-01-02T17:15:45.960,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34214,2026-01-02T17:15:46.027,2026-01-02T17:15:46.027,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34219,2026-01-02T17:15:46.083,2026-01-02T17:15:46.083,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34250,2026-01-02T17:15:46.150,2026-01-02T17:15:46.150,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34268,2026-01-02T17:15:46.207,2026-01-02T17:15:46.207,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34275,2026-01-02T17:15:46.273,2026-01-02T17:15:46.273,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34276,2026-01-02T17:15:46.337,2026-01-02T17:15:46.337,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34279,2026-01-02T17:15:46.397,2026-01-02T17:15:46.397,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34285,2026-01-02T17:15:46.460,2026-01-02T17:15:46.460,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34289,2026-01-02T17:15:46.520,2026-01-02T17:15:46.520,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34295,2026-01-02T17:15:46.573,2026-01-02T17:15:46.573,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34296,2026-01-02T17:15:46.637,2026-01-02T17:15:46.637,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34321,2026-01-02T17:15:46.697,2026-01-02T17:15:46.697,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34325,2026-01-02T17:15:46.753,2026-01-02T17:15:46.753,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34326,2026-01-02T17:15:46.820,2026-01-02T17:15:46.820,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34327,2026-01-02T17:15:46.890,2026-01-02T17:15:46.890,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34338,2026-01-02T17:15:46.957,2026-01-02T17:15:46.957,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34339,2026-01-02T17:15:47.017,2026-01-02T17:15:47.017,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34340,2026-01-02T17:15:47.087,2026-01-02T17:15:47.087,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34341,2026-01-02T17:15:47.153,2026-01-02T17:15:47.153,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34342,2026-01-02T17:15:47.220,2026-01-02T17:15:47.220,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34343,2026-01-02T17:15:47.283,2026-01-02T17:15:47.283,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34344,2026-01-02T17:15:47.347,2026-01-02T17:15:47.347,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34345,2026-01-02T17:15:47.400,2026-01-02T17:15:47.400,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34346,2026-01-02T17:15:47.463,2026-01-02T17:15:47.463,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34347,2026-01-02T17:15:47.533,2026-01-02T17:15:47.533,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34348,2026-01-02T17:15:47.593,2026-01-02T17:15:47.593,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34349,2026-01-02T17:15:47.660,2026-01-02T17:15:47.660,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34353,2026-01-02T17:15:47.720,2026-01-02T17:15:47.720,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34354,2026-01-02T17:15:47.783,2026-01-02T17:15:47.783,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34355,2026-01-02T17:15:47.847,2026-01-02T17:15:47.847,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34356,2026-01-02T17:15:47.910,2026-01-02T17:15:47.910,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34357,2026-01-02T17:15:47.977,2026-01-02T17:15:47.977,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34358,2026-01-02T17:15:48.033,2026-01-02T17:15:48.033,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34359,2026-01-02T17:15:48.103,2026-01-02T17:15:48.103,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34360,2026-01-02T17:15:48.160,2026-01-02T17:15:48.160,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34361,2026-01-02T17:15:48.227,2026-01-02T17:15:48.227,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34362,2026-01-02T17:15:48.287,2026-01-02T17:15:48.287,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34363,2026-01-02T17:15:48.350,2026-01-02T17:15:48.350,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34364,2026-01-02T17:15:48.403,2026-01-02T17:15:48.403,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34365,2026-01-02T17:15:48.467,2026-01-02T17:15:48.467,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34366,2026-01-02T17:15:48.530,2026-01-02T17:15:48.530,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34367,2026-01-02T17:15:48.587,2026-01-02T17:15:48.587,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34368,2026-01-02T17:15:48.643,2026-01-02T17:15:48.643,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34369,2026-01-02T17:15:48.703,2026-01-02T17:15:48.703,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34370,2026-01-02T17:15:48.767,2026-01-02T17:15:48.767,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34371,2026-01-02T17:15:48.833,2026-01-02T17:15:48.833,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34372,2026-01-02T17:15:48.897,2026-01-02T17:15:48.897,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34373,2026-01-02T17:15:48.953,2026-01-02T17:15:48.953,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34374,2026-01-02T17:15:49.017,2026-01-02T17:15:49.017,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34375,2026-01-02T17:15:49.077,2026-01-02T17:15:49.077,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34376,2026-01-02T17:15:49.137,2026-01-02T17:15:49.137,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34377,2026-01-02T17:15:49.200,2026-01-02T17:15:49.200,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34378,2026-01-02T17:15:49.260,2026-01-02T17:15:49.260,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34379,2026-01-02T17:15:49.317,2026-01-02T17:15:49.317,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34380,2026-01-02T17:15:49.380,2026-01-02T17:15:49.380,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34381,2026-01-02T17:15:49.440,2026-01-02T17:15:49.440,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34382,2026-01-02T17:15:49.507,2026-01-02T17:15:49.507,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34383,2026-01-02T17:15:49.570,2026-01-02T17:15:49.570,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34384,2026-01-02T17:15:49.630,2026-01-02T17:15:49.630,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34385,2026-01-02T17:15:49.693,2026-01-02T17:15:49.693,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34386,2026-01-02T17:15:49.760,2026-01-02T17:15:49.760,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34387,2026-01-02T17:15:49.823,2026-01-02T17:15:49.823,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34388,2026-01-02T17:15:49.887,2026-01-02T17:15:49.887,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34389,2026-01-02T17:15:49.943,2026-01-02T17:15:49.943,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34390,2026-01-02T17:15:50.010,2026-01-02T17:15:50.010,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34391,2026-01-02T17:15:50.067,2026-01-02T17:15:50.067,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34405,2026-01-02T17:15:50.127,2026-01-02T17:15:50.127,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34415,2026-01-02T17:15:50.200,2026-01-02T17:15:50.200,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34426,2026-01-02T17:15:50.267,2026-01-02T17:15:50.267,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34431,2026-01-02T17:15:50.330,2026-01-02T17:15:50.330,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34432,2026-01-02T17:15:50.393,2026-01-02T17:15:50.393,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34443,2026-01-02T17:15:50.457,2026-01-02T17:15:50.457,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34444,2026-01-02T17:15:50.510,2026-01-02T17:15:50.510,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34445,2026-01-02T17:15:50.573,2026-01-02T17:15:50.573,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34446,2026-01-02T17:15:50.637,2026-01-02T17:15:50.637,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34447,2026-01-02T17:15:50.700,2026-01-02T17:15:50.700,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34448,2026-01-02T17:15:50.753,2026-01-02T17:15:50.753,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34453,2026-01-02T17:15:50.817,2026-01-02T17:15:50.817,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34454,2026-01-02T17:15:50.887,2026-01-02T17:15:50.887,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34455,2026-01-02T17:15:50.943,2026-01-02T17:15:50.943,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34456,2026-01-02T17:15:51.007,2026-01-02T17:15:51.007,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34459,2026-01-02T17:15:51.067,2026-01-02T17:15:51.067,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34460,2026-01-02T17:15:51.130,2026-01-05T14:15:53.427,,,UNKNOWN,,Rejected reason: This candidate has been reserved by a CVE Numbering Authority (CNA).,False,,2.53
+CVE-2025-34461,2026-01-02T17:15:51.187,2026-01-02T17:15:51.187,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34462,2026-01-02T17:15:51.250,2026-01-02T17:15:51.250,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34463,2026-01-02T17:15:51.310,2026-01-02T17:15:51.310,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34464,2026-01-02T17:15:51.370,2026-01-02T17:15:51.370,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34465,2026-01-02T17:15:51.430,2026-01-02T17:15:51.430,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34466,2026-01-02T17:15:51.497,2026-01-02T17:15:51.497,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34470,2026-01-02T17:15:51.553,2026-01-02T17:15:51.553,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34471,2026-01-02T17:15:51.617,2026-01-02T17:15:51.617,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34472,2026-01-02T17:15:51.680,2026-01-02T17:15:51.680,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34473,2026-01-02T17:15:51.740,2026-01-02T17:15:51.740,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34474,2026-01-02T17:15:51.807,2026-01-02T17:15:51.807,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34475,2026-01-02T17:15:51.863,2026-01-02T17:15:51.863,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34476,2026-01-02T17:15:51.927,2026-01-02T17:15:51.927,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34477,2026-01-02T17:15:51.983,2026-01-02T17:15:51.983,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34478,2026-01-02T17:15:52.043,2026-01-02T17:15:52.043,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34479,2026-01-02T17:15:52.107,2026-01-02T17:15:52.107,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34480,2026-01-02T17:15:52.173,2026-01-02T17:15:52.173,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34481,2026-01-02T17:15:52.230,2026-01-02T17:15:52.230,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34482,2026-01-02T17:15:52.290,2026-01-02T17:15:52.290,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34483,2026-01-02T17:15:52.353,2026-01-02T17:15:52.353,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34484,2026-01-02T17:15:52.417,2026-01-02T17:15:52.417,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34485,2026-01-02T17:15:52.480,2026-01-02T17:15:52.480,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34486,2026-01-02T17:15:52.540,2026-01-02T17:15:52.540,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34487,2026-01-02T17:15:52.603,2026-01-02T17:15:52.603,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34488,2026-01-02T17:15:52.663,2026-01-02T17:15:52.663,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34492,2026-01-02T17:15:52.720,2026-01-02T17:15:52.720,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34493,2026-01-02T17:15:52.783,2026-01-02T17:15:52.783,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34494,2026-01-02T17:15:52.850,2026-01-02T17:15:52.850,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34495,2026-01-02T17:15:52.910,2026-01-02T17:15:52.910,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34496,2026-01-02T17:15:52.977,2026-01-02T17:15:52.977,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34497,2026-01-02T17:15:53.040,2026-01-02T17:15:53.040,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34498,2026-01-02T17:15:53.097,2026-01-02T17:15:53.097,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34505,2026-01-02T17:15:53.160,2026-01-02T17:15:53.160,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34507,2026-01-02T17:15:53.217,2026-01-02T17:15:53.217,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34524,2026-01-02T17:15:53.280,2026-01-02T17:15:53.280,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34525,2026-01-02T17:15:53.340,2026-01-02T17:15:53.340,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34526,2026-01-02T17:15:53.400,2026-01-02T17:15:53.400,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34527,2026-01-02T17:15:53.460,2026-01-02T17:15:53.460,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34528,2026-01-02T17:15:53.523,2026-01-02T17:15:53.523,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34529,2026-01-02T17:15:53.577,2026-01-02T17:15:53.577,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34530,2026-01-02T17:15:53.637,2026-01-02T17:15:53.637,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34531,2026-01-02T17:15:53.693,2026-01-02T17:15:53.693,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34532,2026-01-02T17:15:53.753,2026-01-02T17:15:53.753,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34533,2026-01-02T17:15:53.817,2026-01-02T17:15:53.817,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34534,2026-01-02T17:15:53.880,2026-01-02T17:15:53.880,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34535,2026-01-02T17:15:53.940,2026-01-02T17:15:53.940,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34536,2026-01-02T17:15:54.003,2026-01-02T17:15:54.003,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34537,2026-01-02T17:15:54.063,2026-01-02T17:15:54.063,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34538,2026-01-02T17:15:54.123,2026-01-02T17:15:54.123,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34539,2026-01-02T17:15:54.187,2026-01-02T17:15:54.187,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34540,2026-01-02T17:15:54.247,2026-01-02T17:15:54.247,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34541,2026-01-02T17:15:54.310,2026-01-02T17:15:54.310,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34542,2026-01-02T17:15:54.370,2026-01-02T17:15:54.370,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34543,2026-01-02T17:15:54.437,2026-01-02T17:15:54.437,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34544,2026-01-02T17:15:54.503,2026-01-02T17:15:54.503,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34545,2026-01-02T17:15:54.570,2026-01-02T17:15:54.570,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34546,2026-01-02T17:15:54.637,2026-01-02T17:15:54.637,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34547,2026-01-02T17:15:54.690,2026-01-02T17:15:54.690,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34548,2026-01-02T17:15:54.753,2026-01-02T17:15:54.753,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34549,2026-01-02T17:15:54.817,2026-01-02T17:15:54.817,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34550,2026-01-02T17:15:54.880,2026-01-02T17:15:54.880,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34551,2026-01-02T17:15:54.940,2026-01-02T17:15:54.940,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34552,2026-01-02T17:15:54.997,2026-01-02T17:15:54.997,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34553,2026-01-02T17:15:55.060,2026-01-02T17:15:55.060,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34554,2026-01-02T17:15:55.120,2026-01-02T17:15:55.120,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34555,2026-01-02T17:15:55.180,2026-01-02T17:15:55.180,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34556,2026-01-02T17:15:55.237,2026-01-02T17:15:55.237,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34557,2026-01-02T17:15:55.297,2026-01-02T17:15:55.297,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34558,2026-01-02T17:15:55.360,2026-01-02T17:15:55.360,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34559,2026-01-02T17:15:55.417,2026-01-02T17:15:55.417,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34560,2026-01-02T17:15:55.480,2026-01-02T17:15:55.480,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34561,2026-01-02T17:15:55.533,2026-01-02T17:15:55.533,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34562,2026-01-02T17:15:55.597,2026-01-02T17:15:55.597,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34563,2026-01-02T17:15:55.650,2026-01-02T17:15:55.650,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34564,2026-01-02T17:15:55.717,2026-01-02T17:15:55.717,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34565,2026-01-02T17:15:55.780,2026-01-02T17:15:55.780,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34566,2026-01-02T17:15:55.837,2026-01-02T17:15:55.837,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34567,2026-01-02T17:15:55.910,2026-01-02T17:15:55.910,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34568,2026-01-02T17:15:55.973,2026-01-02T17:15:55.973,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34569,2026-01-02T17:15:56.043,2026-01-02T17:15:56.043,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34570,2026-01-02T17:15:56.110,2026-01-02T17:15:56.110,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34571,2026-01-02T17:15:56.167,2026-01-02T17:15:56.167,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34572,2026-01-02T17:15:56.230,2026-01-02T17:15:56.230,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34573,2026-01-02T17:15:56.287,2026-01-02T17:15:56.287,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34574,2026-01-02T17:15:56.350,2026-01-02T17:15:56.350,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34575,2026-01-02T17:15:56.407,2026-01-02T17:15:56.407,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34576,2026-01-02T17:15:56.470,2026-01-02T17:15:56.470,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34577,2026-01-02T17:15:56.527,2026-01-02T17:15:56.527,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34578,2026-01-02T17:15:56.580,2026-01-02T17:15:56.580,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34579,2026-01-02T17:15:56.643,2026-01-02T17:15:56.643,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34580,2026-01-02T17:15:56.700,2026-01-02T17:15:56.700,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34581,2026-01-02T17:15:56.760,2026-01-02T17:15:56.760,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34582,2026-01-02T17:15:56.817,2026-01-02T17:15:56.817,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34583,2026-01-02T17:15:56.877,2026-01-02T17:15:56.877,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34584,2026-01-02T17:15:56.943,2026-01-02T17:15:56.943,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34585,2026-01-02T17:15:57.010,2026-01-02T17:15:57.010,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34586,2026-01-02T17:15:57.063,2026-01-02T17:15:57.063,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34587,2026-01-02T17:15:57.123,2026-01-02T17:15:57.123,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34588,2026-01-02T17:15:57.180,2026-01-02T17:15:57.180,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34589,2026-01-02T17:15:57.237,2026-01-02T17:15:57.237,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34590,2026-01-02T17:15:57.300,2026-01-02T17:15:57.300,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34591,2026-01-02T17:15:57.357,2026-01-02T17:15:57.357,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34592,2026-01-02T17:15:57.413,2026-01-02T17:15:57.413,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34593,2026-01-02T17:15:57.470,2026-01-02T17:15:57.470,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34594,2026-01-02T17:15:57.530,2026-01-02T17:15:57.530,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34595,2026-01-02T17:15:57.603,2026-01-02T17:15:57.603,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34596,2026-01-02T17:15:57.667,2026-01-02T17:15:57.667,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34597,2026-01-02T17:15:57.730,2026-01-02T17:15:57.730,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34598,2026-01-02T17:15:57.783,2026-01-02T17:15:57.783,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34599,2026-01-02T17:15:57.840,2026-01-02T17:15:57.840,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34600,2026-01-02T17:15:57.903,2026-01-02T17:15:57.903,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34601,2026-01-02T17:15:57.963,2026-01-02T17:15:57.963,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34602,2026-01-02T17:15:58.027,2026-01-02T17:15:58.027,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34603,2026-01-02T17:15:58.083,2026-01-02T17:15:58.083,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34604,2026-01-02T17:15:58.147,2026-01-02T17:15:58.147,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34605,2026-01-02T17:15:58.197,2026-01-02T17:15:58.197,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34606,2026-01-02T17:15:58.257,2026-01-02T17:15:58.257,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34607,2026-01-02T17:15:58.320,2026-01-02T17:15:58.320,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34608,2026-01-02T17:15:58.383,2026-01-02T17:15:58.383,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34609,2026-01-02T17:15:58.440,2026-01-02T17:15:58.440,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34610,2026-01-02T17:15:58.500,2026-01-02T17:15:58.500,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34611,2026-01-02T17:15:58.560,2026-01-02T17:15:58.560,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34612,2026-01-02T17:15:58.623,2026-01-02T17:15:58.623,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34613,2026-01-02T17:15:58.677,2026-01-02T17:15:58.677,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34614,2026-01-02T17:15:58.737,2026-01-02T17:15:58.737,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34615,2026-01-02T17:15:58.800,2026-01-02T17:15:58.800,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34616,2026-01-02T17:15:58.850,2026-01-02T17:15:58.850,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34617,2026-01-02T17:15:58.913,2026-01-02T17:15:58.913,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34618,2026-01-02T17:15:58.977,2026-01-02T17:15:58.977,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34619,2026-01-02T17:15:59.037,2026-01-02T17:15:59.037,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34620,2026-01-02T17:15:59.100,2026-01-02T17:15:59.100,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34621,2026-01-02T17:15:59.170,2026-01-02T17:15:59.170,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34622,2026-01-02T17:15:59.227,2026-01-02T17:15:59.227,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34623,2026-01-02T17:15:59.290,2026-01-02T17:15:59.290,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34624,2026-01-02T17:15:59.360,2026-01-02T17:15:59.360,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34625,2026-01-02T17:15:59.903,2026-01-02T17:15:59.903,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34626,2026-01-02T17:15:59.963,2026-01-02T17:15:59.963,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34627,2026-01-02T17:16:00.030,2026-01-02T17:16:00.030,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34628,2026-01-02T17:16:00.093,2026-01-02T17:16:00.093,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34629,2026-01-02T17:16:00.153,2026-01-02T17:16:00.153,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34630,2026-01-02T17:16:00.217,2026-01-02T17:16:00.217,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34631,2026-01-02T17:16:00.277,2026-01-02T17:16:00.277,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34632,2026-01-02T17:16:00.333,2026-01-02T17:16:00.333,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34633,2026-01-02T17:16:00.397,2026-01-02T17:16:00.397,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34634,2026-01-02T17:16:00.453,2026-01-02T17:16:00.453,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34635,2026-01-02T17:16:00.513,2026-01-02T17:16:00.513,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34636,2026-01-02T17:16:00.580,2026-01-02T17:16:00.580,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34637,2026-01-02T17:16:00.637,2026-01-02T17:16:00.637,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34638,2026-01-02T17:16:00.693,2026-01-02T17:16:00.693,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34639,2026-01-02T17:16:00.760,2026-01-02T17:16:00.760,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34640,2026-01-02T17:16:00.820,2026-01-02T17:16:00.820,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34641,2026-01-02T17:16:00.883,2026-01-02T17:16:00.883,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34642,2026-01-02T17:16:00.940,2026-01-02T17:16:00.940,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34643,2026-01-02T17:16:01.003,2026-01-02T17:16:01.003,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34644,2026-01-02T17:16:01.067,2026-01-02T17:16:01.067,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34645,2026-01-02T17:16:01.127,2026-01-02T17:16:01.127,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34646,2026-01-02T17:16:01.187,2026-01-02T17:16:01.187,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34647,2026-01-02T17:16:01.247,2026-01-02T17:16:01.247,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34648,2026-01-02T17:16:01.307,2026-01-02T17:16:01.307,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34649,2026-01-02T17:16:01.367,2026-01-02T17:16:01.367,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34650,2026-01-02T17:16:01.430,2026-01-02T17:16:01.430,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34651,2026-01-02T17:16:01.480,2026-01-02T17:16:01.480,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34652,2026-01-02T17:16:01.543,2026-01-02T17:16:01.543,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34653,2026-01-02T17:16:01.600,2026-01-02T17:16:01.600,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34654,2026-01-02T17:16:01.660,2026-01-02T17:16:01.660,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34655,2026-01-02T17:16:01.723,2026-01-02T17:16:01.723,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34656,2026-01-02T17:16:01.780,2026-01-02T17:16:01.780,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34657,2026-01-02T17:16:01.840,2026-01-02T17:16:01.840,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34658,2026-01-02T17:16:01.900,2026-01-02T17:16:01.900,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34659,2026-01-02T17:16:01.957,2026-01-02T17:16:01.957,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34660,2026-01-02T17:16:02.020,2026-01-02T17:16:02.020,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34661,2026-01-02T17:16:02.080,2026-01-02T17:16:02.080,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34662,2026-01-02T17:16:02.143,2026-01-02T17:16:02.143,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34663,2026-01-02T17:16:02.207,2026-01-02T17:16:02.207,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34664,2026-01-02T17:16:02.263,2026-01-02T17:16:02.263,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34665,2026-01-02T17:16:02.323,2026-01-02T17:16:02.323,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34666,2026-01-02T17:16:02.380,2026-01-02T17:16:02.380,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34667,2026-01-02T17:16:02.440,2026-01-02T17:16:02.440,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34668,2026-01-02T17:16:02.500,2026-01-02T17:16:02.500,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34669,2026-01-02T17:16:02.560,2026-01-02T17:16:02.560,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34670,2026-01-02T17:16:02.610,2026-01-02T17:16:02.610,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34671,2026-01-02T17:16:02.670,2026-01-02T17:16:02.670,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34672,2026-01-02T17:16:02.737,2026-01-02T17:16:02.737,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34673,2026-01-02T17:16:02.790,2026-01-02T17:16:02.790,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34674,2026-01-02T17:16:02.850,2026-01-02T17:16:02.850,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34675,2026-01-02T17:16:02.910,2026-01-02T17:16:02.910,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34676,2026-01-02T17:16:02.963,2026-01-02T17:16:02.963,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34677,2026-01-02T17:16:03.027,2026-01-02T17:16:03.027,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34678,2026-01-02T17:16:03.090,2026-01-02T17:16:03.090,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34679,2026-01-02T17:16:03.150,2026-01-02T17:16:03.150,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34680,2026-01-02T17:16:03.213,2026-01-02T17:16:03.213,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34681,2026-01-02T17:16:03.277,2026-01-02T17:16:03.277,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34682,2026-01-02T17:16:03.330,2026-01-02T17:16:03.330,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34683,2026-01-02T17:16:03.390,2026-01-02T17:16:03.390,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34684,2026-01-02T17:16:03.450,2026-01-02T17:16:03.450,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34685,2026-01-02T17:16:03.510,2026-01-02T17:16:03.510,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34686,2026-01-02T17:16:03.567,2026-01-02T17:16:03.567,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34687,2026-01-02T17:16:03.627,2026-01-02T17:16:03.627,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34688,2026-01-02T17:16:03.683,2026-01-02T17:16:03.683,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34689,2026-01-02T17:16:03.743,2026-01-02T17:16:03.743,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34690,2026-01-02T17:16:03.813,2026-01-02T17:16:03.813,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34691,2026-01-02T17:16:03.883,2026-01-02T17:16:03.883,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34692,2026-01-02T17:16:03.943,2026-01-02T17:16:03.943,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34693,2026-01-02T17:16:04.007,2026-01-02T17:16:04.007,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34694,2026-01-02T17:16:04.070,2026-01-02T17:16:04.070,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34695,2026-01-02T17:16:04.130,2026-01-02T17:16:04.130,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34696,2026-01-02T17:16:04.193,2026-01-02T17:16:04.193,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34697,2026-01-02T17:16:04.250,2026-01-02T17:16:04.250,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34698,2026-01-02T17:16:04.310,2026-01-02T17:16:04.310,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34699,2026-01-02T17:16:04.370,2026-01-02T17:16:04.370,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34700,2026-01-02T17:16:04.430,2026-01-02T17:16:04.430,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34701,2026-01-02T17:16:04.500,2026-01-02T17:16:04.500,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34702,2026-01-02T17:16:04.553,2026-01-02T17:16:04.553,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34703,2026-01-02T17:16:04.610,2026-01-02T17:16:04.610,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34704,2026-01-02T17:16:04.670,2026-01-02T17:16:04.670,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34705,2026-01-02T17:16:04.730,2026-01-02T17:16:04.730,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34706,2026-01-02T17:16:04.790,2026-01-02T17:16:04.790,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34707,2026-01-02T17:16:04.847,2026-01-02T17:16:04.847,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34708,2026-01-02T17:16:04.913,2026-01-02T17:16:04.913,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34709,2026-01-02T17:16:04.980,2026-01-02T17:16:04.980,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34710,2026-01-02T17:16:05.047,2026-01-02T17:16:05.047,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34711,2026-01-02T17:16:05.110,2026-01-02T17:16:05.110,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34712,2026-01-02T17:16:05.173,2026-01-02T17:16:05.173,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34713,2026-01-02T17:16:05.237,2026-01-02T17:16:05.237,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34714,2026-01-02T17:16:05.290,2026-01-02T17:16:05.290,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34715,2026-01-02T17:16:05.350,2026-01-02T17:16:05.350,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34716,2026-01-02T17:16:05.417,2026-01-02T17:16:05.417,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34717,2026-01-02T17:16:05.473,2026-01-02T17:16:05.473,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34718,2026-01-02T17:16:05.537,2026-01-02T17:16:05.537,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34719,2026-01-02T17:16:05.603,2026-01-02T17:16:05.603,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34720,2026-01-02T17:16:05.663,2026-01-02T17:16:05.663,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34721,2026-01-02T17:16:05.723,2026-01-02T17:16:05.723,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34722,2026-01-02T17:16:05.783,2026-01-02T17:16:05.783,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34723,2026-01-02T17:16:05.847,2026-01-02T17:16:05.847,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34724,2026-01-02T17:16:05.910,2026-01-02T17:16:05.910,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34725,2026-01-02T17:16:05.967,2026-01-02T17:16:05.967,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34726,2026-01-02T17:16:06.023,2026-01-02T17:16:06.023,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34727,2026-01-02T17:16:06.080,2026-01-02T17:16:06.080,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34728,2026-01-02T17:16:06.153,2026-01-02T17:16:06.153,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34729,2026-01-02T17:16:06.227,2026-01-02T17:16:06.227,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34730,2026-01-02T17:16:06.303,2026-01-02T17:16:06.303,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34731,2026-01-02T17:16:06.370,2026-01-02T17:16:06.370,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34732,2026-01-02T17:16:06.433,2026-01-02T17:16:06.433,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34733,2026-01-02T17:16:06.497,2026-01-02T17:16:06.497,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34734,2026-01-02T17:16:06.563,2026-01-02T17:16:06.563,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34735,2026-01-02T17:16:06.617,2026-01-02T17:16:06.617,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34736,2026-01-02T17:16:06.683,2026-01-02T17:16:06.683,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34737,2026-01-02T17:16:06.740,2026-01-02T17:16:06.740,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34738,2026-01-02T17:16:06.803,2026-01-02T17:16:06.803,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34739,2026-01-02T17:16:06.860,2026-01-02T17:16:06.860,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34740,2026-01-02T17:16:06.920,2026-01-02T17:16:06.920,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34741,2026-01-02T17:16:06.983,2026-01-02T17:16:06.983,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34742,2026-01-02T17:16:07.040,2026-01-02T17:16:07.040,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34743,2026-01-02T17:16:07.100,2026-01-02T17:16:07.100,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34744,2026-01-02T17:16:07.170,2026-01-02T17:16:07.170,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34745,2026-01-02T17:16:07.230,2026-01-02T17:16:07.230,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34746,2026-01-02T17:16:07.290,2026-01-02T17:16:07.290,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34747,2026-01-02T17:16:07.347,2026-01-02T17:16:07.347,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34748,2026-01-02T17:16:07.410,2026-01-02T17:16:07.410,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34749,2026-01-02T17:16:07.470,2026-01-02T17:16:07.470,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34750,2026-01-02T17:16:07.537,2026-01-02T17:16:07.537,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34751,2026-01-02T17:16:07.590,2026-01-02T17:16:07.590,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34752,2026-01-02T17:16:07.660,2026-01-02T17:16:07.660,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34753,2026-01-02T17:16:07.727,2026-01-02T17:16:07.727,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34754,2026-01-02T17:16:07.783,2026-01-02T17:16:07.783,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34755,2026-01-02T17:16:07.847,2026-01-02T17:16:07.847,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34756,2026-01-02T17:16:07.907,2026-01-02T17:16:07.907,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34757,2026-01-02T17:16:07.963,2026-01-02T17:16:07.963,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34758,2026-01-02T17:16:08.023,2026-01-02T17:16:08.023,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34759,2026-01-02T17:16:08.090,2026-01-02T17:16:08.090,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34760,2026-01-02T17:16:08.147,2026-01-02T17:16:08.147,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34761,2026-01-02T17:16:08.210,2026-01-02T17:16:08.210,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34762,2026-01-02T17:16:08.267,2026-01-02T17:16:08.267,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34763,2026-01-02T17:16:08.323,2026-01-02T17:16:08.323,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34764,2026-01-02T17:16:08.383,2026-01-02T17:16:08.383,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34765,2026-01-02T17:16:08.443,2026-01-02T17:16:08.443,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34766,2026-01-02T17:16:08.500,2026-01-02T17:16:08.500,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34767,2026-01-02T17:16:08.563,2026-01-02T17:16:08.563,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34768,2026-01-02T17:16:08.630,2026-01-02T17:16:08.630,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34769,2026-01-02T17:16:08.690,2026-01-02T17:16:08.690,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34770,2026-01-02T17:16:08.750,2026-01-02T17:16:08.750,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34771,2026-01-02T17:16:08.810,2026-01-02T17:16:08.810,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34772,2026-01-02T17:16:08.870,2026-01-02T17:16:08.870,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34773,2026-01-02T17:16:08.927,2026-01-02T17:16:08.927,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34774,2026-01-02T17:16:08.983,2026-01-02T17:16:08.983,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34775,2026-01-02T17:16:09.040,2026-01-02T17:16:09.040,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34776,2026-01-02T17:16:09.100,2026-01-02T17:16:09.100,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34777,2026-01-02T17:16:09.163,2026-01-02T17:16:09.163,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34778,2026-01-02T17:16:09.220,2026-01-02T17:16:09.220,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34779,2026-01-02T17:16:09.280,2026-01-02T17:16:09.280,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34780,2026-01-02T17:16:09.343,2026-01-02T17:16:09.343,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34781,2026-01-02T17:16:09.413,2026-01-02T17:16:09.413,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34782,2026-01-02T17:16:09.480,2026-01-02T17:16:09.480,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34783,2026-01-02T17:16:09.550,2026-01-02T17:16:09.550,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34784,2026-01-02T17:16:09.600,2026-01-02T17:16:09.600,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34785,2026-01-02T17:16:09.660,2026-01-02T17:16:09.660,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34786,2026-01-02T17:16:09.723,2026-01-02T17:16:09.723,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34787,2026-01-02T17:16:09.777,2026-01-02T17:16:09.777,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34788,2026-01-02T17:16:09.837,2026-01-02T17:16:09.837,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34789,2026-01-02T17:16:09.900,2026-01-02T17:16:09.900,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34790,2026-01-02T17:16:09.953,2026-01-02T17:16:09.953,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34791,2026-01-02T17:16:10.020,2026-01-02T17:16:10.020,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34792,2026-01-02T17:16:10.097,2026-01-02T17:16:10.097,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34793,2026-01-02T17:16:10.187,2026-01-02T17:16:10.187,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34794,2026-01-02T17:16:10.247,2026-01-02T17:16:10.247,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34795,2026-01-02T17:16:10.310,2026-01-02T17:16:10.310,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34796,2026-01-02T17:16:10.367,2026-01-02T17:16:10.367,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34797,2026-01-02T17:16:10.427,2026-01-02T17:16:10.427,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34798,2026-01-02T17:16:10.483,2026-01-02T17:16:10.483,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34799,2026-01-02T17:16:10.540,2026-01-02T17:16:10.540,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34800,2026-01-02T17:16:10.600,2026-01-02T17:16:10.600,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34801,2026-01-02T17:16:10.663,2026-01-02T17:16:10.663,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34802,2026-01-02T17:16:10.720,2026-01-02T17:16:10.720,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34803,2026-01-02T17:16:10.777,2026-01-02T17:16:10.777,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34804,2026-01-02T17:16:10.840,2026-01-02T17:16:10.840,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34805,2026-01-02T17:16:10.890,2026-01-02T17:16:10.890,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34806,2026-01-02T17:16:10.950,2026-01-02T17:16:10.950,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34807,2026-01-02T17:16:11.010,2026-01-02T17:16:11.010,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34808,2026-01-02T17:16:11.067,2026-01-02T17:16:11.067,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34809,2026-01-02T17:16:11.127,2026-01-02T17:16:11.127,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34810,2026-01-02T17:16:11.190,2026-01-02T17:16:11.190,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34811,2026-01-02T17:16:11.240,2026-01-02T17:16:11.240,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34812,2026-01-02T17:16:11.303,2026-01-02T17:16:11.303,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34813,2026-01-02T17:16:11.363,2026-01-02T17:16:11.363,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34814,2026-01-02T17:16:11.420,2026-01-02T17:16:11.420,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34815,2026-01-02T17:16:11.477,2026-01-02T17:16:11.477,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34816,2026-01-02T17:16:11.543,2026-01-02T17:16:11.543,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34817,2026-01-02T17:16:11.607,2026-01-02T17:16:11.607,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34818,2026-01-02T17:16:11.667,2026-01-02T17:16:11.667,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34819,2026-01-02T17:16:11.723,2026-01-02T17:16:11.723,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34820,2026-01-02T17:16:11.787,2026-01-02T17:16:11.787,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34821,2026-01-02T17:16:11.837,2026-01-02T17:16:11.837,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
+CVE-2025-34822,2026-01-02T17:16:11.897,2026-01-02T17:16:11.897,,,UNKNOWN,,Rejected reason: This CVE ID was rejected because it was reserved but not used for a vulnerability disclosure.,False,,2.53
