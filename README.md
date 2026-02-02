@@ -1,111 +1,94 @@
-# Mboya Jeffers | Data Engineering Portfolio
+# Data Engineering Portfolio
 
-**Data Engineer & Analytics Engineer** — Building production-grade analytics pipelines that transform raw data into actionable intelligence.
+Production-grade data pipelines demonstrating ETL patterns, public API integration,
+star schema modeling, and data quality practices.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://linkedin.com/in/mboyajeffers)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-black)](https://github.com/mboyajeffers)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://linkedin.com/in/mboya-jeffers-6377ba325)
 [![Email](https://img.shields.io/badge/Email-Contact-green)](mailto:MboyaJeffers9@gmail.com)
 
 ---
 
-## About Me
+## Projects
 
-I'm a Data Engineer with full-stack pipeline ownership—from raw data ingestion through KPI computation to automated report delivery. I built **CMS Enterprise**, a production analytics platform processing data across 11 industries with 188+ KPIs, multi-currency support, and real-time market data integration.
+Each pipeline is self-contained, uses real public APIs, and produces verifiable outputs.
 
-This repository contains **proof of capability**: real analytics outputs I've generated across multiple industries, demonstrating enterprise-grade data engineering and analytics engineering practices.
+### Federal Awards Analysis
+**Source:** USASpending.gov API
+**Scale:** 100K+ federal awards processed
+**Pattern:** Star schema dimensional model (agency, recipient, geography dimensions)
+**Verification:** [api.usaspending.gov](https://api.usaspending.gov)
 
-### What I Bring
-
-| Capability | Evidence |
-|------------|----------|
-| **Large-Scale Processing** | 23.6M rows (Netflix), 7.7M rows (Disney) processed with production pipelines |
-| **Multi-Industry Expertise** | Finance, Betting, Sports, Compliance, Solar, Weather, Media |
-| **End-to-End Ownership** | Ingestion → Validation → Transformation → KPIs → Executive Reports |
-| **Production Systems** | 11 analytics engines, 188+ KPIs, 30+ currencies in production |
-
----
-
-## Portfolio Highlights
-
-### Enterprise Scale Analytics
-
-| Project | Dataset Size | Processing Time | Key Deliverables |
-|---------|--------------|-----------------|------------------|
-| [Netflix Streaming Analysis](./Netflix_Analysis/) | **23.6M rows** | ~2.5 hours | Content performance, viewing patterns, engagement metrics |
-| [Disney Media Analysis](./Enterprise_Scale/) | **7.7M rows** | ~50 min | Cross-platform analytics, revenue correlation, audience segmentation |
-
-### Industry-Specific Analytics
-
-| Industry | Folder | Sample KPIs |
-|----------|--------|-------------|
-| [Finance](./Finance/) | Stock analytics, risk metrics | VaR, Sharpe Ratio, Beta, Max Drawdown |
-| [Crypto](./Crypto/) | Cryptocurrency analytics | Portfolio performance, volatility, correlation |
-| [Betting](./Betting/) | Sports betting analytics | GGR, Hold %, Player LTV, Bonus ROI |
-| [Sports](./Sports/) | Sports data intelligence | Win rates, performance trends, market analysis |
-| [Compliance](./Compliance/) | AML/KYC analytics | Transaction patterns, risk scoring, audit trails |
-| [Solar](./Solar/) | Renewable energy analytics | Capacity factor, generation forecasts, efficiency |
-| [Weather](./Weather/) | Climate analytics | Heat stress, freeze risk, precipitation patterns |
-
----
-
-## Technical Skills Demonstrated
-
-### Data Engineering
-- **Pipeline Design**: Idempotent, re-runnable ETL/ELT pipelines with checkpoint recovery
-- **Schema Enforcement**: Contract-driven validation with 150+ column aliases for normalization
-- **Data Quality**: Multi-stage validation (nulls, duplicates, ranges, referential integrity)
-- **Scale**: Chunked processing for multi-million row datasets
-- **Observability**: Structured logging, telemetry, and audit trails
-
-### Analytics Engineering
-- **KPI Frameworks**: 188+ standardized metrics across 11 industry verticals
-- **Financial Analytics**: VaR, Sharpe, Sortino, Beta using CFA/Basel standards
-- **Compliance Metrics**: AML pattern detection, threshold monitoring, audit reporting
-- **Report Generation**: Automated PDF/CSV/Excel/Parquet delivery
-
-### Infrastructure
-- **Cloud**: GCP (Compute Engine, Cloud Storage), Nginx, Gunicorn
-- **APIs**: Flask REST APIs, Google Drive/Sheets integration, webhooks
-- **DevOps**: Git, CI/CD, systemd services, automated backups
-- **Real-Time Data**: Yahoo Finance, FRED, NREL, NOAA, NASA POWER, Open-Meteo APIs
-
----
-
-## The Platform I Built: CMS Enterprise
-
-All analytics in this portfolio were generated using **CMS Enterprise**, a platform I architected and built:
-
-| Metric | Value |
-|--------|-------|
-| Industry Engines | 11 (Fintech, Brokerage, Crypto, Gaming, Betting, Ecommerce, Oil & Gas, Solar, Compliance, Media, Weather) |
-| Total KPIs | 188+ computed metrics |
-| Currencies | 32 supported with real-time FX |
-| Countries | 14 supported |
-| API Endpoints | 30 REST blueprints |
-
-**Architecture**: Python/Flask backend, GCP infrastructure, SQLite metadata, GCS storage, automated PDF generation, three-tier deployment (PROD → DEV → LOCAL).
-
----
-
-## Sample Outputs
-
-### Executive Reports
-Each industry folder contains production-quality deliverables:
-- **Executive Summary PDFs** — Board-ready analytics summaries
-- **KPI Dashboards** — Metric breakdowns with visualizations
-- **Data Quality Scorecards** — Validation results and data health
-- **Cleaned Datasets** — Normalized, validated data exports
-
-### Example: Netflix 23.6M Row Analysis
+```bash
+cd pipelines/federal_awards
+python pipeline.py
 ```
-Netflix_Analysis/
-├── Netflix_Streaming_Analysis_Executive_Summary.pdf
-├── Netflix_Streaming_Analysis_Report.pdf
-├── LINKEDIN_ARTICLE.md
-├── README.md
-└── data/
-    └── netflix_titles.csv
+
+### SEC Financial Intelligence
+**Source:** SEC EDGAR XBRL API
+**Scale:** 36 Fortune 500 companies, 1M+ financial facts
+**Pattern:** XBRL extraction, financial metrics (revenue, net income, EPS)
+**Verification:** [data.sec.gov](https://www.sec.gov/cgi-bin/browse-edgar)
+
+```bash
+cd pipelines/sec_financial
+python pipeline.py
 ```
+
+### Healthcare Quality Metrics
+**Source:** CMS Hospital Compare API (Data.Medicare.gov)
+**Scale:** 942 hospitals analyzed across 10 states
+**Pattern:** Ownership-type benchmarking, quality score aggregation
+**Verification:** [data.cms.gov](https://data.cms.gov/provider-data/)
+
+```bash
+cd pipelines/healthcare_quality
+python pipeline.py
+```
+
+### Energy Grid Monitoring
+**Source:** EIA-930 API (U.S. Energy Information Administration)
+**Scale:** 5K records from 7 balancing authorities
+**Pattern:** Time-series aggregation, renewables percentage tracking
+**Verification:** [api.eia.gov](https://www.eia.gov/opendata/)
+
+```bash
+cd pipelines/energy_grid
+python pipeline.py
+```
+
+### Vulnerability Prioritization
+**Source:** NIST NVD + CISA KEV + FIRST EPSS APIs
+**Scale:** 2K CVEs with priority scoring
+**Pattern:** Multi-source enrichment, risk-based prioritization
+**Verification:** [nvd.nist.gov](https://nvd.nist.gov/developers)
+
+```bash
+cd pipelines/vulnerability_scoring
+python pipeline.py
+```
+
+---
+
+## Tech Stack
+
+| Category | Technologies |
+|----------|--------------|
+| Language | Python 3.9+ |
+| Data | pandas, numpy |
+| APIs | requests (rate limiting, retry logic) |
+| Output | JSON, CSV, Parquet |
+| Quality | Data validation gates, completeness checks |
+
+---
+
+## Engineering Practices Demonstrated
+
+- **Schema Validation** — Contract-driven column validation with 150+ field alias mappings
+- **Quality Gates** — Completeness, uniqueness, range validation on every pipeline run
+- **Rate Limiting** — Exponential backoff for API reliability under throttling
+- **Star Schema** — Fact and dimension tables with surrogate keys
+- **Idempotent Pipelines** — Safe to re-run without side effects
+- **Observability** — Structured logging, pipeline metrics, audit trails
 
 ---
 
@@ -113,47 +96,55 @@ Netflix_Analysis/
 
 ```
 Proof_Package/
-├── README.md                    # You are here
-│
-├── Netflix_Analysis/            # 23.6M row streaming analytics
-├── Enterprise_Scale/            # 7.7M row Disney media analytics
-├── Finance/                     # Stock & financial risk analytics
-├── Betting/                     # Sports betting analytics
-├── Sports/                      # Sports data intelligence
-├── Compliance/                  # AML/KYC compliance analytics
-├── Crypto/                      # Cryptocurrency analytics
-├── Solar/                       # Renewable energy analytics
-├── Weather/                     # Climate & weather analytics
-│
-├── scripts/                     # Report generation scripts
-└── misc/                        # docs, configs, data, src, tests
+├── README.md
+├── pipelines/
+│   ├── federal_awards/       # USASpending API
+│   ├── sec_financial/        # SEC EDGAR XBRL
+│   ├── healthcare_quality/   # CMS Hospital Compare
+│   ├── energy_grid/          # EIA-930 grid data
+│   └── vulnerability_scoring/# NIST NVD + CISA KEV
+├── reports/
+│   ├── founder_summaries/    # One-page project summaries
+│   └── executive_reports/    # Detailed analysis PDFs
+└── _archive/                 # Previous versions
 ```
 
 ---
 
-## Contact
+## Sample Output
 
-**Mboya Jeffers** — Data Engineer / Analytics Engineer
+Each pipeline produces:
+- **Raw data** — Unmodified API responses (CSV)
+- **Cleaned data** — Normalized, validated datasets
+- **Star schema** — Fact and dimension tables
+- **KPIs** — Computed metrics (JSON)
+- **Pipeline metrics** — Runtime, API calls, quality scores
 
-- **Email**: MboyaJeffers9@gmail.com
-- **LinkedIn**: [linkedin.com/in/mboyajeffers](https://linkedin.com/in/mboyajeffers)
-- **GitHub**: [github.com/mboyajeffers](https://github.com/mboyajeffers)
-- **Location**: Remote (US-based)
+---
+
+## About
+
+Built by **Mboya Jeffers** — Data Engineer with full-stack pipeline ownership.
+
+These are simplified versions of patterns I use in production data systems.
+All data sources are public APIs; outputs are independently verifiable.
+
+**Contact:** MboyaJeffers9@gmail.com
+**LinkedIn:** [linkedin.com/in/mboya-jeffers-6377ba325](https://linkedin.com/in/mboya-jeffers-6377ba325)
+**Location:** Remote (US-based)
 
 ---
 
 ## What I'm Looking For
 
-**Target Roles**: Data Engineer, Analytics Engineer, Senior Data Engineer
+**Target Roles:** Data Engineer, Analytics Engineer, Senior Data Engineer
 
-**Ideal Environment**:
+**Ideal Environment:**
 - Companies solving complex data problems at scale
 - Teams that value clean architecture and production discipline
 - Roles with end-to-end pipeline ownership
 - Remote-first organizations
 
-**Compensation**: $125K+ base (negotiable based on total package)
-
 ---
 
-*This portfolio demonstrates real capabilities with synthetic data. All outputs were generated using pipelines I designed and built.*
+*All portfolio data is verifiable via public APIs. No simulated or synthetic data.*

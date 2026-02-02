@@ -75,7 +75,7 @@ class MedicareDataClient:
     def __init__(self):
         self.session = requests.Session()
         self.session.headers.update({
-            'User-Agent': 'CMS-Portfolio-Demo/1.0 (mboyajeffers9@gmail.com)'
+            'User-Agent': 'DataEngineering-Portfolio/1.0 (mboyajeffers9@gmail.com)'
         })
         self.api_calls = 0
         self.api_errors = 0
