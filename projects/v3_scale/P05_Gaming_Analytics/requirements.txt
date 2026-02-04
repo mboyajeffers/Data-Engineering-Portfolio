@@ -1,0 +1,20 @@
+# P05 Gaming Analytics - Dependencies
+# Author: Mboya Jeffers
+
+# Core data processing
+pandas>=2.0.0
+numpy>=1.24.0
+pyarrow>=14.0.0  # Parquet support
+
+# HTTP requests
+requests>=2.31.0
+
+# Utilities
+python-dateutil>=2.8.0
+
+# Optional: Database
+psycopg2-binary>=2.9.0  # PostgreSQL
+
+# Development
+pytest>=7.0.0
+black>=23.0.0

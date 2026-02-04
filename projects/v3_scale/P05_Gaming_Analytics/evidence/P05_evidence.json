@@ -1,0 +1,112 @@
+{
+  "project": "P05_Gaming_Analytics",
+  "version": "1.0.0",
+  "author": "Mboya Jeffers",
+  "status": "PIPELINE_READY",
+
+  "description": "Enterprise-scale gaming analytics pipeline for Steam/PC gaming data",
+
+  "data_sources": {
+    "primary": [
+      {
+        "name": "Steam Web API",
+        "url": "https://api.steampowered.com",
+        "type": "REST API",
+        "auth": "None required for app list",
+        "rate_limit": "~200 requests/5 min",
+        "data_available": "100K+ games"
+      },
+      {
+        "name": "SteamSpy API",
+        "url": "https://steamspy.com/api.php",
+        "type": "REST API",
+        "auth": "None",
+        "data_available": "Ownership & playtime estimates"
+      },
+      {
+        "name": "Steam Store API",
+        "url": "https://store.steampowered.com/api",
+        "type": "REST API",
+        "data_available": "Detailed game metadata"
+      }
+    ],
+    "supplementary": [
+      {
+        "name": "Kaggle Steam Reviews",
+        "url": "https://www.kaggle.com/datasets/andrewmvd/steam-reviews",
+        "type": "Bulk CSV",
+        "data_available": "7M+ reviews"
+      }
+    ]
+  },
+
+  "target_scale": {
+    "games": "50,000+",
+    "reviews": "7,000,000+",
+    "total_rows": "8,000,000+",
+    "note": "Actual extraction volume depends on API rate limits and time allocated"
+  },
+
+  "pipeline_components": {
+    "extract.py": {
+      "purpose": "Data extraction from Steam APIs",
+      "features": [
+        "Rate limiting with exponential backoff",
+        "Checkpoint/resume capability",
+        "Comprehensive error handling",
+        "Extraction logging"
+      ]
+    },
+    "transform.py": {
+      "purpose": "Star schema transformation",
+      "tables": [
+        "dim_game",
+        "dim_developer",
+        "dim_genre",
+        "dim_platform",
+        "dim_date",
+        "fact_game_metrics",
+        "game_genre_bridge"
+      ]
+    },
+    "analytics.py": {
+      "purpose": "KPI calculation",
+      "kpis": [
+        "Player engagement (DAU proxy, activity rates)",
+        "Review sentiment analysis",
+        "Revenue estimates",
+        "Genre performance",
+        "Metacritic correlation"
+      ]
+    },
+    "main.py": {
+      "purpose": "Pipeline orchestration",
+      "modes": ["test", "full"]
+    }
+  },
+
+  "schema_pattern": "Kimball Star Schema",
+  "storage_format": "Parquet (columnar, compressed)",
+
+  "engineering_patterns": [
+    "ETL pipeline with clear separation of concerns",
+    "Surrogate key generation for dimension tables",
+    "Slowly Changing Dimension (SCD) Type 2 support",
+    "Quality gates and validation",
+    "Evidence generation for auditability"
+  ],
+
+  "verification": {
+    "api_endpoints_tested": true,
+    "schema_validated": true,
+    "code_reviewed": true,
+    "documentation_complete": true
+  },
+
+  "execution_instructions": {
+    "install": "pip install -r requirements.txt",
+    "test_mode": "python src/main.py --mode test",
+    "full_mode": "python src/main.py --mode full",
+    "note": "Full mode requires several hours due to API rate limits"
+  }
+}
