@@ -1,0 +1,16 @@
+[Unit]
+Description=Analytics Platform Job Orchestrator
+After=network.target
+
+[Service]
+Type=simple
+User=appuser
+WorkingDirectory=/opt/app
+Environment=PYTHONPATH=/opt/app
+EnvironmentFile=/opt/app/.env
+ExecStart=/opt/app/venv/bin/python services/orchestrator/main.py
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target

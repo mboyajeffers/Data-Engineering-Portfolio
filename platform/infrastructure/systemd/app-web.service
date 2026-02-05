@@ -1,0 +1,18 @@
+[Unit]
+Description=Analytics Platform Web Application (Flask/Gunicorn)
+After=network.target postgresql.service
+Wants=postgresql.service
+
+[Service]
+Type=simple
+User=appuser
+WorkingDirectory=/opt/app
+Environment=PYTHONPATH=/opt/app
+Environment=FLASK_APP=src.app
+EnvironmentFile=/opt/app/.env
+ExecStart=/opt/app/venv/bin/gunicorn src.app:app -c src/gunicorn.conf.py
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
