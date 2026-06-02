@@ -120,7 +120,45 @@ Live pipeline execution producing Monday morning reports from 8 independent data
 | Repo | Focus | Content |
 |------|-------|---------|
 | [financial-data-engineering](https://github.com/mboyajeffers/financial-data-engineering) | Engineering | ETL pipeline code, data quality framework, star schema modeling, 68 tests |
-| [financial-market-analysis](https://github.com/mboyajeffers/financial-market-analysis) | Analysis | 89 intelligence reports (PDFs), report generators, enterprise showcase |
+| [financial-market-analysis](https://github.com/mboyajeffers/financial-market-analysis) | Analysis | 89 intelligence reports (PDFs), 3 white glove live-data demos, enterprise showcase |
+
+---
+
+## ML & Trading Analytics System
+
+Production ML pipeline running on GCP — built on the same ETL foundation as the 8 portfolio projects above.
+
+### Day Trading Signals
+
+| Model | Accuracy | Description |
+|-------|----------|-------------|
+| Momentum Classifier | **78.3%** | Direction signal for intraday breakout entries |
+| Momentum Classifier (Scalp) | **74.7%** | Short-window variant for high-frequency setups |
+| Intraday VaR | — | Position-level value-at-risk, parametric |
+| Volume Anomaly | — | Unusual volume detection for signal confirmation |
+
+25 tickers. Daily signal generation cron (5PM ET). Live paper execution via broker API.
+
+### Swing Trading Models
+
+| Model | In-Sample | Walk-Forward OOS | Description |
+|-------|-----------|-----------------|-------------|
+| swing_classifier v2 | **69.1%** | 30.5% (5-fold, 1yr/1qtr) | 5-day direction classification, 17 features |
+| swing_var v2 | — | — | GARCH(1,1) volatility model, 25 tickers |
+
+12,500+ daily bars seeded (2yr history). Walk-forward backtested across 5 folds. Paper trading active.
+
+### Infrastructure
+
+```
+GCP VM (e2-highmem-2, 16GB RAM, 50GB SSD)
+├── PostgreSQL — time-series bars, model registry, trade journal
+├── Flask API — 14+ endpoints (signals, execution, risk, journal)
+├── Nginx — reverse proxy + SSL
+├── systemd — 4 services (orchestrator, data sync, intake watcher, scheduler)
+├── Cron — daily 5PM data fetch + weekly retrain
+└── Electron desktop app — native macOS wrapper for cockpit UI
+```
 
 ---
 
@@ -133,10 +171,11 @@ Live pipeline execution producing Monday morning reports from 8 independent data
 | Databases | PostgreSQL 16 |
 | Data Modeling | Kimball Star Schema, surrogate keys, bridge tables |
 | APIs | REST clients, rate limiting, pagination, circuit breakers |
-| Infrastructure | Terraform (GCP), systemd, GitHub Actions CI/CD |
+| Infrastructure | Terraform (GCP), systemd, Nginx, GitHub Actions CI/CD |
 | Observability | SLI/SLO tracking, error budgets, structured alerting |
 | Security | RBAC, immutable audit trails, GCP Secret Manager |
-| Machine Learning | scikit-learn, statsmodels, GARCH, feature stores, model training & backtesting |
+| Machine Learning | scikit-learn, statsmodels, GARCH(1,1), feature engineering, walk-forward backtesting, live paper execution |
+| Desktop | Electron (macOS native app, session auth, real-time cockpit) |
 | Reporting | Automated PDF generation, KPI dashboards, WeasyPrint |
 | Industries | Finance, Government, Healthcare, Energy, Gaming, Betting, Media, Crypto |
 
