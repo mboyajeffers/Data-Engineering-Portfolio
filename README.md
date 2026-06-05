@@ -119,7 +119,8 @@ Live pipeline execution producing Monday morning reports from 8 independent data
 
 | Repo | Focus | Content |
 |------|-------|---------|
-| [financial-data-engineering](https://github.com/mboyajeffers/financial-data-engineering) | Engineering | ETL pipeline code, data quality framework, star schema modeling, 68 tests |
+| [financial-data-engineering](https://github.com/mboyajeffers/financial-data-engineering) | Engineering | 8 extractors, star schema, ML pipeline (backtester + signal generator), 200+ tests |
+| [analytics-platform-demo](https://github.com/mboyajeffers/analytics-platform-demo) | Architecture | Platform core abstractions — engine pattern, data quality framework, 11 verticals, 41 tests |
 | [financial-market-analysis](https://github.com/mboyajeffers/financial-market-analysis) | Analysis | 89 intelligence reports (PDFs), 3 white glove live-data demos, enterprise showcase |
 
 ---
@@ -157,7 +158,7 @@ GCP VM (e2-highmem-2, 16GB RAM, 50GB SSD)
 ├── Nginx — reverse proxy + SSL
 ├── systemd — 4 services (orchestrator, data sync, intake watcher, scheduler)
 ├── Cron — daily 5PM data fetch + weekly retrain
-└── Electron desktop app — native macOS wrapper for cockpit UI
+└── Electron desktop app — native macOS wrapper for dashboard UI
 ```
 
 ---
@@ -175,7 +176,7 @@ GCP VM (e2-highmem-2, 16GB RAM, 50GB SSD)
 | Observability | SLI/SLO tracking, error budgets, structured alerting |
 | Security | RBAC, immutable audit trails, GCP Secret Manager |
 | Machine Learning | scikit-learn, statsmodels, GARCH(1,1), feature engineering, walk-forward backtesting, live paper execution |
-| Desktop | Electron (macOS native app, session auth, real-time cockpit) |
+| Desktop | Electron (macOS native app, session auth, real-time dashboard) |
 | Reporting | Automated PDF generation, KPI dashboards, WeasyPrint |
 | Industries | Finance, Government, Healthcare, Energy, Gaming, Betting, Media, Crypto |
 
