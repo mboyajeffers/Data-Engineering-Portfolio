@@ -5,7 +5,7 @@
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-blue.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 
-**4.3M+ verified rows | 8 industries | 100+ public tests | ML pipelines | Weekly Intelligence Reports**
+**20M+ verified rows | 8 industries | 100+ public tests | ML pipelines | Weekly Intelligence Reports**
 
 ---
 
@@ -14,7 +14,7 @@
 ```
 Experience_Folder/
 │
-├── projects/                  ← THE WORK. 8 data engineering projects (4.3M+ rows)
+├── projects/                  ← THE WORK. 8 data engineering projects (20M+ rows)
 │   ├── v2_foundation/         P01-P04: Finance, Gov, Health, Energy (7.5M rows)
 │   └── v3_scale/              P05-P08: Gaming, Betting, Media, Crypto (31M rows)
 │
@@ -75,7 +75,7 @@ Experience_Folder/
 | P07 | Media & Streaming | Media | 10M | IMDB Datasets | Bayesian ratings, content trends |
 | P08 | Crypto & Blockchain | Crypto | 5M | CoinGecko API | Volatility, DeFi TVL, on-chain |
 
-*Capacity = design-scale target per pipeline. Verified ETL output across all projects: **4.3M+ rows**.*
+*Capacity = design-scale target per pipeline. Verified ETL output across all projects: **20M+ rows**.*
 
 ---
 
@@ -111,7 +111,7 @@ Live pipeline execution producing Monday morning reports from 8 independent data
 | Climate & Weather Summary | Open-Meteo | 2.7M | 30 cities, hourly + daily, 10-year history |
 | Solar Generation Report | NREL PVWatts | 500 | 10 US locations, monthly AC output |
 | Regulatory Filing Monitor | SEC EDGAR | 570K | XBRL financial facts, filing patterns |
-| **Executive Summary** | **All 8 sources** | **4.3M** | **Cross-industry overview** |
+| **Executive Summary** | **All 8 sources** | **20M+** | **Cross-industry overview** |
 
 89 total reports: 23 recurring + 39 industry analysis + 12 methodology/summaries + 11 enterprise showcase + 4 samples. Sample reports: [`reports/weekly_intelligence/`](reports/weekly_intelligence/)
 
