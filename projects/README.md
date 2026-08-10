@@ -10,7 +10,7 @@
 | **v2_foundation/** | 7.5M rows | P01-P04 (Finance, Gov, Health, Energy) | COMPLETE |
 | **v3_scale/** | 31M rows | P05-P08 (Gaming, Betting, Media, Crypto) | COMPLETE |
 
-**Combined Total: 20M+ verified rows | 8 projects | 8 industries**
+**Combined Total: 4.3M+ verified rows | 8 projects | 8 industries**
 
 ---
 

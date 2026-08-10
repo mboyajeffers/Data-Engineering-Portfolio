@@ -5,7 +5,23 @@
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-blue.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 
-**20M+ verified rows | 8 industries | 100+ public tests | ML pipelines | Weekly Intelligence Reports**
+**4.3M+ verified rows | 8 industries | 100+ public tests | ML pipelines | Weekly Intelligence Reports**
+
+---
+
+## For Hiring Managers
+
+Everything in [`platform/`](platform/) is production infrastructure I built and operate solo — the part most self-taught portfolios skip. If you're evaluating whether one engineer can own your data platform end-to-end, start here:
+
+| Capability | Evidence | Where |
+|------------|----------|-------|
+| **Infrastructure as Code** | Terraform — GCP compute, 6 firewall rules, 3 GCS buckets with lifecycle policies | [`platform/infrastructure/`](platform/infrastructure/) |
+| **CI/CD** | 5-job pipeline — ruff lint, pytest, bandit + pip-audit security scan, CycloneDX SBOM, build validation | [`platform/ci-cd/`](platform/ci-cd/) |
+| **Observability** | SLO monitoring — 99.5% availability / p95 < 500ms / <1% error rate, with error-budget burn-rate alerting | [`platform/monitoring/`](platform/monitoring/) |
+| **Security** | 4-role RBAC with wildcard permissions, immutable audit trail enforced by DB triggers, secrets management | [`platform/security/`](platform/security/) |
+| **Operations** | Zero-downtime deploy with auto-rollback, backup/restore, incident runbook, architecture decision records | [`platform/operations/`](platform/operations/), [`platform/docs/`](platform/docs/) |
+
+→ [**Full platform README**](platform/README.md) walks through all of it with code.
 
 ---
 
@@ -14,7 +30,7 @@
 ```
 Experience_Folder/
 │
-├── projects/                  ← THE WORK. 8 data engineering projects (20M+ rows)
+├── projects/                  ← THE WORK. 8 data engineering projects (4.3M+ rows)
 │   ├── v2_foundation/         P01-P04: Finance, Gov, Health, Energy (7.5M rows)
 │   └── v3_scale/              P05-P08: Gaming, Betting, Media, Crypto (31M rows)
 │
@@ -75,7 +91,7 @@ Experience_Folder/
 | P07 | Media & Streaming | Media | 10M | IMDB Datasets | Bayesian ratings, content trends |
 | P08 | Crypto & Blockchain | Crypto | 5M | CoinGecko API | Volatility, DeFi TVL, on-chain |
 
-*Capacity = design-scale target per pipeline. Verified ETL output across all projects: **20M+ rows**.*
+*Capacity = design-scale target per pipeline. Verified ETL output across all projects: **4.3M+ rows**.*
 
 ---
 
@@ -111,7 +127,7 @@ Live pipeline execution producing Monday morning reports from 8 independent data
 | Climate & Weather Summary | Open-Meteo | 2.7M | 30 cities, hourly + daily, 10-year history |
 | Solar Generation Report | NREL PVWatts | 500 | 10 US locations, monthly AC output |
 | Regulatory Filing Monitor | SEC EDGAR | 570K | XBRL financial facts, filing patterns |
-| **Executive Summary** | **All 8 sources** | **20M+** | **Cross-industry overview** |
+| **Executive Summary** | **All 8 sources** | **4.3M+** | **Cross-industry overview** |
 
 89 total reports: 23 recurring + 39 industry analysis + 12 methodology/summaries + 11 enterprise showcase + 4 samples. Sample reports: [`reports/weekly_intelligence/`](reports/weekly_intelligence/)
 
@@ -120,7 +136,7 @@ Live pipeline execution producing Monday morning reports from 8 independent data
 | Repo | Focus | Content |
 |------|-------|---------|
 | [financial-data-engineering](https://github.com/mboyajeffers/financial-data-engineering) | Engineering | 8 extractors, star schema, ML pipeline (backtester + signal generator), 200+ tests |
-| [analytics-platform-demo](https://github.com/mboyajeffers/analytics-platform-demo) | Architecture | Platform core abstractions — engine pattern, data quality framework, 11 verticals, 41 tests |
+| [analytics-platform-demo](https://github.com/mboyajeffers/analytics-platform-demo) | Architecture | Platform core abstractions — engine pattern, data quality framework, multi-vertical engine pattern, 41 tests |
 | [financial-market-analysis](https://github.com/mboyajeffers/financial-market-analysis) | Analysis | 89 intelligence reports (PDFs), 3 white glove live-data demos, enterprise showcase |
 
 ---
