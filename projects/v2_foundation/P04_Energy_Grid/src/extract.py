@@ -370,7 +370,7 @@ if __name__ == "__main__":
         months_back=6
     )
 
-    print(f"\nSample data:")
+    print("\nSample data:")
     print(df.head(10))
     print(f"\nShape: {df.shape}")
     print(f"\nBAs: {df['ba_code'].nunique()}")

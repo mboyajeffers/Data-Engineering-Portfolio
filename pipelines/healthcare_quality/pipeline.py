@@ -114,7 +114,7 @@ class MedicareDataClient:
                 print(f"    Retrieved {len(df)} records")
             else:
                 df = pd.DataFrame()
-                print(f"    Unexpected response format")
+                print("    Unexpected response format")
 
             # Filter by state after retrieval if needed
             if state_filter and not df.empty and 'state' in df.columns:

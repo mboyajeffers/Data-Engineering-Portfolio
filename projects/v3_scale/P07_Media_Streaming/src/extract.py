@@ -400,7 +400,7 @@ if __name__ == "__main__":
     # Test extraction
     data = extractor.run_test_extraction(limit=500)
 
-    print(f"\nExtraction Summary:")
+    print("\nExtraction Summary:")
     print(f"  Titles: {len(data['titles'])}")
     print(f"  Ratings: {len(data['ratings'])}")
     print(f"  Names: {len(data['names'])}")

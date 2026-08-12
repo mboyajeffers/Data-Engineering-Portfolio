@@ -346,6 +346,6 @@ if __name__ == "__main__":
         years=[2022, 2021]
     )
 
-    print(f"\nSample data:")
+    print("\nSample data:")
     print(df.head(10))
     print(f"\nShape: {df.shape}")

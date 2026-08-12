@@ -600,7 +600,7 @@ class QualityGateRunner:
             passed=score >= 0.85,
             score=score,
             threshold=0.85,
-            details=f"Checked award_amount distribution",
+            details="Checked award_amount distribution",
             issues=issues
         )
 

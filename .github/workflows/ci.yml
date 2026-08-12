@@ -24,12 +24,17 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          pip install -r requirements.txt -r demos/requirements.txt -r pipelines/microsoft_gaming/requirements.txt
 
       - name: Lint with ruff
         run: |
           pip install ruff
+          # Scoped to tests/ and the core ETL framework, not the whole repo: a
+          # full-repo run currently surfaces 20 pre-existing F841 (unused
+          # variable) violations in projects/v3_scale/ that need individual
+          # review, not a blanket autofix — tracked as a follow-up, not CI-
+          # blocking. F541 (f-string) violations were fixed repo-wide already.
           ruff check tests/ pipelines/etl_framework/core/ --select F --ignore F401,F811
 
       - name: Run tests
-        run: pytest tests/ -v --tb=short
+        run: pytest . -v --tb=short

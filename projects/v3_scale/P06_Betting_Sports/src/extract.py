@@ -543,7 +543,7 @@ if __name__ == "__main__":
     # Test extraction
     data = extractor.run_test_extraction(limit=50)
 
-    print(f"\nExtraction Summary:")
+    print("\nExtraction Summary:")
     print(f"  Teams: {len(data['all_teams'])}")
     print(f"  Games: {len(data['all_games'])}")
     print(f"  API Calls: {extractor.extraction_log['api_calls']}")

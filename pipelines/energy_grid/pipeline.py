@@ -97,7 +97,7 @@ class EIAClient:
         all_data = []
 
         try:
-            print(f"  Fetching daily generation data...")
+            print("  Fetching daily generation data...")
             self.api_calls += 1
 
             response = self.session.get(url, params=params, timeout=120)
@@ -143,7 +143,7 @@ class EIAClient:
         }
 
         try:
-            print(f"  Fetching regional interchange data...")
+            print("  Fetching regional interchange data...")
             self.api_calls += 1
 
             response = self.session.get(url, params=params, timeout=120)

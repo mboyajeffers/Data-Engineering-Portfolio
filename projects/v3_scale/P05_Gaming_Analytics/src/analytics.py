@@ -276,20 +276,20 @@ class GamingAnalytics:
         print("=" * 60)
 
         pm = self.kpis.get('player_metrics', {})
-        print(f"\nPLAYER METRICS:")
+        print("\nPLAYER METRICS:")
         print(f"  Total Games Analyzed: {pm.get('total_games_analyzed', 0):,}")
         print(f"  Total Estimated Owners: {pm.get('total_estimated_owners', 0):,}")
         print(f"  Active Players (2 weeks): {pm.get('total_active_players_2w', 0):,}")
         print(f"  Avg Playtime: {pm.get('avg_playtime_hours', 0):.1f} hours")
 
         rm = self.kpis.get('review_metrics', {})
-        print(f"\nREVIEW METRICS:")
+        print("\nREVIEW METRICS:")
         print(f"  Total Reviews: {rm.get('total_reviews', 0):,}")
         print(f"  Positive Rate: {rm.get('overall_positive_rate', 0):.1f}%")
         print(f"  Avg Review Score: {rm.get('avg_review_score', 0):.1f}%")
 
         fm = self.kpis.get('financial_metrics', {})
-        print(f"\nFINANCIAL METRICS:")
+        print("\nFINANCIAL METRICS:")
         print(f"  Total Revenue Estimate: ${fm.get('total_revenue_estimate_usd', 0):,.0f}")
         print(f"  Avg Price: ${fm.get('avg_price_usd', 0):.2f}")
         print(f"  ARPU: ${fm.get('avg_arpu_usd', 0):.2f}")

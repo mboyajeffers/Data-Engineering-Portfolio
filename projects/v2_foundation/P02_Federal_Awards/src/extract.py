@@ -332,7 +332,7 @@ if __name__ == "__main__":
         fiscal_years=[2023, 2024]
     )
 
-    print(f"\nSample data:")
+    print("\nSample data:")
     print(df.head(10))
     print(f"\nShape: {df.shape}")
     print(f"\nAgencies: {df['awarding_agency'].nunique()}")

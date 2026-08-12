@@ -254,5 +254,5 @@ if __name__ == "__main__":
     schema = transform_to_star_schema(facts)
     kpis = calculate_all_kpis(schema)
 
-    print(f"\nKPI Summary:")
+    print("\nKPI Summary:")
     print(kpis.describe())

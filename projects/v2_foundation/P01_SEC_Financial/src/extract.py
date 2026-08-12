@@ -324,6 +324,6 @@ if __name__ == "__main__":
         company_limit=200
     )
 
-    print(f"\nSample data:")
+    print("\nSample data:")
     print(df.head(10))
     print(f"\nShape: {df.shape}")

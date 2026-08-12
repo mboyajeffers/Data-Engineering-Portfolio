@@ -420,7 +420,7 @@ if __name__ == "__main__":
     # Test extraction
     data = extractor.run_test_extraction(limit=25)
 
-    print(f"\nExtraction Summary:")
+    print("\nExtraction Summary:")
     print(f"  Coins: {len(data['market_data'])}")
     print(f"  OHLCV records: {len(data['ohlcv'])}")
     print(f"  Exchanges: {len(data['exchanges'])}")
