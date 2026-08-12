@@ -109,7 +109,10 @@ def sharpe_ratio(returns: pd.Series, risk_free_rate: float = 0.0,
 
     excess_returns = returns - rf_per_period
 
-    if excess_returns.std() == 0:
+    # Tolerance, not exact equality: pandas .std() leaves floating-point
+    # noise (~1e-18) even on identical values, so a true zero-volatility
+    # series was slipping past `== 0` and blowing up the ratio on division.
+    if excess_returns.std() < 1e-9:
         return 0.0
 
     # Annualize

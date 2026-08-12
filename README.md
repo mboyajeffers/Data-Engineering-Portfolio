@@ -5,7 +5,7 @@
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-blue.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 
-**4.3M+ verified rows | 8 industries | 100+ public tests | ML pipelines | Weekly Intelligence Reports**
+**4.3M+ verified rows | 8 industries | 68 public tests, all passing | ML pipelines | Weekly Intelligence Reports**
 
 ---
 
