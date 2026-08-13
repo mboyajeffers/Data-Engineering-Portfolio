@@ -5,7 +5,7 @@
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-blue.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 
-**4.3M+ verified rows | 8 industries | 68 public tests, all passing | ML pipelines | Weekly Intelligence Reports**
+**4.3M+ verified rows | 10 industries | 68 public tests, all passing | ML pipelines | Weekly Intelligence Reports**
 
 ---
 
@@ -30,7 +30,7 @@ Everything in [`platform/`](platform/) is production infrastructure I built and 
 ```
 Experience_Folder/
 │
-├── projects/                  ← THE WORK. 8 data engineering projects (4.3M+ rows)
+├── projects/                  ← THE WORK. 10 data engineering projects (4.3M+ rows)
 │   ├── v2_foundation/         P01-P04: Finance, Gov, Health, Energy (7.5M rows)
 │   └── v3_scale/              P05-P08: Gaming, Betting, Media, Crypto (31M rows)
 │
@@ -40,7 +40,10 @@ Experience_Folder/
 │   ├── federal_awards/        USASpending pipeline
 │   ├── healthcare_quality/    Medicare Part D pipeline
 │   ├── energy_grid/           EIA-930 pipeline
-│   └── microsoft_gaming/      Gaming risk metrics (standalone sub-project w/ tests)
+│   ├── microsoft_gaming/      Gaming risk metrics (standalone sub-project w/ tests)
+│   ├── vulnerability_scoring/ CVE prioritization — NIST NVD + CISA KEV + FIRST EPSS
+│   ├── ecommerce_intelligence/ P09: Yahoo Finance + FRED (equities + macro)
+│   └── solar_resource/        P10: Open-Meteo Archive API (real irradiance + PV economics)
 │
 ├── platform/                  ← PRODUCTION INFRASTRUCTURE. Everything needed to run at scale
 │   ├── ci-cd/                 GitHub Actions workflows (lint, test, security, SBOM, deploy)
