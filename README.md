@@ -1,9 +1,9 @@
 # Data Engineering Portfolio — Mboya Jeffers
 
 ![CI](https://github.com/mboyajeffers/Data-Engineering-Portfolio/actions/workflows/ci.yml/badge.svg)
-![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-blue.svg)
-![License](https://img.shields.io/badge/License-MIT-green.svg)
+![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-lightgrey?style=flat-square)
 
 **4.3M+ verified rows | 10 industries | 68 public tests, all passing | ML pipelines | Weekly Intelligence Reports**
 
