@@ -71,7 +71,7 @@ Experience_Folder/
 
 ---
 
-## The 8 Projects
+## The 10 Projects
 
 ### v2 Foundation
 
@@ -90,6 +90,13 @@ Experience_Folder/
 | P06 | Betting & Sports | Betting | 8M | ESPN API | Odds modeling, spread accuracy |
 | P07 | Media & Streaming | Media | 10M | IMDB Datasets | Bayesian ratings, content trends |
 | P08 | Crypto & Blockchain | Crypto | 5M | CoinGecko API | Volatility, DeFi TVL, on-chain |
+
+### v4 Consulting Proof
+
+| # | Project | Industry | Capacity | Data Source | What It Proves |
+|---|---------|----------|----------|-------------|----------------|
+| P09 | E-Commerce Sector Intelligence | Ecommerce | 1.6K+ | Yahoo Finance + FRED | Multi-source blend (equities + macro), sector KPI computation |
+| P10 | Solar Resource Assessment | Solar / Energy | 5 markets, 365d each | Open-Meteo Archive API | Real historical time-series, disclosed-assumption economics modeling on top of real data |
 
 *Capacity = design-scale target per pipeline. Verified ETL output across all projects: **4.3M+ rows**.*
 
@@ -125,7 +132,7 @@ Live pipeline execution producing Monday morning reports from 8 independent data
 | Gaming Industry Metrics | Steam/SteamSpy | 37K | Player engagement, pricing, genre distribution |
 | Weekend Sports Recap | ESPN | 21K | 4 leagues, standings, conference rankings |
 | Climate & Weather Summary | Open-Meteo | 2.7M | 30 cities, hourly + daily, 10-year history |
-| Solar Generation Report | NREL PVWatts | 500 | 10 US locations, monthly AC output |
+| Solar Resource Report | Open-Meteo Archive API | 1.8K+ | 5 US markets, trailing-365-day irradiance + PV economics |
 | Regulatory Filing Monitor | SEC EDGAR | 570K | XBRL financial facts, filing patterns |
 | **Executive Summary** | **All 8 sources** | **4.3M+** | **Cross-industry overview** |
 
