@@ -152,7 +152,7 @@ Live pipeline execution producing Monday morning reports from 8 independent data
 
 ## ML & Trading Analytics System
 
-Production ML pipeline running on GCP — built on the same ETL foundation as the 8 portfolio projects above.
+Production ML pipeline running on GCP — built on the same ETL foundation as the 10 portfolio projects above.
 
 ### Day Trading Signals
 
