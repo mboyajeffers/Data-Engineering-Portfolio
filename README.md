@@ -145,7 +145,7 @@ Live pipeline execution producing Monday morning reports from 8 independent data
 
 | Repo | Focus | Content |
 |------|-------|---------|
-| [financial-data-engineering](https://github.com/mboyajeffers/financial-data-engineering) | Engineering | 8 extractors, star schema, ML pipeline (backtester + signal generator), 200+ tests |
+| [financial-data-engineering](https://github.com/mboyajeffers/financial-data-engineering) | Engineering | 9 extractors, star schema, ML pipeline (backtester + signal generator), 127 tests |
 | [financial-market-analysis](https://github.com/mboyajeffers/financial-market-analysis) | Analysis | 96 intelligence reports (PDFs), 3 white glove live-data demos, enterprise showcase |
 
 ---
